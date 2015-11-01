@@ -93,33 +93,18 @@ n = 50000
 fastSim <- simLBA_Mixture(n = n, b = c(bFast, bSlow), a = A, 
                           drift = c(driftFast, driftSlow), s = s, ter = ter, 
                           p = 1)
-colnames(fastSim)[3] <- "participant"
-fastSim <- sdTrim(fastSim, minRT = 150, sd = 4, perCondition = FALSE, 
-                  perParticipant = TRUE, omitErrors = FALSE, 
-                  returnType = "raw")
-colnames(fastSim)[3] <- "subject"
 fastSim <- prepData(fastSim)
 
 # slow condition
 slowSim <- simLBA_Mixture(n = n, b = c(bFast, bSlow), a = A, 
                           drift = c(driftFast, driftSlow), s = s, ter = ter, 
                           p = 0)
-colnames(slowSim)[3] <- "participant"
-slowSim <- sdTrim(slowSim, minRT = 150, sd = 4, perCondition = FALSE, 
-                  perParticipant = TRUE, omitErrors = FALSE, 
-                  returnType = "raw")
-colnames(slowSim)[3] <- "subject"
 slowSim <- prepData(slowSim)
 
 # mixture distribution
 intSim <- simLBA_Mixture(n = n, b = c(bFast, bSlow), a = A, 
                          drift = c(driftFast, driftSlow), s = s, ter = ter, 
                          p = p)
-colnames(intSim)[3] <- "participant"
-intSim <- sdTrim(intSim, minRT = 150, sd = 4, perCondition = FALSE, 
-                  perParticipant = TRUE, omitErrors = FALSE, 
-                 returnType = "raw")
-colnames(intSim)[3] <- "subject"
 intSim <- prepData(intSim)
 
 ## do some plots
