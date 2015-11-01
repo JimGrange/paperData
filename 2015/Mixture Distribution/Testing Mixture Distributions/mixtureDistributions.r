@@ -5,11 +5,11 @@ source("functions.R")
 library(dplyr)
 
 # get the data (& do trimming)
-data <- read.csv("data.csv")
+data <- read.csv("twoRCIs.csv")
 data$rt <- round(data$rt / 1000, 3)
 data$condition <- as.character(data$ratio)
-data = sdTrim(data, minRT = 0.150, sd = 2.5, perCondition = TRUE, 
-              perParticipant = TRUE, returnType = "raw")
+data = sdTrim(data, minRT = 0.150, sd = 2.5, perCondition = FALSE, 
+              perParticipant = TRUE,  returnType = "raw")
 
 #------------------------------------------------------------------------------
 
