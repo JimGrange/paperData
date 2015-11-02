@@ -169,12 +169,12 @@ plot(slowHumanCorrectRT, slowHumanCorrectCDF, type = "p",
      xlab = "Response Time (ms)", ylab = "Defective CDF")
 points(slowHumanErrorRT, slowHumanErrorCDF, type = "p")
 lines(slowModelCorrectRT, slowModelCorrectCDF, type = "b", lty = 1, lwd = 1, 
-      pch = 19, cex = 0.2)
+      pch = 17, cex = 0.7)
 lines(slowModelErrorRT, slowModelErrorCDF, type = "b", lty = 2, lwd = 1,
-      pch = 19, cex = 0.2)
+      pch = 17, cex = 0.7)
 legend("topleft", c("Data (Correct)", "Data (Error)",
                     "Model (Correct)", "Model (Error)"), cex = 1, 
-       pch = c(19, 1, NA, NA), lty = c(NA, NA, 1, 2),  bty = "n")
+       pch = c(19, 1, 17, 17), lty = c(NA, NA, 1, 2),  bty = "n")
 
 # plot intermediate
 plot(intHumanCorrectRT, intHumanCorrectCDF, type = "p", 
@@ -182,9 +182,9 @@ plot(intHumanCorrectRT, intHumanCorrectCDF, type = "p",
      xlab = "Response Time (ms)", ylab = "Defective CDF")
 points(intHumanErrorRT, intHumanErrorCDF, type = "p")
 lines(intModelCorrectRT, intModelCorrectCDF, type = "b", lty = 1, lwd = 1, 
-      pch = 19, cex = 0.2)
+      pch = 17, cex = 0.7)
 lines(intModelErrorRT, intModelErrorCDF, type = "b", lty = 2, lwd = 1,
-      pch = 19, cex = 0.2)
+      pch = 17, cex = 0.7)
 
 # plot fast
 plot(fastHumanCorrectRT, fastHumanCorrectCDF, type = "p", 
@@ -192,9 +192,9 @@ plot(fastHumanCorrectRT, fastHumanCorrectCDF, type = "p",
      xlab = "Response Time (ms)", ylab = "Defective CDF")
 points(fastHumanErrorRT, fastHumanErrorCDF, type = "p")
 lines(fastModelCorrectRT, fastModelCorrectCDF, type = "b", lty = 1, lwd = 1, 
-      pch = 19, cex = 0.2)
+      pch = 17, cex = 0.7)
 lines(fastModelErrorRT, fastModelErrorCDF, type = "b", lty = 2, lwd = 1, 
-      pch = 19, cex = 0.2)
+      pch = 17, cex = 0.7)
 dev.off()
 #------------------------------------------------------------------------------
 #   p     A       bFast   bSlow     vFast   vSlow   s     ter

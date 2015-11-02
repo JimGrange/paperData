@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("~/Git/paperData/2015/Mixture Distribution/Testing Mixture Distributions")
+setwd("~/Git/paperData/2015/Temporal Distinctiveness & Mixture Distributions/Data & Model Code/Testing Mixture Distributions/fp Data")
 
 source("functions.R")
 library(dplyr)
