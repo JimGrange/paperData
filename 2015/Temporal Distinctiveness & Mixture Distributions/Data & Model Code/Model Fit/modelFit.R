@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
 rm(list = ls())
-setwd("~/Git/paperData/2015/Mixture Distribution/Model Fit")
+setwd("~/Git/paperData/2015/Temporal Distinctiveness & Mixture Distributions/Data & Model Code/Model Fit")
 
 # load required libraries & functions
 library(dplyr)
