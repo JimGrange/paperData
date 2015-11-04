@@ -3,12 +3,12 @@
 
 @INCOLLECTION{Allport1994,
   author = {A Allport and E Styles and S Hsieh},
-  editor = {C Ulmita and M Moscovitch},
   title = {Shifting intentional set: Exploring the dynamic control of tasks},
   booktitle = {Consciousness and {N}onconscious {I}nformation {P}rocessing: {A}ttention
 	and {P}erformance {XV}},
-  year = {1994},
   publisher = {Cambridge, MA: MIT Press},
+  year = {1994},
+  editor = {C Ulmita and M Moscovitch},
   pages = {421-452},
   owner = {psp48d},
   timestamp = {2010.01.12}
@@ -16,36 +16,32 @@
 
 @INCOLLECTION{Allport2000,
   author = {Alan Allport and Glenn R Wylie},
-  editor = {Stephen Monsell and Jon Driver},
   title = {Task switching, stimulus-response bindings, and negative priming},
   booktitle = {Control of Cognitive Processes: Attention and Performance XVIII},
-  year = {2000},
   publisher = {Cambridge, MA: MIT Press},
+  year = {2000},
+  editor = {Stephen Monsell and Jon Driver},
   pages = {35-70},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
-
 @ARTICLE{Altmann2009,
   author = {E M Altmann},
   title = {Evidence for temporal decay in short-term episodic memory},
+  journal = {Trends in Cognitive Science},
   year = {2009},
   volume = {13},
   pages = {279-279},
-  journal = {Trends in Cognitive Science},
   owner = {psp48d},
   timestamp = {2010.02.12}
 }
-
-
-
-
 
 @ARTICLE{Altmann2007,
   author = {Erik M Altmann},
   title = {Cue-independent task-specific representations in task switching:
 	evidence from backward inhibition.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {892--899},
@@ -63,7 +59,6 @@
 	power.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	MI 48824, USA. ema@msu.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Attention; Color Perception; Cues; Discrimination Learning; Humans;
 	Inhibition (Psychology); Pattern Recognition, Visual; Problem Solving;
 	Psychomotor Performance; Reaction Time},
@@ -76,6 +71,7 @@
 @ARTICLE{Altmann2007a,
   author = {Erik M Altmann},
   title = {Comparing switch costs: alternating runs and explicit cuing.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {475--483},
@@ -93,7 +89,6 @@
 	these measures are examined for existing theoretical constructs.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	MI 48824, USA. ema@msu.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Attention; Cues; Habituation, Psychophysiologic; Humans; Judgment;
 	Mental Recall; Pattern Recognition, Visual; Problem Solving; Reaction
 	Time; Reversal Learning},
@@ -106,6 +101,7 @@
 @ARTICLE{Altmann2006,
   author = {Erik M Altmann},
   title = {Task switching is not cue switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {1016--1022},
@@ -121,7 +117,6 @@
 	that task switching does not reduce to cue switching.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	MI 48824, USA. ema@msu.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Cognition; Cues; Humans; Reaction Time},
   owner = {Jim},
   pmid = {17484428},
@@ -131,6 +126,7 @@
 @ARTICLE{Altmann2005,
   author = {Erik M Altmann},
   title = {Repetition priming in task switching: {D}o the benefits dissipate?},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2005},
   volume = {12},
   pages = {535--540},
@@ -150,7 +146,6 @@
 	over time than was previously thought.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	Michigan 48824, USA. ema@msu.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Humans; Periodicity; Practice (Psychology); Psychology, methods; Reaction
 	Time},
   owner = {Jim},
@@ -161,6 +156,7 @@
 @ARTICLE{Altmann2004,
   author = {Erik M Altmann},
   title = {Advance preparation in task switching: what work is being done?},
+  journal = {Psychological Science},
   year = {2004},
   volume = {15},
   pages = {616--622},
@@ -179,7 +175,6 @@
 	main effect of CSI when the task cue is a memory load.},
   institution = {Department of Psychology, Michigan State University, East Lansing
 	48824, USA. ema@msu.edu},
-  journal = {Psychological Science},
   keywords = {Attention; Cognition; Cues; Discrimination Learning; Humans; Psychomotor
 	Performance; Reaction Time},
   owner = {Jim},
@@ -191,6 +186,7 @@
 @ARTICLE{Altmann2004a,
   author = {Erik M Altmann},
   title = {The preparation effect in task switching: carryover of SOA.},
+  journal = {Memory \& Cognition},
   year = {2004},
   volume = {32},
   pages = {153--163},
@@ -210,7 +206,6 @@
 	reacts lazily when exposed to only one SOA.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	Michigan 48824, USA. ema@msu.edu},
-  journal = {Memory \& Cognition},
   keywords = {Adult; Attention; Discrimination Learning; Female; Humans; Male; Pattern
 	Recognition, Visual; Psychomotor Performance; Psychophysics; Reaction
 	Time; Reversal Learning; Set (Psychology); Size Perception},
@@ -222,12 +217,12 @@
 @ARTICLE{Altmann2003,
   author = {Erik M Altmann},
   title = {Task switching and the pied homunculus: where are we being led?},
+  journal = {Trends in Cognitive Science},
   year = {2003},
   volume = {7},
   pages = {340--341},
   institution = {Department of Psychology, Michigan State University, 48824, East
 	Lansing, MI, USA},
-  journal = {Trends in Cognitive Science},
   owner = {Jim},
   pii = {S1364661303001694},
   pmid = {12907226},
@@ -237,10 +232,10 @@
 @ARTICLE{Altmann2003a,
   author = {E M Altmann},
   title = {Think globally, ask functionally},
+  journal = {Behavioral \& Brain Sciences},
   year = {2003},
   volume = {26},
   pages = {602-603},
-  journal = {Behavioral \& Brain Sciences},
   owner = {Jim},
   timestamp = {2010.01.24}
 }
@@ -248,6 +243,7 @@
 @ARTICLE{Altmann2002,
   author = {Erik M Altmann},
   title = {Functional decay of memory for tasks.},
+  journal = {Psychological Research},
   year = {2002},
   volume = {66},
   pages = {287--297},
@@ -268,7 +264,6 @@
 	& Wylie, 2000) in functional terms.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	MI 48824, USA. ema@msu.edu},
-  journal = {Psychological Research},
   keywords = {Analysis of Variance; Cognition; Humans; Models, Psychological; Reaction
 	Time; Retention (Psychology); Set (Psychology); Signal Detection,
 	Psychological},
@@ -280,6 +275,7 @@
 @ARTICLE{Altmann2008,
   author = {Erik M Altmann and Wayne D Gray},
   title = {An integrated model of cognitive control in task switching.},
+  journal = {Psychological Review},
   year = {2008},
   volume = {115},
   pages = {602--639},
@@ -297,7 +293,6 @@
 	the cognitive system focused under a variety of performance constraints.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	MI 48824, USA. ema@msu.edu},
-  journal = {Psychological Review},
   keywords = {Attention; Cognition; Cues; Humans; Memory; Metaphor},
   owner = {Jim},
   pii = {2008-09896-004},
@@ -309,6 +304,7 @@
   author = {Erik M Altmann and Wayne D Gray},
   title = {Forgetting to remember: the functional relationship of decay and
 	interference.},
+  journal = {Psychological Science},
   year = {2002},
   volume = {13},
   pages = {27--33},
@@ -328,7 +324,6 @@
 	and implications for models of executive control are discussed.},
   institution = {Psychology Department, Michigan State University, East Lansing 48824,
 	USA. ema@msu.edu},
-  journal = {Psychological Science},
   keywords = {Humans; Memory; Memory, Short-Term; Reaction Time},
   owner = {Jim},
   pmid = {11892775},
@@ -338,10 +333,10 @@
 @ARTICLE{Altmann2012,
   author = {E M Altmann and C D Shunn},
   title = {Decay versus interference: {A} new look at an old interaction},
-  journaltitle = {Psychological Science},
   year = {2012},
   volume = {23},
   pages = {1435-1437},
+  journaltitle = {Psychological Science},
   owner = {Home},
   quality = {1},
   timestamp = {2013.04.29}
@@ -350,6 +345,7 @@
 @ARTICLE{Altmann2007b,
   author = {Erik M Altmann and J. Gregory Trafton},
   title = {Timecourse of recovery from task interruption: data and a model.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2007},
   volume = {14},
   pages = {1079--1084},
@@ -367,7 +363,6 @@
 	theories of expertise.},
   institution = {Department of Psychology, Michigan State University, East Lansing,
 	Michigan 48824, USA. ema@msu.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Computers; Humans; Memory; Models, Psychological; Reaction
 	Time; Video Games; Workplace},
   owner = {Jim},
@@ -376,10 +371,10 @@
 }
 
 @BOOK{Anderson2007,
-  author = {J R Anderson},
   title = {How can the human mind occur in the physical universe?},
-  year = {2007},
   publisher = {Oxford: University Press},
+  year = {2007},
+  author = {J R Anderson},
   owner = {psp48d},
   timestamp = {2010.02.02}
 }
@@ -388,22 +383,22 @@
   author = {J R Anderson and D Bothell and M D Byrne and S Douglass and C Lebiere
 	and Y Qin},
   title = {An integrated theory of mind},
+  journal = {Psychological Review},
   year = {2004},
   volume = {111},
   pages = {1036-1060},
-  journal = {Psychological Review},
   owner = {psp48d},
   timestamp = {2010.02.02}
 }
 
 @INCOLLECTION{Anderson2007a,
   author = {M C Anderson and B J Levy},
-  editor = {D S Gorfen and C M MacLeod},
   title = {Theoretical issues in inhibition: Inisghts from research on human
 	memory},
   booktitle = {Inhibition in cognition},
-  year = {2007},
   publisher = {Washington D.C.: American Psychological Association},
+  year = {2007},
+  editor = {D S Gorfen and C M MacLeod},
   pages = {81-102},
   owner = {Jim},
   timestamp = {2010.02.17}
@@ -412,10 +407,10 @@
 @ARTICLE{Arbuthnott2009,
   author = {K D Arbuthnott},
   title = {The representational locus of spatial influence on backward inhibition},
+  journal = {Memory \& Cognition},
   year = {2009},
   volume = {37},
   pages = {522-528},
-  journal = {Memory \& Cognition},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -423,6 +418,7 @@
 @ARTICLE{Arbuthnott2008,
   author = {Katherine D Arbuthnott},
   title = {The effect of task location and task type on backward inhibition.},
+  journal = {Memory \& Cognition},
   year = {2008},
   volume = {36},
   pages = {534--543},
@@ -446,7 +442,6 @@
 	from previous tasks.},
   institution = {Campion College, University of Regina, Regina, Saskatchewan, Canada.
 	katherine.arbuthnott@uregina.ca},
-  journal = {Memory \& Cognition},
   keywords = {Adolescent; Adult; Female; Humans; Inhibition (Psychology); Judgment;
 	Male; Middle Aged; Space Perception},
   owner = {Jim},
@@ -458,6 +453,7 @@
   author = {Katherine D Arbuthnott},
   title = {Asymmetric switch cost and backward inhibition: Carryover activation
 	and inhibition in switching between tasks of unequal difficulty.},
+  journal = {Canadian Journal of Experimental Psychology},
   year = {2008},
   volume = {62},
   pages = {91--100},
@@ -477,7 +473,6 @@
 	of results indicates that switch costs are attributable to both activation
 	and inhibition processes.},
   institution = {Campion College, University of Regina, Saskatchewan, Canada. katherine.arbuthnott@uregina.ca},
-  journal = {Canadian Journal of Experimental Psychology},
   keywords = {Adolescent; Adult; Female; Humans; Inhibition (Psychology); Judgment;
 	Male; Psychomotor Performance, physiology; Reaction Time},
   owner = {Jim},
@@ -489,6 +484,7 @@
 @ARTICLE{Arbuthnott2005,
   author = {Katherine D Arbuthnott},
   title = {The influence of cue type on backward inhibition.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2005},
   volume = {31},
   pages = {1030--1042},
@@ -506,7 +502,6 @@
 	observed with spatial cues, suggesting that verbalization increased
 	competition between sets, despite spatial localization.},
   institution = {Campion College, University of Regina, Regina, SK, Canada. katherine.arbuthnott@uregina.ca},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adolescent; Adult; Cues; Female; Humans; Inhibition (Psychology);
 	Male; Middle Aged; Reaction Time; Verbal Behavior},
   owner = {Jim},
@@ -519,10 +514,10 @@
   author = {Katherine D Arbuthnott and Janis Frank},
   title = {Executive control in set switching: Residual switch cost and task-set
 	inhibition},
+  journal = {Canadian Journal of Experimental Psychology},
   year = {2000},
   volume = {54},
   pages = {33-41},
-  journal = {Canadian Journal of Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -531,10 +526,10 @@
   author = {Katherine D Arbuthnott and Todd S Woodward},
   title = {The influence of cue-task association and location on switch cost
 	and alternating-switch cost},
+  journal = {Canadian Journal of Experimental Psychology},
   year = {2002},
   volume = {56},
   pages = {18-29},
-  journal = {Canadian Journal of Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -542,11 +537,11 @@
 @ARTICLE{Aron2007,
   author = {Adam R Aron},
   title = {The neural basis of inhibition in cognitive control},
+  journal = {Neuroscientist},
   year = {2007},
   volume = {13},
   pages = {214-228},
   doi = {10.1177/1073858407299288},
-  journal = {Neuroscientist},
   owner = {psa33},
   timestamp = {2010.09.07}
 }
@@ -554,6 +549,7 @@
 @ARTICLE{Arrington2003,
   author = {Catherine M Arrington and Erik M Altmann and Thomas H Carr},
   title = {Tasks of a feather flock together: similarity effects in task switching.},
+  journal = {Memory \& Cognition},
   year = {2003},
   volume = {31},
   pages = {781--789},
@@ -572,7 +568,6 @@
 	multidimensional task space in which the executive processes of task
 	selection and implementation are active.},
   institution = {Vanderbilt University, Nashville, Tennessee, USA. kate.arrington@vanderbilt.edu},
-  journal = {Memory \& Cognition},
   keywords = {Attention; Cognition; Cues; Humans; Judgment; Reaction Time; Visual
 	Perception},
   owner = {Jim},
@@ -583,6 +578,7 @@
 @ARTICLE{Arrington2005,
   author = {Catherine M Arrington and Gordon D Logan},
   title = {Voluntary task switching: chasing the elusive homunculus.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2005},
   volume = {31},
   pages = {683--702},
@@ -600,7 +596,6 @@
 	on the extent of environmental support provided by the procedure.},
   institution = {Department of Psychology, Vanderbilt University, 111 21st Avenue
 	South, Nashville, TN 37203, USA. kate.arrington@lehigh.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Attention; Choice Behavior; Concept Formation; Decision Making; Humans;
 	Pattern Recognition, Visual; Problem Solving; Psychomotor Performance;
 	Reaction Time; Set (Psychology)},
@@ -614,6 +609,7 @@
   author = {Catherine M Arrington and Gordon D Logan},
   title = {Episodic and semantic components of the compound-stimulus strategy
 	in the explicit task-cuing procedure.},
+  journal = {Memory \& Cognition},
   year = {2004},
   volume = {32},
   pages = {965--978},
@@ -634,7 +630,6 @@
 	use of a semantic compound-stimulus strategy.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee
 	37203, USA. kate.arrington@vanderbilt.edu},
-  journal = {Memory \& Cognition},
   keywords = {Cues; Humans; Models, Psychological; Questionnaires; Reaction Time;
 	Recognition (Psychology); Semantics},
   owner = {Jim},
@@ -645,6 +640,7 @@
 @ARTICLE{Arrington2004a,
   author = {Catherine M Arrington and Gordon D Logan},
   title = {The cost of a voluntary task switch.},
+  journal = {Psychological Science},
   year = {2004},
   volume = {15},
   pages = {610--615},
@@ -663,7 +659,6 @@
 	task switch, when subjects must actively control the choice of the
 	task to be performed.},
   institution = { TN 37203, USA. kate.arrington@vanderbilt.edu},
-  journal = {Psychological Science},
   keywords = {Cognition; Humans; Reaction Time; Volition},
   owner = {Jim},
   pii = {PSCI728},
@@ -675,6 +670,7 @@
   author = {Catherine M Arrington and Gordon D Logan and Darryl W Schneider},
   title = {Separating cue encoding from target processing in the explicit task-cuing
 	procedure: are there "true" task switch effects?},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {484--502},
@@ -696,7 +692,6 @@
 	of individual cues. Implications for the authors' past modeling of
 	task-switching performance are discussed.},
   institution = {Lehigh University.},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Comprehension; Concept Formation; Cues; Functional Laterality; Humans;
 	Mental Recall; Pattern Recognition, Visual; Phonetics; Problem Solving;
 	Psychomotor Performance; Reaction Time; Reversal Learning; Semantics;
@@ -710,34 +705,19 @@
 @ARTICLE{Baddeley2001,
   author = {Alan Baddeley and Dino Chincotta and Anna Adlam},
   title = {Working memory and the control of action: Evidence from task switching},
+  journal = {Journal of Experimental Psychology: General},
   year = {2001},
   volume = {130},
   pages = {641-657},
-  journal = {Journal of Experimental Psychology: General},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
-
-
-@ARTICLE{Balota2011,
-  author = {D A Balota and M J Yap},
-  title = {Moving beyond the mean in studies of mental chronometry: {T}he power
-	of response time distributional analyses},
-  journal = {Current Directions in Psychological Science},
-  year = {2011},
-  volume = {20},
-  pages = {160--166},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.07}
-}
-
-
 
 @ARTICLE{Bao2006,
   author = {Min Bao and Zhi-Hao Li and Xiang-Chuan Chen and Da-Ren Zhang},
   title = {Backward inhibition in a task of switching attention within verbal
 	working memory.},
+  journal = {Brain Research Bulletin},
   year = {2006},
   volume = {69},
   pages = {214--221},
@@ -754,7 +734,6 @@
   institution = {Hefei National Laboratory for Physical Science at Microscale, School
 	of Life Science, University of Science and Technology of China, Hefei,
 	Anhui 230026, PR China.},
-  journal = {Brain Research Bulletin},
   keywords = {Adolescent; Adult; Attention, physiology; Brain, physiology; Cognition,
 	physiology; Female; Humans; Male; Memory, Short-Term, physiology;
 	Neural Inhibition, physiology; Neuropsychological Tests; Verbal Behavior,
@@ -768,24 +747,24 @@
 @ARTICLE{Barrouillet2009,
   author = {P Barrouillet and V Camons},
   title = {Interference: Unique source of forgetting in Working Memory?},
-  journaltitle = {Trends in Cognitive Science},
   year = {2009},
   volume = {13},
   pages = {145-146},
+  journaltitle = {Trends in Cognitive Science},
   owner = {Home},
   quality = {1},
   timestamp = {2013.04.22}
 }
 
 @MANUAL{Bates2012,
-  author = {Douglas Bates and Martin Maechler and Ben Bolker},
   title = {lme4: {L}inear mixed-effects models using {S}4 classes},
+  author = {Douglas Bates and Martin Maechler and Ben Bolker},
   year = {2012},
-  subtitle = {R package version 0.999999-0},
-  url = {http://CRAN.R-project.org/package=lme4},
   owner = {Home},
   quality = {1},
-  timestamp = {2013.06.21}
+  subtitle = {R package version 0.999999-0},
+  timestamp = {2013.06.21},
+  url = {http://CRAN.R-project.org/package=lme4}
 }
 
 @ARTICLE{Berger2005,
@@ -794,6 +773,7 @@
 	and Isaac Yaniv and Shlomi Constantini and Yoav Kessler and Nachshon
 	Meiran},
   title = {Task switching after cerebellar damage.},
+  journal = {Neuropsychology},
   year = {2005},
   volume = {19},
   pages = {362--370},
@@ -812,7 +792,6 @@
 	involvement of the cerebellum in task switching.},
   institution = {Department of Behavioral Sciences and Zlotowski Center for Neuroscience,
 	Ben-Gurion University of the Negev, Beer Sheva, Israel. andrea@bgumail.bgu.ac.il},
-  journal = {Neuropsychology},
   keywords = {Adolescent; Brain Neoplasms, pathology/physiopathology/surgery; Case-Control
 	Studies; Cerebellar Diseases, pathology/physiopathology; Child; Child,
 	Preschool; Cognition, physiology; Female; Follow-Up Studies; Functional
@@ -826,38 +805,22 @@
   timestamp = {2009.04.09}
 }
 
-
-
-
-
-@ARTICLE{Berryhill2009,
-  author = {M E Berryhill and H C Hughes},
-  title = {On the minimization of task switch costs following long-term training},
-  journal = {Attention, Perception, \& Psychophysics},
-  year = {2009},
-  volume = {71},
-  pages = {503--514},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.11}
-}
-
-
 @ARTICLE{Botvinick2001,
   author = {M M Botvinick and T S Braver and D M Barch and C S Carter and J D
 	Cohen},
   title = {Conflict monitoring and cognitive control},
+  journal = {Psychological Review},
   year = {2001},
   volume = {108},
   pages = {624-652},
-  journal = {Psychological Review},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
-
 @ARTICLE{Brandt2014,
-  author = {M J Brandt and H IJzermanm and A Dijksterhuis and F Farach and J Geller and R Giner-Sorolla and J A Grange and M Perugini and J Spies and A van t' Veer},
+  author = {M J Brandt and H IJzermanm and A Dijksterhuis and F Farach and J
+	Geller and R Giner-Sorolla and J A Grange and M Perugini and J Spies
+	and A van t' Veer},
   title = {The replication recipe: What makes for a convincing replication?},
   journal = {Journal of Experimental Social Psychology},
   year = {2014},
@@ -869,15 +832,12 @@
   timestamp = {2013.04.28}
 }
 
-
-
-
-
 @ARTICLE{Brass2003,
   author = {Marcel Brass and Hannes Ruge and Nachshon Meiran and Orit Rubin and
 	Iring Koch and Stefan Zysset and Wolfgang Prinz and D. Yves von Cramon},
   title = {When the same response has different meanings: recoding the response
 	meaning in the lateral prefrontal cortex.},
+  journal = {Neuroimage},
   year = {2003},
   volume = {20},
   pages = {1026--1031},
@@ -900,7 +860,6 @@
 	the prefrontal cortex in behavioral control.},
   institution = {Max Planck Institute of Cognitive Neuroscience, Leipzig, Germany.
 	brass@cns.mpg.de},
-  journal = {Neuroimage},
   keywords = {Adult; Algorithms; Cues; Female; Functional Laterality, physiology;
 	Humans; Magnetic Resonance Imaging; Male; Movement, physiology; Prefrontal
 	Cortex, physiology; Psychomotor Performance, physiology; Space Perception,
@@ -923,13 +882,25 @@
   timestamp = {2013.04.22}
 }
 
+@ARTICLE{Brown2008,
+  author = {Brown, Scott D and Heathcote, Andrew},
+  title = {The simplest complete model of choice response time: linear ballistic
+	accumulation},
+  journal = {Cognitive psychology},
+  year = {2008},
+  volume = {57},
+  pages = {153--178},
+  doi = {10.1016/j.cogpsych.2007.12.002},
+  quality = {1}
+}
+
 @ARTICLE{Bryck2008,
   author = {Richard L Bryck and Ulrich Mayr},
   title = {Task selection cost asymmetry without task switching},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2008},
   volume = {15},
   pages = {128-134},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -938,6 +909,7 @@
   author = {Richard L Bryck and Ulrich Mayr},
   title = {On the role of verbalization during task set selection: switching
 	or serial order control?},
+  journal = {Memory \& Cognition},
   year = {2005},
   volume = {33},
   pages = {611--623},
@@ -958,7 +930,6 @@
 	may be critical for endogenous maintenance and updating of a sequential
 	plan, rather than exclusively for the actual switching process.},
   institution = {University of Oregon, Eugene, OR 97403-1227, USA.},
-  journal = {Memory \& Cognition},
   keywords = {Choice Behavior; Humans; Judgment; Reaction Time; Verbal Behavior},
   owner = {Jim},
   pmid = {16248326},
@@ -969,20 +940,20 @@
   author = {K M Butler and C M Arrington and C Weywadt},
   title = {Working memory capacity modulates task performance but has little
 	influence on task choice},
-  year = {in press},
   journal = {Memory \& Cognition},
+  year = {in press},
   owner = {psa33},
   timestamp = {2010.12.13}
 }
 
 @INCOLLECTION{Carr2007,
   author = {T H Carr},
-  editor = {D S Gorfein and C M MacLeod},
   title = {Is it time to inhibit inhibition? Lessons from a decade of research
 	on the place of inhibitory processes in cognition},
   booktitle = {Inhibition in cognition},
-  year = {2007},
   publisher = {Washington D.C.: American Psychological Association},
+  year = {2007},
+  editor = {D S Gorfein and C M MacLeod},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -992,6 +963,7 @@
 	Fuentes},
   title = {Unmasking Word Processing with ERPs: Two Novel Linear Techniques
 	for the Estimation of Temporally Overlapped Waveforms.},
+  journal = {Brain Topography},
   year = {2009},
   abstract = {Masked priming experiments are frequently used to study automatic
 	aspects of word processing. Direct measures of such processing obtained
@@ -1011,7 +983,6 @@
   institution = {Dept. Psicolog�a Experimental, Faculty of Psychology, Universidad
 	de Granada, Campus Universitario de Cartuja s/n, 18071, Granada,
 	Spain, acatena@ugr.es.},
-  journal = {Brain Topography},
   owner = {Jim},
   pmid = {19194794},
   timestamp = {2009.04.09}
@@ -1021,10 +992,10 @@
   author = {A R A Conway and S W Tuholski and R J Shisler and R W Engle},
   title = {The effect of memory load on negative priming: An individual differences
 	investigation},
+  journal = {Memory \& Cognition},
   year = {1999},
   volume = {27},
   pages = {1042-1050},
-  journal = {Memory \& Cognition},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -1032,6 +1003,7 @@
 @ARTICLE{Cooper2008,
   author = {Stephen Cooper and Paloma Mari-Beffa},
   title = {The role of response repetition in task switching.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2008},
   volume = {34},
   pages = {1198--1211},
@@ -1053,7 +1025,6 @@
 	response set. The results are also important for current theories
 	of task set control.},
   institution = {School of Psychology, Bangor University, Bangor, Wales, United Kingdom.},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Cues; Fingers; Hand; Higher Nervous Activity; Humans; Motor Skills;
 	Reaction Time; Set (Psychology)},
   owner = {Jim},
@@ -1062,19 +1033,17 @@
   timestamp = {2009.04.09}
 }
 
-
 @ARTICLE{Cowan1997,
   author = {N Cowan and J S Saults and L D Nugent},
-  title = {The role of absolute and relative amounts of time in forgetting within immediate memory: The case of tone pitch comparisons},
+  title = {The role of absolute and relative amounts of time in forgetting within
+	immediate memory: The case of tone pitch comparisons},
+  journal = {Psychonomic Bulletin \& Review},
   year = {1997},
   volume = {4},
   pages = {393-397},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {psa33},
   timestamp = {2010.09.06}
 }
-
-
 
 @ARTICLE{Cumming2014,
   author = {G Cumming},
@@ -1090,11 +1059,11 @@
 
 @INCOLLECTION{DeJong2000,
   author = {R DeJong},
-  editor = {S Monsell and J Driver},
   title = {An intention-activation account of residual switch costs},
   booktitle = {Attention \& Performance XVIII: Control of Cognitive Processes},
-  year = {2000},
   publisher = {Cambridge, MA: MIT Press},
+  year = {2000},
+  editor = {S Monsell and J Driver},
   owner = {Jim},
   timestamp = {2009.04.10}
 }
@@ -1103,10 +1072,10 @@
   author = {R DeJong and E Berendsen and R Cools},
   title = {Goal neglect and inhibitory limitations: dissociable causes of interference
 	effects in conflict situations},
+  journal = {Acta Psychologica},
   year = {1999},
   volume = {101},
   pages = {379-394},
-  journal = {Acta Psychologica},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -1114,10 +1083,10 @@
 @ARTICLE{Diedrichsen2010,
   author = {J Diedrichsen and R Shadmehr and R B Ivry},
   title = {The coordination of movement. Optimal feedback control and beyond},
+  journal = {Trends in Cognitive Science},
   year = {2010},
   volume = {14},
   pages = {31-39},
-  journal = {Trends in Cognitive Science},
   owner = {Jim},
   timestamp = {2010.01.22}
 }
@@ -1125,10 +1094,10 @@
 @ARTICLE{Dreher2002,
   author = {J-C Dreher and K F Berman},
   title = {Fractioning the neural substrate of cognitive control processes},
-  year = {2002},
-  pages = {14595-14600},
   journal = {Proceedings of the National Academy of Sciences of the United States
 	of America},
+  year = {2002},
+  pages = {14595-14600},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -1137,6 +1106,7 @@
   author = {Gesine Dreisbach},
   title = {How positive affect modulates cognitive control: the costs and benefits
 	of reduced maintenance capability.},
+  journal = {Brain \& Cognition},
   year = {2006},
   volume = {60},
   pages = {11--19},
@@ -1155,7 +1125,6 @@
 	data will be discussed with respect to existing theories on positive
 	affect, cognitive control, and dopamine.},
   institution = {Dresden University of Technology, Germany. dreisbach@psychomail.tu-dresden.de},
-  journal = {Brain \& Cognition},
   keywords = {Adolescent; Adult; Affect, physiology; Analysis of Variance; Cognition,
 	physiology; Cues; Dopamine, blood; Female; Humans; Male; Motivation;
 	Reaction Time},
@@ -1169,6 +1138,7 @@
   author = {Gesine Dreisbach and Thomas Goschke},
   title = {How positive affect modulates cognitive control: reduced perseveration
 	at the cost of increased distractibility.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2004},
   volume = {30},
   pages = {343--353},
@@ -1188,7 +1158,6 @@
 	areas.},
   institution = {Psychology Department, Dresden University of Technology, Dresden,
 	Germany. dreisbach@psychologie.w-dresden.de},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adolescent; Adult; Affect, physiology; Attention, physiology; Color
 	Perception, physiology; Discrimination Learning, physiology; Dopamine,
 	physiology; Female; Frontal Lobe, physiology; Humans; Internal-External
@@ -1204,6 +1173,7 @@
   author = {Gesine Dreisbach and Thomas Goschke and Hilde Haider},
   title = {The role of task rules and stimulus-response mappings in the task
 	switching paradigm.},
+  journal = {Psychological Research},
   year = {2007},
   volume = {71},
   pages = {383--392},
@@ -1227,7 +1197,6 @@
 	2). Results will be discussed with respect to cognitive control.},
   institution = {Institute of Psychology I, Dresden University of Technology, 01062
 	Dresden, Germany. dreisbach@psychomail.tu-dresden.de},
-  journal = {Psychological Research},
   keywords = {Adolescent; Adult; Conditioning, Classical; Female; Goals; Humans;
 	Male; Reaction Time; Vocabulary},
   owner = {Jim},
@@ -1238,6 +1207,7 @@
 @ARTICLE{Dreisbach2006a,
   author = {Gesine Dreisbach and Thomas Goschke and Hilde Haider},
   title = {Implicit task sets in task switching?},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2006},
   volume = {32},
   pages = {1221--1233},
@@ -1257,7 +1227,6 @@
 	categories.},
   institution = {Institute of Psychology I, Dresden University of Technology, Dresden,
 	Germany. dreisbach@psychomail.tu-dresden.de},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adolescent; Adult; Association Learning; Attention; Color Perception;
 	Discrimination Learning; Female; Functional Laterality; Humans; Knowledge
 	of Results (Psychology); Male; Pattern Recognition, Visual; Problem
@@ -1273,6 +1242,7 @@
   author = {Gesine Dreisbach and Hilde Haider},
   title = {How task representations guide attention: further evidence for the
 	shielding function of task sets.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2009},
   volume = {35},
   pages = {477--486},
@@ -1294,7 +1264,6 @@
 	the processing of irrelevant information.},
   institution = {Department of Psychology, University of Bielefeld, Bielefeld, Germany.
 	gesine.dreisbach@uni-bielefeld.de},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {Jim},
   pii = {2009-02753-012},
   pmid = {19271860},
@@ -1304,6 +1273,7 @@
 @ARTICLE{Dreisbach2008,
   author = {Gesine Dreisbach and Hilde Haider},
   title = {That's what task sets are for: shielding against irrelevant information.},
+  journal = {Psychological Research},
   year = {2008},
   volume = {72},
   pages = {355--361},
@@ -1323,7 +1293,6 @@
 	From this perspective, switch costs can be interpreted as the consequence
 	of successful shielding on the previous task.},
   institution = {Technische Universit�t Dresden, Dresden, Germany. dreisbach@psychomail.tu-dresden.de},
-  journal = {Psychological Research},
   keywords = {Adolescent; Association Learning; Attention; Color Perception; Female;
 	Functional Laterality; Goals; Humans; Inhibition (Psychology); Male;
 	Phonetics; Psychomotor Performance; Reaction Time; Semantics; Set
@@ -1337,6 +1306,7 @@
   author = {Gesine Dreisbach and Hilde Haider},
   title = {Preparatory adjustment of cognitive control in the task switching
 	paradigm.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {334--338},
@@ -1355,7 +1325,6 @@
 	task requirements.},
   institution = {Institute of Psychology I, Dresden University of Technology, 01062
 	Dresden, Germany. dreisbach@psychomail.tu-dresden.de},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Adolescent; Adult; Cognition; Female; Humans; Inhibition (Psychology);
 	Male; Reaction Time},
   owner = {Jim},
@@ -1367,6 +1336,7 @@
   author = {Gesine Dreisbach and Hilde Haider and Rainer H Kluwe},
   title = {Preparatory processes in the task-switching paradigm: evidence from
 	the use of probability cues.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2002},
   volume = {28},
   pages = {468--483},
@@ -1387,7 +1357,6 @@
 	of the expected task and inhibition of distracting tasks.},
   institution = {Institute of Cognitive Research, University of the Federal Armed
 	Forces, Hamburg, Germany. gdreisba@princeton.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adaptation, Psychological; Attention; Cognition; Color Perception;
 	Cues; Discrimination Learning; Humans; Inhibition (Psychology); Motivation;
 	Practice (Psychology); Probability Learning; Psychomotor Performance,
@@ -1398,23 +1367,12 @@
   timestamp = {2009.04.09}
 }
 
-
-@ARTICLE{Druey2014, 
-  author = {Michael D Druey}, 
-  title = {Response-repetition costs in choice-RT tasks: Biased expectancies or response inhibition?},
-  year = {2014}, 
-  volume = {145}, 
-  pages = {21--32}, 
-  journal = {Acta Psychologica}
-}
-
-
-
 @ARTICLE{Druey2008,
   author = {Michel D Druey and Ronald H\"{u}bner},
   title = {Effects of stimulus features and instruction on response coding,
 	selection, and inhibition: evidence from repetition effects under
 	task switching.},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2008},
   volume = {61},
   pages = {1573--1600},
@@ -1440,7 +1398,6 @@
 	in response selection and inhibition.},
   institution = {Universit�t Konstanz, Fachbereich Psychologie, Konstanz, Germany.
 	michel.druey@uni-konstanz.de},
-  journal = {Quarterly Journal of Experimental Psychology},
   keywords = {Adult; Association Learning; Attention; Color Perception; Discrimination
 	Learning; Female; Functional Laterality; Humans; Inhibition (Psychology);
 	Male; Mathematics; Orientation; Pattern Recognition, Visual; Psychomotor
@@ -1456,6 +1413,7 @@
   author = {Michel D Druey and Ronald H\"{u}bner},
   title = {Response inhibition under task switching: its strength depends on
 	the amount of task-irrelevant response activation.},
+  journal = {Psychological Research},
   year = {2008},
   volume = {72},
   pages = {515--527},
@@ -1477,7 +1435,6 @@
 	account for the response repetition effects under task switch conditions.},
   institution = {Universit�t Konstanz, Fachbereich Psychologie, Konstanz, Germany.
 	michel.druey@uni-konstanz.de},
-  journal = {Psychological Research},
   keywords = {Adult; Attention; Female; Humans; Inhibition (Psychology); Judgment;
 	Male; Reaction Time},
   owner = {Jim},
@@ -1489,6 +1446,7 @@
   author = {Michel D Druey and Ronald H\"{u}bner},
   title = {The role of temporal cue-target overlap in backward inhibition under
 	task switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2007},
   volume = {14},
   pages = {749--754},
@@ -1508,7 +1466,6 @@
 	cues and targets only the previously relevant task set is inhibited.},
   institution = {Fachbereich Psychologie, Universit�t Konstanz, Konstanz, Germany.
 	michel.druey@uni-konstanz.de},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Adult; Cognition; Cues; Female; Humans; Inhibition (Psychology); Male;
 	Psychology, methods; Reaction Time},
   owner = {Jim},
@@ -1519,9 +1476,9 @@
 @ARTICLE{Emerson2003,
   author = {Michael J. Emerson and Akira Miyake},
   title = {The role of inner speech in task switching: A dual-task investigation},
+  journal = {Journal of Memory and Language},
   year = {2003},
   volume = {148-168},
-  journal = {Journal of Memory and Language},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -1529,10 +1486,10 @@
 @ARTICLE{Engle1995,
   author = {R W Engle and A R A Conway and S W Tuholski and R J Shisler},
   title = {A resource account of inhibition},
+  journal = {Psychological Science},
   year = {1995},
   volume = {6},
   pages = {122-125},
-  journal = {Psychological Science},
   owner = {Jim},
   timestamp = {2010.01.06}
 }
@@ -1541,10 +1498,10 @@
   author = {B A Eriksen and C W Eriksen},
   title = {Effects of noise letters upon the identification of a target letter
 	in a nonsearch task},
+  journal = {Perception \& Psychophysics},
   year = {1974},
   volume = {16},
   pages = {143-149},
-  journal = {Perception \& Psychophysics},
   owner = {psp48d},
   timestamp = {2010.01.14}
 }
@@ -1552,6 +1509,7 @@
 @ARTICLE{Fales2006,
   author = {Christina L Fales and Zeba F Vanek and Barbara J Knowlton},
   title = {Backward inhibition in Parkinson's disease.},
+  journal = {Neuropsychologia},
   year = {2006},
   volume = {44},
   pages = {1041--1049},
@@ -1575,7 +1533,6 @@
 	a recently abandoned task set.},
   institution = {Department of Psychology, University of California, Los Angeles,
 	USA. cfales@artsci.wustl.edu},
-  journal = {Neuropsychologia},
   keywords = {Aged; Aged, 80 and over; Attention, physiology; Cognition Disorders,
 	diagnosis/physiopathology/psychology; Discrimination Learning, physiology;
 	Female; Frontal Lobe, physiopathology; Humans; Inhibition (Psychology);
@@ -1604,10 +1561,10 @@
 @ARTICLE{Feynman1974,
   author = {R. P. Feynman},
   title = {Cargo cult science},
+  journal = {Engineering and Science},
   year = {1974},
   volume = {37},
   pages = {10-13},
-  journal = {Engineering and Science},
   owner = {Jim},
   timestamp = {2010.01.06}
 }
@@ -1615,10 +1572,10 @@
 @ARTICLE{Fischer1993,
   author = {B Fischer and H Weber},
   title = {Express saccades and visual attenton},
+  journal = {Behavioral and Brain Sciences},
   year = {1993},
   volume = {16},
   pages = {553-610},
-  journal = {Behavioral and Brain Sciences},
   owner = {Jim},
   timestamp = {2009.04.10}
 }
@@ -1627,6 +1584,7 @@
   author = {Birte U Forstmann and Marcel Brass and Iring Koch},
   title = {Methodological and empirical issues when dissociating cue-related
 	from task-related processes in the explicit task-cuing procedure.},
+  journal = {Psychological Research},
   year = {2007},
   volume = {71},
   pages = {393--400},
@@ -1651,7 +1609,6 @@
   institution = {Department of Cognitive Neurology, Max Planck Institute for Human
 	Cognitive and Brain Sciences, Stephanstrasse 1a, 04103 Leipzig, Germany.
 	forstman@cbs.mpg.de},
-  journal = {Psychological Research},
   keywords = {Adult; Cues; Empirical Research; Female; Humans; Intention; Male;
 	Psychology, methods/statistics /&/ numerical data; Reaction Time},
   owner = {Jim},
@@ -1664,6 +1621,7 @@
 	Cramon},
   title = {Voluntary selection of task sets revealed by functional magnetic
 	resonance imaging.},
+  journal = {Journal of Cognitive Neuroscience},
   year = {2006},
   volume = {18},
   pages = {388--398},
@@ -1691,7 +1649,6 @@
 	in the voluntary selection of abstract task set information.},
   institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Germany.
 	forstman@cbs.mpg.de},
-  journal = {Journal of Cognitive Neuroscience},
   keywords = {Adult; Brain Mapping, methods; Choice Behavior; Color Perception,
 	physiology; Discrimination (Psychology), physiology; Female; Fixation,
 	Ocular; Functional Laterality; Humans; Magnetic Resonance Imaging;
@@ -1707,6 +1664,7 @@
 	Cramon},
   title = {Internally generated and directly cued task sets: an investigation
 	with fMRI.},
+  journal = {Neuropsychologia},
   year = {2005},
   volume = {43},
   pages = {943--952},
@@ -1735,7 +1693,6 @@
 	control.},
   institution = {Department of Neurology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Leipzig, Germany. forstman@cbs.mpg.de},
-  journal = {Neuropsychologia},
   keywords = {Adult; Analysis of Variance; Brain Mapping; Cues; Female; Frontal
 	Lobe, physiology; Humans; Intention; Internal-External Control; Judgment,
 	physiology; Linear Models; Magnetic Resonance Imaging; Male; Mathematics;
@@ -1750,22 +1707,22 @@
   author = {N P Friedman and A Miyake},
   title = {The relations among inhibition and interference control functions:
 	A latent variable analysis},
+  journal = {Journal of Experiment Psychology: General},
   year = {2004},
   volume = {133},
   pages = {101-135},
-  journal = {Journal of Experiment Psychology: General},
   owner = {psa33},
   timestamp = {2010.09.07}
 }
 
 @INCOLLECTION{G'omez1994,
   author = {C G\'{o}mez and M Atienza and M V\'{a}zquez and J L Cantero},
-  editor = {J.M. Delgado-Garci\`{a} and E Godaux and P P Vidal},
   title = {Saccadic reaction times to fully predictive and random visual targets
 	during Gap and Non-Gap paradigms},
   booktitle = {Information processing underlying gaze-control},
-  year = {1994},
   publisher = {Oxford: Pergamon},
+  year = {1994},
+  editor = {J.M. Delgado-Garci\`{a} and E Godaux and P P Vidal},
   chapter = {Saccadic reaction times to fully predictive and random visual targets
 	during Gap and Non-Gap paradigms},
   pages = {109-115},
@@ -1777,6 +1734,7 @@
   author = {Miriam Gade and Iring Koch},
   title = {Dissociating cue-related and task-related processes in task inhibition:
 	evidence from using a 2:1 cue-to-task mapping.},
+  journal = {Canadian Journal of Experimental Psychology},
   year = {2008},
   volume = {62},
   pages = {51--55},
@@ -1796,7 +1754,6 @@
 	and not on cue representations.},
   institution = {Department of Psychology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Liepzieg, Germany.},
-  journal = {Canadian Journal of Experimental Psychology},
   keywords = {Adult; Cognition; Cues; Female; Humans; Inhibition (Psychology); Male},
   owner = {Jim},
   pii = {2008-05131-006},
@@ -1807,6 +1764,7 @@
 @ARTICLE{Gade2007,
   author = {Miriam Gade and Iring Koch},
   title = {The influence of overlapping response sets on task inhibition.},
+  journal = {Memory \& Cognition},
   year = {2007},
   volume = {35},
   pages = {603--609},
@@ -1822,7 +1780,6 @@
 	this competition.},
   institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig,
 	Germany.},
-  journal = {Memory \& Cognition},
   keywords = {Adult; Female; Humans; Inhibition (Psychology); Intention; Male; Reaction
 	Time},
   owner = {Jim},
@@ -1833,6 +1790,7 @@
 @ARTICLE{Gade2007a,
   author = {Miriam Gade and Iring Koch},
   title = {Cue-task associations in task switching.},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2007},
   volume = {60},
   pages = {762--769},
@@ -1854,7 +1812,6 @@
 	but did not change the overall pattern of results.},
   institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig,
 	Germany. gade@sissa.it},
-  journal = {Quarterly Journal of Experimental Psychology},
   keywords = {Adult; Analysis of Variance; Association; Association Learning, physiology;
 	Attention, physiology; Cognition, physiology; Cues; Female; Humans;
 	Male; Memory, physiology; Pattern Recognition, Visual, physiology;
@@ -1869,6 +1826,7 @@
 @ARTICLE{Gade2005,
   author = {Miriam Gade and Iring Koch},
   title = {Linking inhibition to activation in the control of task sequences.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2005},
   volume = {12},
   pages = {530--534},
@@ -1888,7 +1846,6 @@
 	remains weak.},
   institution = {Department of Psychology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Leipzig, Germany. gade@cbs.mpg.de},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Adult; Female; Humans; Inhibition (Psychology); Male; Psychology,
 	methods; Reaction Time},
   owner = {Jim},
@@ -1896,29 +1853,13 @@
   timestamp = {2009.04.09}
 }
 
-
-@ARTICLE{Gade2014,
-  author = {Miriam Gade and Iring Koch},
-  title = {Cue type affects preparatory influences on task inhibition},
-  journal = {Acta Psychologica},
-  year = {2014},
-  volume = {148},
-  pages = {12-18},
-  doi = {10.1016/j.actpsy.2013.12.009},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.04}
-}
-
-
-
 @ARTICLE{Gallistel2009,
   author = {C R Gallistel},
   title = {The importance of proving the null},
+  journal = {Psychological Review},
   year = {2009},
   volume = {116},
   pages = {439-453},
-  journal = {Psychological Review},
   owner = {Jim},
   timestamp = {2010.01.26}
 }
@@ -1926,6 +1867,7 @@
 @ARTICLE{Gilbert2002,
   author = {Sam J Gilbert and Tim Shallice},
   title = {Task switching: a PDP model.},
+  journal = {Cognitive Psychology},
   year = {2002},
   volume = {44},
   pages = {297--337},
@@ -1945,7 +1887,6 @@
 	set to random values, supporting Allport and Wylie's proposal.},
   institution = {Institute of Cognitive Neuroscience, University College London, United
 	Kingdom. sam.gilbert@ucl.ac.uk},
-  journal = {Cognitive Psychology},
   keywords = {Humans; Mental Processes; Models, Psychological},
   owner = {Jim},
   pii = {S0010028501907704},
@@ -1957,6 +1898,7 @@
   author = {David W Glasspool and George Houghton},
   title = {Serial order and consonant-vowel structure in a graphemic output
 	buffer model.},
+  journal = {Brain \& Language},
   year = {2005},
   volume = {94},
   pages = {304--330},
@@ -1974,7 +1916,6 @@
 	are compared in detail against data from a number of patients.},
   institution = {Department of Psychology, University College London and Institute
 	of Cognitive Neuroscience, University College London, UK. dg@acl.icnet.uk},
-  journal = {Brain \& Language},
   keywords = {Agraphia; Computer Simulation; Dyslexia, Acquired; Humans; Learning;
 	Linguistics; Mental Recall; Models, Neurological},
   owner = {Jim},
@@ -1986,21 +1927,21 @@
 @ARTICLE{Gopher2000,
   author = {Daniel Gopher and Lilach Armony and Yaakov Greenshpan},
   title = {Switching tasks and attention policies},
+  journal = {Journal of Experimental Psychology: Oeneral},
   year = {2000},
   volume = {129},
   pages = {308-339},
-  journal = {Journal of Experimental Psychology: Oeneral},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
 @INCOLLECTION{Gorfein2007,
   author = {D S Gorfein and V R Brown},
-  editor = {D S Gorfein and C M MacLeod},
   title = {Saying no to inhibition},
   booktitle = {Inhibition in Cognition},
-  year = {2007},
   publisher = {Washington D.C.: American Psychological Association},
+  year = {2007},
+  editor = {D S Gorfein and C M MacLeod},
   pages = {103-124},
   owner = {Jim},
   timestamp = {2010.02.17}
@@ -2008,12 +1949,12 @@
 
 @INCOLLECTION{Goschke2000,
   author = {Thomas Goschke},
-  editor = {Stephen Monsell and Jon Driver},
   title = {Intentional reconfiguration and involuntary persistence in task set
 	switching},
   booktitle = {Control of Cognitive Processes: Attention and Performance XVIII},
-  year = {2000},
   publisher = {Cambridge, MA: MIT Press},
+  year = {2000},
+  editor = {Stephen Monsell and Jon Driver},
   pages = {331-356},
   owner = {psp48d},
   timestamp = {2010.01.12}
@@ -2023,6 +1964,7 @@
   author = {Thomas Goschke and Gesine Dreisbach},
   title = {Conflict-triggered goal shielding: response conflicts attenuate background
 	monitoring for prospective memory cues.},
+  journal = {Psychological Science},
   year = {2008},
   volume = {19},
   pages = {25--32},
@@ -2045,7 +1987,6 @@
 	reflect aftereffects of goal shielding on the conflict trial itself.},
   institution = {Department of Psychology, Technische Universit�t Dresden, Dresden,
 	Germany. goschke@psychologie.tu-dresden.de},
-  journal = {Psychological Science},
   keywords = {Attention; Conflict (Psychology); Cues; Goals; Humans; Inhibition
 	(Psychology); Intention; Memory, Short-Term; Orientation; Pattern
 	Recognition, Visual; Psychomotor Performance; Reaction Time},
@@ -2059,6 +2000,7 @@
   author = {Alex Gotler and Nachshon Meiran and Joseph Tzelgov},
   title = {Nonintentional task set activation: evidence from implicit task sequence
 	learning.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2003},
   volume = {10},
   pages = {890--896},
@@ -2077,7 +2019,6 @@
 	explicit knowledge.},
   institution = {Department of Behavioral Sciences, Ben-Gurion University of the Negev,
 	Beer-Sheva, Israel. gotler@bgumail.bgu.ac.il},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Functional Laterality; Humans; Motivation; Pattern Recognition, Visual;
 	Probability Learning; Problem Solving; Psychomotor Performance; Psychophysics;
 	Serial Learning; Set (Psychology)},
@@ -2086,42 +2027,48 @@
   timestamp = {2009.04.09}
 }
 
-
-@phdthesis{Grange2010c,
-  author       = {James A Grange}, 
-  title        = {Control of Cognitive Processes in Task Switching.},
-  school       = {Bangor University, UK},
-  year         = 2010,
+@ARTICLE{Grangeinrevision,
+  author = {J A Grange},
+  title = {Decay or temporal distinctiveness in task switching? It depends on
+	the task-set},
+  year = {in revision},
+  quality = {1}
 }
 
-@BOOK{Grange2014, 
-	editor = {James A Grange and George Houghton}, 
-    title = {Task Switching and Cognitive Control},
-    publisher = {New York, NY: Oxford University Press},
-    year = {2014},
+@ARTICLE{Grange2015,
+  author = {J A Grange and E Cross},
+  title = {Can time-based decay explain temporal distinctiveness effects in
+	task switching?},
+  journal = {Quarterly Journal of Experimental Psychology},
+  year = {2015},
+  volume = {68},
+  pages = {19--45},
+  doi = {10.1080/17470218.2014.934696},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.05.12}
 }
 
-@INCOLLECTION{Grange2014a,
+@INCOLLECTION{Grange2014,
   author = {J A Grange and G Houghton},
-  editor = {J A Grange and G Houghton},
   title = {Models of Cognitive Control in Task Switching},
   booktitle = {Task Switching and Cognitive Control},
-  year = {2014},
   publisher = {New York, NY: Oxford University press},
+  year = {2014},
+  editor = {J A Grange and G Houghton},
   owner = {Jim},
   timestamp = {2009.04.10}
 }
-
 
 @ARTICLE{Grange2011,
   author = {James A Grange and George Houghton},
   title = {Task preparation and task inhibition: A comment on {K}och, {G}ade,
 	{S}chuch, \& {P}hilipp (2010)},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2011},
   volume = {18},
   pages = {211-216},
   doi = {10.3758/s13423-010-0023-3},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {psa33},
   timestamp = {2010.09.06}
 }
@@ -2130,11 +2077,11 @@
   author = {James A Grange and George Houghton},
   title = {Heightened conflict in cue-target translation increases backward
 	inhibition in set switching},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2010},
   volume = {36},
   pages = {1003-1009},
   doi = {10.1037/a0019129},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -2142,11 +2089,11 @@
 @ARTICLE{Grange2010a,
   author = {James A. Grange and George Houghton},
   title = {Cue-switch costs in task-switching: Cue-priming or control processes?},
+  journal = {Psychological Research},
   year = {2010},
   volume = {74},
   pages = {481-490},
   doi = {10.1007/s00426-009-0270-y},
-  journal = {Psychological Research},
   owner = {psp48d},
   timestamp = {2009.11.11}
 }
@@ -2155,6 +2102,7 @@
   author = {James A Grange and George Houghton},
   title = {Temporal cue-target overlap is not essential for backward inhibition
 	in task switching.},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2009},
   volume = {62},
   pages = {2069--2080},
@@ -2178,26 +2126,11 @@
 	cues and targets.},
   institution = {Centre for Cognitive Neuroscience, School of Psychology, Bangor University,
 	Bangor, Gwynedd, UK.},
-  journal = {Quarterly Journal of Experimental Psychology},
   owner = {Jim},
   pii = {908827063},
   pmid = {19225989},
   timestamp = {2009.04.09}
 }
-
-
-@ARTICLE{Grange2012,
-  author = {J A Grange and Andrew Lody and Sophie Bratt},
-  title = {Cost--benefit and distributional analyses of accessory stimuli},
-  journal = {Psychological Research},
-  year = {2012},
-  volume = {76},
-  pages = {626--633},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2013.12.30}
-}
-
 
 @ARTICLE{Grange2013,
   author = {James A Grange and Ion Juvina and George Houghton},
@@ -2212,13 +2145,12 @@
   timestamp = {2013.04.29}
 }
 
-
-
 @ARTICLE{Hubner2003,
   author = {Mike H\"{u}bner and Gesine Dreisbach and Hilde Haider and Rainer
 	H Kluwe},
   title = {Backward inhibition as a means of sequential task-set control: evidence
 	for reduction of task competition.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2003},
   volume = {29},
   pages = {289--297},
@@ -2235,7 +2167,6 @@
 	the identity of the new task.},
   institution = {Institut f�r Kognitionsforschung, Universit�t der Bundeswehr
 	Hamburg, Germany. mhuebner@unibw-hamburg.de},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adolescent; Adult; Attention; Color Perception; Discrimination Learning;
 	Functional Laterality; Humans; Inhibition (Psychology); Male; Pattern
 	Recognition, Visual; Psychomotor Performance; Reaction Time; Reversal
@@ -2249,6 +2180,7 @@
   author = {Ronald H\"{u}bner and Michel D Druey},
   title = {Multiple response codes play specific roles in response selection
 	and inhibition under task switching.},
+  journal = {Psychological Research},
   year = {2008},
   volume = {72},
   pages = {415--424},
@@ -2269,7 +2201,6 @@
 	in response selection, but that they affect performance differentially.},
   institution = {Fachbereich Psychologie, Universit�t Konstanz, Fach D29, 78457,
 	Konstanz, Germany. Ronald.Huebner@uni-konstanz.de},
-  journal = {Psychological Research},
   keywords = {Attention; Female; Functional Laterality; Generalization (Psychology);
 	Humans; Judgment; Male; Pattern Recognition, Visual; Problem Solving;
 	Psychomotor Performance; Reaction Time; Set (Psychology); Young Adult},
@@ -2282,6 +2213,7 @@
   author = {Ronald H\"{u}bner and Michel D Druey},
   title = {Response execution, selection, or activation: what is sufficient
 	for response-related repetition effects under task shifting?},
+  journal = {Psychological Research},
   year = {2006},
   volume = {70},
   pages = {245--261},
@@ -2301,7 +2233,6 @@
 	response re-execution largely modulates these effects.},
   institution = {Fachbereich Psychologie, Universit�t Konstanz, Fach D29, 78457
 	Konstanz, Germany. Ronald.Huebner@uni-konstanz.de},
-  journal = {Psychological Research},
   keywords = {Adult; Association Learning; Attention; Female; Generalization, Response;
 	Humans; Inhibition (Psychology); Judgment; Male; Pattern Recognition,
 	Visual; Practice (Psychology); Problem Solving; Psychomotor Performance;
@@ -2315,10 +2246,10 @@
   author = {Ronald H\"{u}bner and Marco Steinhauser and Torsten Futterer},
   title = {On attentional control as a source of residual shift costs: Evidence
 	from two-component task shifts},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2001},
   volume = {27},
   pages = {640-653},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -2327,33 +2258,33 @@
   author = {A Heathcote and S Brown and D Cousineau},
   title = {QMPE: Estimating lognormal, Wald, and Weibull RT distributions with
 	a parameter-dependent lower bound},
+  journal = {Behavior Research Methods, Instruments and Computers},
   year = {2004},
   volume = {36},
   pages = {277-290},
-  journal = {Behavior Research Methods, Instruments and Computers},
   owner = {Jim},
   timestamp = {2010.02.18}
 }
 
 @ARTICLE{Heathcote2002,
-  author = {A Heathcote and S Brown and D J K Mewhort},
-  title = {Quantile maximum likelihood estimation of response time distributions},
+  author = {A Heathcote and S Brown and D Mewhort},
+  title = {Quantile Maximum Likelihood Estimation of Response Time Distributions},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2002},
   volume = {9},
-  pages = {394-401},
-  journal = {Psychonomic Bulletin \& Review},
-  owner = {Jim},
-  timestamp = {2010.02.18}
+  pages = {394--401},
+  doi = {10.3758/BF03196299},
+  quality = {1}
 }
 
 @ARTICLE{Heathcote1991,
   author = {A Heathcote and S J Popiel and D J K Mewhort},
   title = {Analysis of response time distributions: An example using the Stroop
 	task},
+  journal = {Psychological Bulletin},
   year = {1991},
   volume = {109},
   pages = {340-347},
-  journal = {Psychological Bulletin},
   owner = {Jim},
   timestamp = {2010.02.18}
 }
@@ -2362,10 +2293,10 @@
   author = {R Hester and H Garavan},
   title = {Working memory and executive function: The influence of content and
 	load on the control of attention},
+  journal = {Memory \& Cognition},
   year = {2005},
   volume = {33},
   pages = {221-233},
-  journal = {Memory \& Cognition},
   owner = {psa33},
   timestamp = {2010.12.13}
 }
@@ -2374,10 +2305,10 @@
   author = {H M Hodgetts and D M Jones},
   title = {Contextual cues aid recovery from interruption: The role of associative
 	activation},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2006},
   volume = {32},
   pages = {1120-1132},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {Jim},
   timestamp = {2010.02.16}
 }
@@ -2386,10 +2317,10 @@
   author = {H M Hodgetts and D M Jones},
   title = {Interruption of the Tower of London task: Support for a goal activation
 	approach},
+  journal = {Journal of Experimental Psychology: General},
   year = {2006},
   volume = {135},
   pages = {103-115},
-  journal = {Journal of Experimental Psychology: General},
   owner = {Jim},
   timestamp = {2010.02.16}
 }
@@ -2422,12 +2353,12 @@
 
 @INCOLLECTION{Houghton1990,
   author = {G Houghton},
-  editor = {R Dale and C Mellish and M Zock},
   title = {The problem of serial order: A neural network model of sequence learning
 	and recall},
   booktitle = {Current research in natural language generation.},
-  year = {1990},
   publisher = {London: Academic Press},
+  year = {1990},
+  editor = {R Dale and C Mellish and M Zock},
   pages = {287-319},
   owner = {Jim},
   timestamp = {2011.01.20}
@@ -2437,6 +2368,7 @@
   author = {George Houghton and Paloma Mar�-Beffa},
   title = {Dissociating object- and response-based components of negative priming
 	through effects of practice.},
+  journal = {Perception \& Psychophysics},
   year = {2005},
   volume = {67},
   pages = {1423--1436},
@@ -2458,7 +2390,6 @@
 	direction.},
   institution = {School of Psychology, University of Wales, Bangor, Gwynedd LL57 2DG,
 	Wales. g.houghton@bangor.ac.uk},
-  journal = {Perception \& Psychophysics},
   keywords = {Attention; Humans; Learning; Practice (Psychology); Reaction Time},
   owner = {Jim},
   pmid = {16555594},
@@ -2469,6 +2400,7 @@
   author = {George Houghton and Rhys Pritchard and James A Grange},
   title = {The role of cue-target translation in backward inhibition of attentional
 	set.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2009},
   volume = {35},
   pages = {466--476},
@@ -2491,7 +2423,6 @@
 	conflict.},
   institution = {Centre for Cognitive Neuroscience, School of Psychology, Bangor University,
 	Wales, UK. g.houghton@bangor.ac.uk},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {Jim},
   pii = {2009-02753-011},
   pmid = {19271859},
@@ -2500,11 +2431,11 @@
 
 @INCOLLECTION{Houghton1994,
   author = {George Houghton and Steve Tipper},
-  editor = {D Dagenbach and T Carr},
   title = {A model of inhibitory mechanisms in selective attention},
   booktitle = {Inhibitory Processes of Attention, Memory and Language},
-  year = {1994},
   publisher = {Academic Press: Florida},
+  year = {1994},
+  editor = {D Dagenbach and T Carr},
   pages = {53-112},
   owner = {Jim},
   timestamp = {2011.01.20}
@@ -2514,10 +2445,11 @@
   author = {G. Houghton and S. P. Tipper},
   title = {Inhibitory mechanisms of neural and cognitive control: applications
 	to selective attention and sequential action.},
+  journal = {Brain \& Cognition},
   year = {1996},
   volume = {30},
-  number = {1},
   pages = {20--43},
+  number = {1},
   abstract = {This paper discusses the role of inhibition in neural and cognitive
 	control, in particular its role in selective processes in perception
 	and action. We first review neuroanatomical and physiological evidence
@@ -2532,7 +2464,6 @@
 	and neural levels, and that formal neural network models can play
 	an important role in bridging this epistemological divide.},
   institution = {University College London, United Kingdom. g.houghton@uk.ac.ucl.psychol},
-  journal = {Brain \& Cognition},
   keywords = {Attention, physiology; Cerebral Cortex, physiology; Cognition, physiology;
 	Humans; Inhibition (Psychology)},
   owner = {Jim},
@@ -2545,28 +2476,28 @@
   author = {M Janczyk and C Wienrich and W Kunde},
   title = {On the costs of refocusing items in working memory: A matter of inhibition
 	or decay?},
+  journal = {Memory},
   year = {2008},
   volume = {16},
   pages = {374-385},
-  journal = {Memory},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
 @BOOK{Jeffreys1961,
-  author = {H Jeffreys},
   title = {Theory of probability},
-  year = {1961},
   publisher = {Oxford, UK: Oxford University Press},
+  year = {1961},
+  author = {H Jeffreys},
   owner = {Jim},
   timestamp = {2010.11.20}
 }
 
 @BOOK{Jersild1927,
-  author = {A T Jersild},
   title = {Mental set and shift},
-  year = {1927},
   publisher = {Archives of Psychology, whole No. 89},
+  year = {1927},
+  author = {A T Jersild},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -2574,10 +2505,10 @@
 @ARTICLE{Jonides1983,
   author = {J Jonides and R Mack},
   title = {On the cost and benefit of cost and benefit},
+  journal = {Psychological Bulletin},
   year = {1983},
   volume = {96},
   pages = {29-44},
-  journal = {Psychological Bulletin},
   owner = {Jim},
   timestamp = {2010.02.10}
 }
@@ -2585,37 +2516,43 @@
 @ARTICLE{Jost2008,
   author = {Kerstin Jost and Ulrich Mayr and Frank R�sler},
   title = {Is task switching nothing but cue priming? Evidence from ERPs.},
+  journal = {Cognitive, Affective, and Behavioral Neuroscience},
   year = {2008},
   volume = {8},
   pages = {74--84},
+  abstract = {Recent findings suggesting that switch costs in the task-cuing paradigm
+	are largely attributable to a change in the task-indicating cue have
+	been interpreted in terms of a priming model of task-switch costs
+	(Logan & Bundesen, 2003). According to this explanation, participants
+	do not actually switch task sets, but merely use a cue-stimulus compound
+	to disambiguate competing response tendencies associated with bivalent
+	stimuli. Here, we report an event-related potential (ERP) experiment
+	that provides evidence against this notion. In a paradigm with a
+	2:1 mapping between cues and tasks, we show that cue-switch and task-switch
+	effects are dissociable on a neurophysiological level, indicating
+	that task switching is more than a switch in the task-indicating
+	cue. Moreover, a systematic analysis of the ERPs during the cue-stimulus
+	interval suggests that updating processes can run in advance, before
+	the stimulus is presented.},
+  institution = {Department of Psychology, Philipps University Marburg, Marburg, Germany.
+	jost@staff.uni-marburg.de},
+  keywords = {Adult; Attention, physiology; Cerebral Cortex, physiology; Cues; Discrimination
+	(Psychology), physiology; Evoked Potentials, physiology; Female;
+	Humans; Male; Psychomotor Performance, physiology; Reaction Time,
+	physiology; Reference Values},
   owner = {Jim},
   pmid = {18405048},
   timestamp = {2009.04.09}
 }
 
-
-@ARTICLE{Juvina2009,
-  author = {Ion Juvina and Niels Taatgen},
-  title = {A repetition-suppression account of between-trial effects in a modified {S}troop-task},
-  journal = {Acta Psychologica},
-  year = {2009},
-  volume = {131},
-  pages = {72--84},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.04}
-}
-
-
-
 @INCOLLECTION{Kane2007,
   author = {M J Kane and A R A Conway and D Z Hambrick and R W Engle},
-  editor = {A R A Conway and C Jarrold and M J Kane and A Miyake and J N Towse},
   title = {Variation in working memory capacity as variation in executive attention
 	and control},
   booktitle = {Variation in working memory},
-  year = {2007},
   publisher = {New York: Oxford University Press},
+  year = {2007},
+  editor = {A R A Conway and C Jarrold and M J Kane and A Miyake and J N Towse},
   pages = {21-46},
   owner = {psa33},
   timestamp = {2010.12.13}
@@ -2624,9 +2561,29 @@
 @ARTICLE{Kessler2008,
   author = {Yoav Kessler and Nachshon Meiran},
   title = {Two dissociable updating processes in working memory.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2008},
   volume = {34},
   pages = {1339--1348},
+  abstract = {The authors show that the updating of working memory (WM) representations
+	is carried out by the cooperative act of 2 dissociable reaction time
+	(RT) components: a global updating process that provides stability
+	by shielding WM contents against interference and a local process
+	that provides flexibility. Participants kept track of 1-3 items (digits
+	or Gibson figures). In each trial, the items either were similar
+	to those in the previous trial or were different in any or all of
+	the items. Experiments 1 and 2 established the existence of 2 independent
+	RT components representing the 2 updating processes. Global updating
+	cost was sensitive to total number of items in WM (set size), regardless
+	of the number of items that actually were modified. Local updating
+	cost was sensitive to the number of modified items, regardless of
+	the set size. Experiment 3 showed that participants had to dismantle
+	the representation formed by previous global updating in order to
+	carry out new updating.},
+  institution = {Department of Psychology and Zlotowski Center for Neuroscience, Ben-Gurion
+	University of the Negev, Beer-Sheva, Israel. kesslery@bgu.ac.il},
+  keywords = {Attention; Humans; Memory, Short-Term; Orientation; Pattern Recognition,
+	Visual; Proactive Inhibition; Reaction Time; Serial Learning},
   owner = {Jim},
   pii = {2008-15415-003},
   pmid = {18980398},
@@ -2637,9 +2594,26 @@
   author = {Yoav Kessler and Nachshon Meiran},
   title = {All updateable objects in working memory are updated whenever any
 	of them are modified: evidence from the memory updating paradigm.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2006},
   volume = {32},
   pages = {570--585},
+  abstract = {In a series of experiments, participants were required to keep track
+	of 1 or 2 working memory (WM) objects, having to update their values
+	in 80\% of the trials. Updating cost, defined as the difference between
+	update and non-update trials, was larger when 2 objects were involved
+	compared with when there was only 1 object was involved. This finding
+	was interpreted as evidence that the updating process encompasses
+	both objects in WM, even though only 1 of them is actually updated.
+	This feature of WM updating is limited to objects defined as "updateable,"
+	throughout the trial sequence. The results are explained by the need
+	to reprogram the phonological loop when updating or the need for
+	desynchronization followed by resynchronization of WM contents.},
+  institution = {Department of Behavioral Sciences, Ben-Gurion University of the Negev,
+	Beer-Sheva, Israel. kesslery@bgu.ac.il},
+  keywords = {Adult; Attention; Discrimination Learning; Humans; Memory, physiology;
+	Mental Recall; Minicomputers; Models, Psychological; Reaction Time;
+	Serial Learning},
   owner = {Jim},
   pii = {2006-06644-010},
   pmid = {16719667},
@@ -2650,11 +2624,11 @@
   author = {A Kiesel and M Steinhauser and M Wendt and M Falkstein and K Jost
 	and A Philipp and I Koch},
   title = {Control and interference in task switching---A review},
-  journaltitle = {Psychological Bulletin},
+  journal = {Psychological Bulletin},
   year = {2010},
   volume = {136},
   pages = {849-874},
-  journal = {Psychological Bulletin},
+  journaltitle = {Psychological Bulletin},
   owner = {Jim},
   timestamp = {2010.11.20}
 }
@@ -2662,10 +2636,10 @@
 @ARTICLE{Klein2000,
   author = {R M Klein},
   title = {Inhibition of return},
+  journal = {Trends in Cognitive Sciences},
   year = {2000},
   volume = {4},
   pages = {138-147},
-  journal = {Trends in Cognitive Sciences},
   owner = {Jim},
   timestamp = {2010.01.28}
 }
@@ -2674,10 +2648,10 @@
   author = {T Kleinsgore and Patrick D Gajewski},
   title = {Preparation for a forthcoming task is sufficient to produce subsequent
 	shift costs},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2004},
   volume = {11},
   pages = {302-306},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -2685,9 +2659,28 @@
 @ARTICLE{Koch2008,
   author = {Iring Koch},
   title = {Instruction effects in task switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2008},
   volume = {15},
   pages = {448--452},
+  abstract = {The present study examined the effect of instructions on sequential
+	task preparation using a cuing paradigm with three tasks. All task
+	transitions were predictable, whereas task identity was unpredictable
+	in switches but predictable in repetitions. In Experiment 1, predictability
+	(predictable vs. random) was manipulated while preparation time (i.e.,
+	the cue-stimulus interval, or CSI) remained constantly short. In
+	Experiment 2, CSI was manipulated for predictable task transitions.
+	Both experiments showed clear instruction effects, but these were
+	restricted to predictable task repetitions, for which predictability
+	determined the identity of the upcoming task. Predictability effects
+	were small in task switches and were not modulated by instruction,
+	suggesting that preparation is mainly task-specific rather than switch-specific.
+	Together, these results suggest that intentional processes contribute
+	to predictability benefits in task repetitions, probably by enhancing
+	the monitoring of sequential transitions in working memory in order
+	to maintain activation in task repetitions.},
+  institution = {RWTH Aachen University, Aachen, Germany. koch@psych.rwth-aachen.de},
+  keywords = {Adult; Female; Humans; Male; Reaction Time; Teaching},
   owner = {Jim},
   pmid = {18488667},
   timestamp = {2009.04.09}
@@ -2696,9 +2689,28 @@
 @ARTICLE{Koch2005,
   author = {Iring Koch},
   title = {Sequential task predictability in task switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2005},
   volume = {12},
   pages = {107--112},
+  abstract = {Many studies of task switching have found that a prolonged preparation
+	time reduces switch costs. An alternative manipulation of task preparation
+	is based on sequential task predictability, rather than preparation
+	time. In Experiments 1 and 2 of the present study, participants performed
+	explicitly instructed task sequences (i.e., AABB) and were then transferred
+	to a random sequence. The observed benefit of predictability-based
+	task preparation was not switch specific. In Experiment 3, the participants
+	changed from random to predictable tasks. The observed predictability
+	benefit again was not switch specific. The data thus suggest that
+	task switching does not necessarily require a switch-specific reconfiguration
+	process. Rather, task-specific control processes may be needed in
+	both task switches and repetitions.},
+  institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Munich,
+	Germany. iring.koch@cbs.mpg.de},
+  keywords = {Association Learning; Attention; Comprehension; Discrimination Learning;
+	Humans; Knowledge of Results (Psychology); Memory, Short-Term; Pattern
+	Recognition, Visual; Probability Learning; Psychomotor Performance;
+	Psychophysics; Reaction Time; Serial Learning; Transfer (Psychology)},
   owner = {Jim},
   pmid = {15945203},
   timestamp = {2009.04.09}
@@ -2708,9 +2720,27 @@
   author = {Iring Koch},
   title = {The role of external cues for endogenous advance reconfiguration
 	in task switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2003},
   volume = {10},
   pages = {488--492},
+  abstract = {Most studies of task-set switching rely on cuing paradigms, in which
+	external cues indicate the upcoming task. The present study used
+	an entirely predictable task sequence in a variant of the alternating-runs
+	paradigm of Rogers and Monsell (1995). Preparation effects with purely
+	internal memory cues were compared with those in another experimental
+	group with additional external cues presented prior to the stimulus.
+	External cues led to strongly reduced shift costs with prolonged
+	preparation time. However, this effect was much smaller with internal
+	cues only. To account for this differential effect of preparation
+	time as a function of cue type, it is suggested that internal cues
+	select the next task set, which is sufficient to perform the task.
+	External cues additionally facilitate preparatory retrieval of task-specific
+	stimulus-response rules. This account may also explain why incidental
+	task-sequence learning based on internal cues did not reduce shift
+	costs.},
+  institution = {. koch@psy.mpg.de},
+  keywords = {Adult; Cues; Female; Humans; Male; Memory; Reaction Time},
   owner = {Jim},
   pmid = {12921429},
   timestamp = {2009.04.09}
@@ -2719,10 +2749,10 @@
 @ARTICLE{Koch2001,
   author = {Iring Koch},
   title = {Automatic and intentional activation of task-sets},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2001},
   volume = {27},
   pages = {1474-1486},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -2731,9 +2761,39 @@
   author = {Iring Koch and Alan Allport},
   title = {Cue-based preparation and stimulus-based priming of tasks in task
 	switching.},
+  journal = {Memory \& Cognition},
   year = {2006},
   volume = {34},
   pages = {433--444},
+  abstract = {In this study, we investigated the interaction of three different
+	sources of task activation in precued task switching. We distinguished
+	(1) intentional, cue-based task activation from two other, involuntary
+	sources of activation: (2) persisting activation from the preceding
+	task and (3) stimulus-based task activation elicited by the task
+	stimulus itself. We assumed that cue-based task activation increases
+	as a function of cue-stimulus interval (CSI) and that task activation
+	from the preceding trial decays as a function of response-stimulus
+	interval Stimulus-based task activation is thought to be due to involuntary
+	retrieval of stimulus-associated tasks. We manipulated stimulus-based
+	task activation by mapping each of the stimuli consistently to only
+	one or the other of the two tasks. After practice, we reversed this
+	mapping in order to test the effects of item-specific stimulus-task
+	association. The mapping reversal resulted in increased reaction
+	times and increased task shift costs. These stimulus-based priming
+	effects were markedly reduced with a long CSI, relative to a short
+	CSI, suggesting that stimulus-based priming shows up in performance
+	principally when competition between tasks is high and that cue-based
+	task activation reduces task competition. In contrast, lengthening
+	the response-cue interval (decay time) reduced shift costs but did
+	not reduce the stimulus-based priming effect The data are consistent
+	with separable stimulus-related and response-related components of
+	task activation. Further theoretical implications of these findings
+	are discussed.},
+  institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Munich,
+	Germany. koch@psych.rwth-aachen.de},
+  keywords = {Adult; Association Learning; Attention; Awareness; Cues; Female; Generalization,
+	Stimulus; Humans; Judgment; Male; Pattern Recognition, Visual; Problem
+	Solving; Reaction Time; Reversal Learning},
   owner = {Jim},
   pmid = {16752606},
   timestamp = {2009.04.09}
@@ -2742,10 +2802,29 @@
 @ARTICLE{Koch2004,
   author = {Iring Koch and Miriam Gade and Andrea M Philipp},
   title = {Inhibition of response mode in task switching.},
+  journal = {Experimental Psychology},
   year = {2004},
   volume = {51},
   pages = {52--58},
-  journal = {Experimental Psychology},
+  abstract = {Task inhibition was explored in two experiments that employed a paradigm
+	in which participants switched among three tasks. Two tasks required
+	manual choice responses based on numerical judgment (parity or magnitude),
+	whereas a third task required an unconditional double-press of both
+	response keys. Both experiments showed that switching to a just-abandoned
+	task (n-2 task repetition) generally leads to a performance cost
+	relative to switching to another task. Specifically, this task inhibition
+	effect also occurred for the double-press task, suggesting inhibition
+	of response mode. Prolonging the task-cuing interval showed that
+	advance task preparation reduced only inhibition of the double-press
+	task but not of the choice tasks (Experiment 1). Prolonging the response-cue
+	interval led to a decrease of the inhibition effect in all tasks
+	(Experiment 2), suggesting a time-based release of task inhibition.
+	Together, the experiments support the notion of a response-related
+	component of task inhibition.},
+  institution = {Max Planck Institute for Psychological Research, Munich, Germany.
+	koch@psy.mpg.de},
+  keywords = {Adolescent; Adult; Cognition; Cues; Female; Humans; Inhibition (Psychology);
+	Male; Reaction Time},
   owner = {Jim},
   pmid = {14959506},
   timestamp = {2009.04.09}
@@ -2753,37 +2832,55 @@
 
 @ARTICLE{Koch2010,
   author = {Iring Koch and Miriam Gade and Stefanie Schuch and Andrea M Philipp},
-  title = {The role of inhibition in task switching: A review},
+  title = {The role of inhibition in task switching---A review},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2010},
   volume = {17},
   pages = {1-14},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
-
 @ARTICLE{Koch2014,
   author = {I Koch and V Lawo},
-  title = {Exploring temporal dissipation of attention settings in auditory task switching},
+  title = {Exploring temporal dissipation of attention settings in auditory
+	task switching},
+  journal = {Attention Perception and Psychphysics},
   year = {2014},
   volume = {76},
   pages = {73-80},
-  journal = {Attention Perception and Psychphysics},
   owner = {psp48d},
   timestamp = {2010.02.12}
 }
-
-
-
 
 @ARTICLE{Koch2005a,
   author = {Iring Koch and Andrea M Philipp},
   title = {Effects of response selection on the task repetition benefit in task
 	switching.},
+  journal = {Memory \& Cognition},
   year = {2005},
   volume = {33},
   pages = {624--634},
+  abstract = {A task switch typically leads to worse performance than a repetition
+	does. This shift cost can be reduced with sufficient task preparation
+	time, but a residual cost usually remains. We propose that a large
+	part of this residual cost is caused by an activation bias produced
+	by response selection processes in the preceding trial. In our experiments,
+	we manipulated response selection requirements using a go/no-go methodology.
+	The residual shift cost disappeared after no-go trials, suggesting
+	that response selection is crucial to establish an activation bias
+	for the current category-response rules and that this bias persists
+	into the next trial. A comparison with a go-only group confirmed
+	this analysis by revealing no differences in preparatory strategy
+	due to the inclusion of no-go trials. In addition, no-go trials had
+	no significant effects on subsequent trials in a single-task experiment,
+	suggesting that no-go trials are not coded as a task different from
+	go trials and that there is no inhibition of the prepared task in
+	a no-go trial. We thus conclude that a persisting activation bias
+	of response rules plays a major role in task switching.},
+  institution = {Department of Psychology, Max Planck Institute for Human Cognitive
+	and Brain Sciences, Munich, Germany. iring.koch@cbs.mpg.de},
+  keywords = {Adult; Choice Behavior; Female; Humans; Male; Reaction Time},
   owner = {Jim},
   pmid = {16248327},
   timestamp = {2009.04.09}
@@ -2792,6 +2889,7 @@
 @ARTICLE{Koch2006a,
   author = {Iring Koch and Andrea M Philipp and Miriam Gade},
   title = {Chunking in task sequences modulates task inhibition.},
+  journal = {Psychological Science},
   year = {2006},
   volume = {17},
   pages = {346--350},
@@ -2815,7 +2913,6 @@
 	effect.},
   institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig,
 	Germany. koch@psych.rwth-aachen.de},
-  journal = {Psychological Science},
   keywords = {Adult; Cues; Female; Humans; Inhibition (Psychology); Male; Periodicity;
 	Reaction Time},
   owner = {Jim},
@@ -2828,10 +2925,10 @@
   author = {Iring Koch and Wolfgang Prinz and Alan Allport},
   title = {Involuntary retrieval in alphabet-arithmetic tasks: Task-mixing and
 	task-switching costs},
+  journal = {Psychological Research},
   year = {2005},
   volume = {69},
   pages = {252-261},
-  journal = {Psychological Research},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -2841,6 +2938,7 @@
 	Meiran and Wolfgang Prinz},
   title = {Equivalence of cognitive processes in brain imaging and behavioral
 	studies: evidence from task switching.},
+  journal = {Neuroimage},
   year = {2003},
   volume = {20},
   pages = {572--577},
@@ -2872,7 +2970,6 @@
 	scanner.},
   institution = {Max Planck Institute for Psychological Research, Munich, Germany.
 	koch@psy.mpg.de},
-  journal = {Neuroimage},
   keywords = {Adolescent; Adult; Behavior, physiology; Brain Mapping; Brain, physiology;
 	Cognition, physiology; Cues; Female; Humans; Male; Psychomotor Performance,
 	physiology; Reaction Time, physiology; Reproducibility of Results;
@@ -2883,36 +2980,23 @@
   timestamp = {2009.04.09}
 }
 
-@ARTICLE{Kornblum1990,
-  author = {Sylvan Kornblum and Thierry Hasbroucq and Allen Osman},
-  title = {Dimensional Overlap: Cognitive basis for stimulus--response compatibility---A model and taxonomy},
-  year = {1990},
-  volume = {97},
-  pages = {253-270},
-  journal = {Psychological Review}
-}
-
-
 @ARTICLE{Kray2004,
   author = {Jutta Kray and Jutta Eber and Ulman Lindenberger},
   title = {Age differences in executive functioning across the lifespan: The
 	role of verbalization in task preparation},
+  journal = {Acta Psychologica},
   year = {2004},
   volume = {115},
   pages = {143-165},
-  journal = {Acta Psychologica},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
-
-
-
-
 
 @ARTICLE{Kuhns2007,
   author = {David Kuhns and Mei-Ching Lien and Eric Ruthruff},
   title = {Proactive versus reactive task-set inhibition: evidence from flanker
 	compatibility effects.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2007},
   volume = {14},
   pages = {977--983},
@@ -2932,34 +3016,17 @@
 	ability of an abandoned task to interfere with the performance of
 	other tasks.},
   institution = {Oregon State University, Corvallis, Oregon 97331, USA.},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Cognition; Humans; Inhibition (Psychology); Reaction Time},
   owner = {Jim},
   pmid = {18087969},
   timestamp = {2009.04.09}
 }
 
-
-@INPROCEEDINGS{Lebiere2009,
-  author = {C Lebiere and B J Best},
-  title = {Balancing long-term reinforcement and short-term inhibition},
-  booktitle = {Proceedings of the 31st Annual Conference of the Cognitive Science
-	Society},
-  year = {2009},
-  publisher = {Austin: Cognitive Science Society},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.04}
-}
-
-
-
-
 @BOOK{Lewandowsky2010,
-  author = {S Lewandowsky and S Farrell},
   title = {Computational Modeling in Cognition: Principles and Practice},
-  year = {2010},
   publisher = {Thousand Oaks, CA: Sage},
+  year = {2010},
+  author = {S Lewandowsky and S Farrell},
   owner = {Home},
   quality = {1},
   timestamp = {2013.04.22}
@@ -2968,10 +3035,10 @@
 @ARTICLE{Lewandowsky2009,
   author = {S Lewandowsky and K Oberauer and G D A Brown},
   title = {No temporal decay in verbal short-term memory},
+  journal = {Trends in Cognitive Science},
   year = {2009},
   volume = {13},
   pages = {120-126},
-  journal = {Trends in Cognitive Science},
   owner = {psp48d},
   timestamp = {2010.02.12}
 }
@@ -2980,10 +3047,10 @@
   author = {S Lewandowsky and K Oberauer and G D A Brown},
   title = {Response to {A}ltmann: {A}daptive forgetting by decay or removal
 	of {STM} contents?},
+  journal = {Trends in Cognitive Science},
   year = {2009},
   volume = {13},
   pages = {280-281},
-  journal = {Trends in Cognitive Science},
   owner = {psp48d},
   timestamp = {2010.02.12}
 }
@@ -2991,10 +3058,10 @@
 @ARTICLE{Lhermitte1983,
   author = {F Lhermitte},
   title = {Utlization behaviour and its relation to the frontal lobes},
+  journal = {Brain},
   year = {1983},
   volume = {106},
   pages = {237-255},
-  journal = {Brain},
   owner = {psp48d},
   timestamp = {2010.01.21}
 }
@@ -3003,6 +3070,7 @@
   author = {Karen Z H Li and Kate Dupuis},
   title = {Attentional switching in the sequential flanker task: age, location,
 	and time course effects.},
+  journal = {Acta Psychologica},
   year = {2008},
   volume = {127},
   pages = {416--427},
@@ -3023,7 +3091,6 @@
 	mechanisms that underlie task set switching and sequential performance.},
   institution = {Department of Psychology, Concordia University, 7141 Sherbrooke St.
 	West, Montr�al, Qu�bec, Canada H4B 1R6. karen.li@concordia.ca},
-  journal = {Acta Psychologica},
   keywords = {Adult; Age Factors; Aged; Aged, 80 and over; Analysis of Variance;
 	Attention, physiology; Discrimination Learning, physiology; Humans;
 	Inhibition (Psychology); Middle Aged; Pattern Recognition, Visual,
@@ -3040,6 +3107,7 @@
   author = {Baptist Liefooghe and Pierre Barrouillet and Andr� Vandierendonck
 	and Val�rie Camos},
   title = {Working memory costs of task switching.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2008},
   volume = {34},
   pages = {478--494},
@@ -3057,7 +3125,6 @@
 	are addressed.},
   institution = {Department of Experimental Psychology, Ghent University, Ghent, Belgium.
 	baptist.liefooghe@ugent.be},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Attention; Color Perception; Decision Making; Discrimination Learning;
 	Functional Laterality; Humans; Memory, Short-Term; Pattern Recognition,
 	Visual; Perceptual Masking; Psychomotor Performance; Psychophysics;
@@ -3072,6 +3139,7 @@
   author = {Baptist Liefooghe and Jelle Demanet and Andre Vandierendonck},
   title = {Is advance reconfiguration in voluntary task switching affected by
 	the design employed?},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2009},
   pages = {1--8},
   abstract = {In task switching, when the amount of preparation time is increased,
@@ -3087,7 +3155,6 @@
 	indicate that RISC effects are present in both designs. We conclude
 	that advance reconfiguration in voluntary task switching is robust.},
   institution = {Ghent University, Ghent, Belgium.},
-  journal = {Quarterly Journal of Experimental Psychology},
   owner = {Jim},
   pii = {907475631},
   pmid = {19132632},
@@ -3098,6 +3165,7 @@
   author = {Baptist Liefooghe and Andr� Vandierendonck and Isabel Muyllaert
 	and Frederick Verbruggen and Wim Vanneste},
   title = {The phonological loop in task alternation and task repetition.},
+  journal = {Memory},
   year = {2005},
   volume = {13},
   pages = {550--560},
@@ -3120,7 +3188,6 @@
 	demands during dual tasking.},
   institution = {Department of Experiemental Psychology, Ghent University, Belgium.
 	baptist.liefooghe@rug.ac.be},
-  journal = {Memory},
   keywords = {Attention; Cognition; Cues; Decision Making; Form Perception; Humans;
 	Memory; Memory, Short-Term; Models, Psychological; Movement; Psychological
 	Tests; Psychomotor Performance; Reaction Time; Space Perception;
@@ -3135,6 +3202,7 @@
   author = {Mei-Ching Lien and Eric Ruthruff},
   title = {Inhibition of task set: converging evidence from task choice in the
 	voluntary task-switching paradigm.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2008},
   volume = {15},
   pages = {1111--1116},
@@ -3156,7 +3224,6 @@
 	in the near future.},
   institution = {Department of Psychology, Oregon State University, Corvallis, OR
 	97331-5303, USA. mei.lien@oregonstate.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Choice Behavior; Humans; Inhibition (Psychology); Memory,
 	Short-Term; Motivation; Pattern Recognition, Visual; Problem Solving;
 	Psychomotor Performance; Set (Psychology); Size Perception},
@@ -3170,6 +3237,7 @@
   author = {Mei-Ching Lien and Eric Ruthruff},
   title = {Task switching in a hierarchical task structure: evidence for the
 	fragility of the task repetition benefit.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2004},
   volume = {30},
   pages = {697--713},
@@ -3189,7 +3257,6 @@
 	be eliminated in a hierarchical task organization.},
   institution = {National Aeronautics and Space Administration Ames Research Center,
 	Moffett Field, CA 94035, USA. mclien@mail.arc.nasa.gov},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Humans; Judgment; Reaction Time; Time Perception},
   owner = {Jim},
   pii = {2004-13181-013},
@@ -3201,6 +3268,7 @@
   author = {Mei-Ching Lien and Eric Ruthruff and David Kuhns},
   title = {On the difficulty of task switching: assessing the role of task-set
 	inhibition.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {530--535},
@@ -3219,7 +3287,6 @@
 	because of the need to overcome recent task-set inhibition.},
   institution = {Department of Psychology, Oregon State University, Corvallis, OR
 	97331-5303, USA. mei.lien@oregonstate.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Humans; Inhibition (Psychology); Reaction Time},
   owner = {Jim},
   pmid = {17048742},
@@ -3232,14 +3299,13 @@
   title = {On the limits of advance preparation for a task switch: Do people
 	prepare all the task some of the time or some of the task all the
 	time?},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2005},
   volume = {31},
   pages = {299-315},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
-
 
 @ARTICLE{Loftus1994,
   author = {G R Loftus and M E J Masson},
@@ -3253,11 +3319,11 @@
   timestamp = {2013.12.29}
 }
 
-
 @ARTICLE{Logan2007,
   author = {Gordon D Logan},
   title = {What it costs to implement a plan: plan-level and task-level contributions
 	to switch costs.},
+  journal = {Memory \& Cognition},
   year = {2007},
   volume = {35},
   pages = {591--602},
@@ -3279,7 +3345,6 @@
 	of plans.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee
 	37203, USA. gordon.logan@vanderbilt.edu},
-  journal = {Memory \& Cognition},
   keywords = {Cognition; Cues; Humans; Mental Recall; Reaction Time; Visual Perception;
 	Vocabulary},
   owner = {Jim},
@@ -3291,6 +3356,7 @@
   author = {Gordon D Logan},
   title = {Out with the old, in with the new: more valid measures of switch
 	cost and retrieval time in the task span procedure.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {139--144},
@@ -3313,7 +3379,6 @@
 	was used in the original report.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. gordon.logan@vanderbilt.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Humans; Mental Recall; Pattern Recognition, Visual; Problem
 	Solving; Psychophysics; Reaction Time; Serial Learning},
   owner = {Jim},
@@ -3324,6 +3389,7 @@
 @ARTICLE{Logan2005,
   author = {Gordon D Logan},
   title = {The time it takes to switch attention.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2005},
   volume = {12},
   pages = {647--653},
@@ -3342,7 +3408,6 @@
 	switching took 76-101 msec.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. gordon.logan@vanderbilt.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Color Perception; Cues; Humans; Models, Statistical; Orientation;
 	Pattern Recognition, Visual; Psychophysics; Reaction Time},
   owner = {Jim},
@@ -3354,6 +3419,7 @@
   author = {Gordon D Logan},
   title = {Working memory, task switching, and executive control in the task
 	span procedure.},
+  journal = {Journal of Experimental Psychology: General},
   year = {2004},
   volume = {133},
   pages = {218--236},
@@ -3372,7 +3438,6 @@
 	others.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. gordon.logan@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: General},
   keywords = {Adult; Cognition; Female; Humans; Male; Memory; Reaction Time; Vocabulary;
 	Volition},
   owner = {Jim},
@@ -3384,6 +3449,7 @@
 @ARTICLE{Logan2004a,
   author = {Gordon D Logan},
   title = {Cumulative progress in formal theories of attention.},
+  journal = {Annual Review of Psychology},
   year = {2004},
   volume = {55},
   pages = {207--234},
@@ -3398,7 +3464,6 @@
 	visual search, cuing procedures, task switching, and strategy choice.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee,
 	37203, USA. gordon.logan@vanderbilt.edu},
-  journal = {Annual Review of Psychology},
   keywords = {Attention, physiology; Brain, physiology; Choice Behavior; Humans;
 	Models, Psychological; Psychological Theory; Signal Detection, Psychological},
   owner = {Jim},
@@ -3409,10 +3474,10 @@
 @ARTICLE{Logan2003,
   author = {G D Logan},
   title = {Executive control of thought and action: In search of the wild homunculus},
+  journal = {Current Directions in Psychological Science},
   year = {2003},
   volume = {12},
   pages = {45-48},
-  journal = {Current Directions in Psychological Science},
   owner = {Jim},
   timestamp = {2010.01.25}
 }
@@ -3420,6 +3485,7 @@
 @ARTICLE{Logan2002,
   author = {Gordon D Logan},
   title = {An instance theory of attention and memory.},
+  journal = {Psychological Review},
   year = {2002},
   volume = {109},
   pages = {376--400},
@@ -3434,7 +3500,6 @@
 	case, so it inherits their successes.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee
 	37203, USA. gordon.logan@vanderbilt.edu},
-  journal = {Psychological Review},
   keywords = {Attention; Cognition; Humans; Memory; Models, Psychological},
   owner = {Jim},
   pmid = {11990323},
@@ -3444,10 +3509,10 @@
 @ARTICLE{Logan1988,
   author = {G D Logan},
   title = {Toward an instance theory of automization},
+  journal = {Psychological Review},
   year = {1988},
   volume = {95},
   pages = {492-527},
-  journal = {Psychological Review},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -3456,6 +3521,7 @@
   author = {Gordon D Logan and Claus Bundesen},
   title = {Very clever homunculus: compound stimulus strategies for the explicit
 	task-cuing procedure.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2004},
   volume = {11},
   pages = {832--840},
@@ -3475,7 +3541,6 @@
 	than switching task set between trials.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. gordon.logan@vanderbilt.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Cognition; Cues; Fixation, Ocular; Humans; Models, Psychological;
 	Reaction Time},
   owner = {Jim},
@@ -3487,6 +3552,7 @@
   author = {Gordon D Logan and Claus Bundesen},
   title = {Clever homunculus: is there an endogenous act of control in the explicit
 	task-cuing procedure?},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2003},
   volume = {29},
   pages = {575--599},
@@ -3505,7 +3571,6 @@
 	task-cuing procedure does not require an endogenous act of control.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee
 	37203, USA. gordon.logan@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Brain, physiology; Cognition, physiology; Cues; Humans; Models, Psychological;
 	Perceptual Masking; Reaction Time; Visual Perception, physiology},
   owner = {Jim},
@@ -3516,10 +3581,10 @@
 @ARTICLE{Logan2001,
   author = {Gordon D Logan and Robert D Gordon},
   title = {Executive control of visual attention in dual-task situations},
+  journal = {Psychological Review},
   year = {2001},
   volume = {108},
   pages = {393-434},
-  journal = {Psychological Review},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -3528,6 +3593,7 @@
   author = {Gordon D Logan and Darryl W Schneider},
   title = {Priming or executive control? Associative priming of cue encoding
 	increases "switch costs" in the explicit task-cuing procedure.},
+  journal = {Memory \& Cognition},
   year = {2006},
   volume = {34},
   pages = {1250--1259},
@@ -3547,7 +3613,6 @@
 	control.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee
 	37203, USA. gordon.logan@vanderbilt.edu},
-  journal = {Memory \& Cognition},
   keywords = {Attention; Cues; Humans; Memory, Short-Term; Paired-Associate Learning;
 	Practice (Psychology); Probability Learning; Reaction Time; Reversal
 	Learning; Semantics},
@@ -3560,6 +3625,7 @@
   author = {Gordon D Logan and Darryl W Schneider},
   title = {Interpreting instructional cues in task switching procedures: the
 	role of mediator retrieval.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2006},
   volume = {32},
   pages = {347--363},
@@ -3582,7 +3648,6 @@
 	in interpreting instructional cues.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. gordon.logan@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Analysis of Variance; Attention, physiology; Cues; Discrimination
 	Learning, physiology; Humans; Judgment, physiology; Mental Recall,
 	physiology; Pattern Recognition, Visual, physiology; Photic Stimulation,
@@ -3597,6 +3662,7 @@
   author = {Gordon D Logan and Darryl W Schneider and Claus Bundesen},
   title = {Still clever after all these years: searching for the homunculus
 	in explicitly cued task switching.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2007},
   volume = {33},
   pages = {978--994},
@@ -3618,7 +3684,6 @@
 	critical assumptions of their theoretical account.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. gordon.logan@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Cues; Humans; Models, Psychological; Reaction Time},
   owner = {Jim},
   pii = {2007-11560-016},
@@ -3630,19 +3695,19 @@
   author = {Saner A Los},
   title = {On the origin of mixing costs: Exploring information processing in
 	pure and mixed blocks of trials},
+  journal = {Acta Psychologica},
   year = {1996},
   volume = {94},
   pages = {145-188},
-  journal = {Acta Psychologica},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
 @BOOK{Luck2005,
-  author = {S J Luck},
   title = {An introduction to the event-related potential technique},
-  year = {2005},
   publisher = {MIT Press},
+  year = {2005},
+  author = {S J Luck},
   owner = {psp48d},
   timestamp = {2010.02.12}
 }
@@ -3650,10 +3715,10 @@
 @ARTICLE{MacLeod1991,
   author = {C M MacLeod},
   title = {Half a century of research on the Stroop effect: an integrative review.},
+  journal = {Psychological Bulletin},
   year = {1991},
   volume = {109},
   pages = {163-203},
-  journal = {Psychological Bulletin},
   owner = {psp48d},
   timestamp = {2010.01.21}
 }
@@ -3661,43 +3726,32 @@
 @ARTICLE{MacLeod2003,
   author = {C M MacLeod and M D Dodd and E D Sheard and D E Wilson and U Bibi},
   title = {In opposition to inhbition},
+  journal = {Psychology of Learning \& Motivation},
   year = {2003},
   volume = {43},
   pages = {163-214},
-  journal = {Psychology of Learning \& Motivation},
   owner = {Jim},
   timestamp = {2010.02.03}
 }
 
-
-@MANUAL{Massidda2013,
-  author = {Davide Massidda},
-  title = {retimes: Reaction Time Analysis},
-  year = {2013},
-  note = {R package version 0.1-2},
-  url = {http://CRAN.R-project.org/package=retimes},
-  timestamp = {2014.01.07}
-}
-
-
 @ARTICLE{Masson2003,
   author = {M E J Masson and D N Bubb and T S Woodward and J C K Chan},
   title = {Modulation of word-reading procesees in task switching},
+  journal = {Journal of Experimental Psychology: General},
   year = {2003},
   volume = {132},
   pages = {400-418},
-  journal = {Journal of Experimental Psychology: General},
   owner = {Jim},
   timestamp = {2010.02.03}
 }
 
 @INCOLLECTION{Mayr2007,
   author = {Ulrich Mayr},
-  editor = {D S Gorfein and C M MacLeod},
   title = {Inhibition of task sets},
   booktitle = {Inhibition in Cognition},
-  year = {2007},
   publisher = {Washington D.C.: American Psychological Association},
+  year = {2007},
+  editor = {D S Gorfein and C M MacLeod},
   pages = {27-44},
   owner = {psp48d},
   timestamp = {2010.01.12}
@@ -3706,10 +3760,10 @@
 @ARTICLE{Mayr2009,
   author = {Ulrich Mayr},
   title = {Sticky plans: Inhibition and binding during serial task control},
+  journal = {Cognitive Psychology},
   year = {2009},
   volume = {59},
   pages = {123-153},
-  journal = {Cognitive Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -3717,6 +3771,7 @@
 @ARTICLE{Mayr2006,
   author = {Ulrich Mayr},
   title = {What matters in the cued task-switching paradigm: tasks or cues?},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {794--799},
@@ -3739,7 +3794,6 @@
 	task-switch cost.},
   institution = {Department of Psychology, University of Oregon, Eugene 97403, USA.
 	mayr@darkwing.uoregon.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Color Perception; Cues; Humans; Pattern Recognition, Visual;
 	Practice (Psychology); Probability Learning; Psychophysics; Reaction
 	Time; Set (Psychology)},
@@ -3751,6 +3805,7 @@
 @ARTICLE{Mayr2002,
   author = {Ulrich Mayr},
   title = {Inhibition of action rules.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2002},
   volume = {9},
   pages = {93--99},
@@ -3772,7 +3827,6 @@
 	costs were obtained even for these constellations.},
   institution = {Department of Psychology, University of Oregon, Eugene 97403, USA.
 	mayr@oregon.uoregon.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Humans; Inhibition (Psychology); Reaction Time; Task Performance and
 	Analysis; Time Factors},
   owner = {Jim},
@@ -3784,6 +3838,7 @@
   author = {Ulrich Mayr and Theodor Bell},
   title = {On how to be unpredictable: evidence from the voluntary task-switching
 	paradigm.},
+  journal = {Psychological Science},
   year = {2006},
   volume = {17},
   pages = {774--780},
@@ -3805,7 +3860,6 @@
 	untapped by standard task-switching measures, but also show how such
 	influences can be counteracted through strategic adaptations.},
   institution = {University of Oregon, OR 97403, USA. mayr@uoregon.edu},
-  journal = {Psychological Science},
   keywords = {Adult; Cognition; Female; Forecasting; Humans; Male; Predictive Value
 	of Tests; Psychology, methods; Reaction Time; Space Perception},
   owner = {Jim},
@@ -3818,6 +3872,7 @@
   author = {Ulrich Mayr and Richard L Bryck},
   title = {Outsourcing control to the environment: effects of stimulus/response
 	locations on task selection.},
+  journal = {Psychological Research},
   year = {2007},
   volume = {71},
   pages = {107--116},
@@ -3838,7 +3893,6 @@
 	parameters and task sets.},
   institution = {Department of Psychology, University of Oregon, Eugene, OR 97403,
 	USA. mayr@darkwing.uoregon.edu},
-  journal = {Psychological Research},
   keywords = {Choice Behavior; Conditioning, Classical; Environment; Humans; Psychomotor
 	Performance; Reaction Time; Visual Perception},
   owner = {Jim},
@@ -3849,6 +3903,7 @@
 @ARTICLE{Mayr2005,
   author = {Ulrich Mayr and Richard L Bryck},
   title = {Sticky rules: integration between abstract rules and specific actions.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2005},
   volume = {31},
   pages = {337--350},
@@ -3871,7 +3926,6 @@
 	retrieval from long-term memory).},
   institution = {Department of Psychology, University of Oregon, Eugene, OR 97403,
 	USA. mayr@darkwing.uoregon.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Choice Behavior; Cognition; Conditioning (Psychology); Humans; Periodicity;
 	Reaction Time},
   owner = {Jim},
@@ -3885,6 +3939,7 @@
 	Keele},
   title = {Dissociating task-set selection from task-set inhibition in the prefrontal
 	cortex.},
+  journal = {Journal of Cognitive Neuroscience},
   year = {2006},
   volume = {18},
   pages = {14--21},
@@ -3911,7 +3966,6 @@
 	and inhibition.},
   institution = {Department of Psychology, University of Oregon, Eugene 97403, USA.
 	mayr@darkwing.uoregon.edu},
-  journal = {Journal of Cognitive Neuroscience},
   keywords = {Acoustic Stimulation; Aged; Child; Cues; Cysts, pathology/psychology;
 	Female; Functional Laterality, physiology; Humans; Male; Memory,
 	physiology; Meningitis, pathology/psychology; Middle Aged; Prefrontal
@@ -3925,6 +3979,7 @@
 @ARTICLE{Mayr2000,
   author = {U. Mayr and S. W. Keele},
   title = {Changing internal constraints on action: the role of backward inhibition.},
+  journal = {Journal of Experimental Psychology: General},
   year = {2000},
   volume = {129},
   pages = {4--26},
@@ -3944,7 +3999,6 @@
 	it occurs even in the context of preplanned sequences of task sets
 	(Experiment 5).},
   institution = {Department of Psychology, University of Potsdam, Germany. mayr@rz.uni-potsdam.de},
-  journal = {Journal of Experimental Psychology: General},
   keywords = {Adult; Attention; Color Perception; Female; Humans; Inhibition (Psychology);
 	Male; Motion Perception; Orientation; Pattern Recognition, Visual;
 	Psychophysics; Reaction Time},
@@ -3957,6 +4011,7 @@
   author = {Ulrich Mayr and Reinhold Kliegl},
   title = {Differential effects of cue changes and task changes on task-set
 	selection costs.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2003},
   volume = {29},
   pages = {362--372},
@@ -3974,7 +4029,6 @@
 	and the automatic application of rules to a particular stimulus situation.},
   institution = {Department of Psychology, University of Oregon, Eugene 97403, USA.
 	mayr@darkwing.uoregon.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Choice Behavior; Color Perception; Cues; Discrimination (Psychology);
 	Form Perception; Humans; Inhibition (Psychology); Memory; Reaction
 	Time; Time Factors},
@@ -3986,6 +4040,7 @@
 @ARTICLE{Mayr2000a,
   author = {U. Mayr and R. Kliegl},
   title = {Task-set switching and long-term memory retrieval.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2000},
   volume = {26},
   pages = {1124--1140},
@@ -4004,7 +4059,6 @@
 	with the hypothesis that the intentional switch-cost component reflects
 	the time demands of retrieving appropriate task rules from LTM.},
   institution = {Department of Psychology, University of Potsdam, Germany. mayr@oregon.uoregon.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adolescent; Adult; Cues; Female; Humans; Male; Memory; Mental Recall;
 	Reaction Time; Semantics; Set (Psychology); Time Factors},
   owner = {Jim},
@@ -4014,11 +4068,11 @@
 
 @INCOLLECTION{Meiraninpress,
   author = {N Meiran},
-  editor = {R Hassin and K Ochsner and Y Trope},
   title = {Task switching: Mechanisms underlying rigid vs. flexible self control},
   booktitle = {Social Cognition and Social Neuroscience},
-  year = {in press},
   publisher = {NY: Oxford University Press},
+  year = {in press},
+  editor = {R Hassin and K Ochsner and Y Trope},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -4027,6 +4081,7 @@
   author = {Nachshon Meiran},
   title = {Task rule-congruency and Simon-like effects in switching between
 	spatial tasks.},
+  journal = {Quarterly Journal of Experimental Psychology: A},
   year = {2005},
   volume = {58},
   pages = {1023--1041},
@@ -4047,7 +4102,6 @@
 	switching are discussed.},
   institution = {Department of Behavioral Sciences, Ben-Gurion University of the Negev,
 	Beer-Sheva, Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Quarterly Journal of Experimental Psychology: A},
   keywords = {Cognition; Humans; Reaction Time; Space Perception},
   owner = {Jim},
   pii = {G91LDC5MT195DMUM},
@@ -4058,6 +4112,7 @@
 @ARTICLE{Meiran2000,
   author = {N Meiran},
   title = {Modeling cognitive control in task-switching.},
+  journal = {Psychological Research},
   year = {2000},
   volume = {63},
   pages = {234-249},
@@ -4073,7 +4128,6 @@
 	as well as the differences between mixed task and pure task conditions.},
   institution = {Department of Behavioral Sciences and Zlotowski Center for Neuroscience,
 	Ben-Gurion University of the Negev, Beer-Sheva, Israel.},
-  journal = {Psychological Research},
   keywords = {Adult; Attention; Cognition; Female; Functional Laterality; Humans;
 	Male; Models, Psychological; Orientation; Pattern Recognition, Visual;
 	Psychomotor Performance; Reaction Time},
@@ -4085,10 +4139,10 @@
 @ARTICLE{Meiran1996,
   author = {Nachshon Meiran},
   title = {Reconfiguration of processing mode prior to task performance},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {1996},
   volume = {22},
   pages = {1423-1442},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {Jim},
   timestamp = {2009.04.09}
 }
@@ -4096,6 +4150,7 @@
 @ARTICLE{Meiran2005a,
   author = {Nachshon Meiran and Ziv Chorev},
   title = {Phasic alertness and the residual task-switching cost.},
+  journal = {Experimental Psychology},
   year = {2005},
   volume = {52},
   pages = {109--124},
@@ -4114,7 +4169,6 @@
 	cost.},
   institution = {Department of Behavioral Sciences, Ben-Gurion University of the Negev,
 	Beer-Sheva, Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Experimental Psychology},
   keywords = {Arousal, physiology; Cognition, physiology; Cues; Humans; Reaction
 	Time, physiology},
   owner = {Jim},
@@ -4125,6 +4179,7 @@
 @ARTICLE{Meiran2000a,
   author = {N Meiran and Z Chorev and A Sapir},
   title = {Component processes in task switching.},
+  journal = {Cognitive Psychology},
   year = {2000},
   volume = {41},
   pages = {211--253},
@@ -4142,7 +4197,6 @@
 	the passive dissipation of the previous task set, (2) the preparation
 	of the new task set, and (3) a residual component.},
   institution = {Ben-Gurion University of the Negev, Beer-Sheva, Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Cognitive Psychology},
   keywords = {Cognition; Cues; Humans; Random Allocation; Reaction Time},
   owner = {Jim},
   pii = {S0010-0285(00)90736-9},
@@ -4154,6 +4208,7 @@
   author = {Nachshon Meiran and Alex Daichman},
   title = {Advance task preparation reduces task error rate in the cuing task-switching
 	paradigm.},
+  journal = {Memory \& Cognition},
   year = {2005},
   volume = {33},
   pages = {1272--1288},
@@ -4168,7 +4223,6 @@
 	are discussed.},
   institution = {Department of Behavioral Sciences, Ben-Gurion University of the Negev,
 	Beer-Sheva, Israel. nmeiran@bgumail.ac.il},
-  journal = {Memory \& Cognition},
   keywords = {Adolescent; Adult; Attention; Awareness; Choice Behavior; Cues; Decision
 	Making; Female; Humans; Male; Orientation; Pattern Recognition, Visual;
 	Practice (Psychology); Psychomotor Performance; Reaction Time},
@@ -4181,6 +4235,7 @@
   author = {Nachshon Meiran and Gilad Friedman and Eynat Yehene},
   title = {Parkinson's disease is associated with goal setting deficits during
 	task switching.},
+  journal = {Brain \& Cognition},
   year = {2004},
   volume = {54},
   pages = {260--262},
@@ -4197,7 +4252,6 @@
 	some PD patients have a specific goal setting deficit, reflected
 	in a difficulty determining which task is currently relevant.},
   institution = {Ben-Gurion University of the Negev, Beer-Sheva 84105, Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Brain \& Cognition},
   keywords = {Adult; Aged; Attention; Concept Formation; Cues; Decision Making;
 	Discrimination Learning; Female; Goals; Humans; Male; Middle Aged;
 	Orientation; Parkinson Disease, diagnosis/psychology; Pattern Recognition,
@@ -4212,6 +4266,7 @@
 @ARTICLE{Meiran2002,
   author = {Nachshon Meiran and Bernhard Hommel and Uri Bibi and Idit Lev},
   title = {Consciousness and control in task switching.},
+  journal = {Consciousness and Cognition},
   year = {2002},
   volume = {11},
   pages = {10--33},
@@ -4230,7 +4285,6 @@
 	concerning the role of consciousness in cognitive control.},
   institution = {Department of Behavioral Sciences, Ben Gurion University of The Negev,
 	Beer-Sheva. Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Consciousness and Cognition},
   keywords = {Analysis of Variance; Behavior; Cognition; Consciousness; Cues; Humans;
 	Reaction Time},
   owner = {Jim},
@@ -4243,6 +4297,7 @@
   author = {Nachshon Meiran and Yoav Kessler},
   title = {The task rule congruency effect in task switching reflects activated
 	long-term memory.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2008},
   volume = {34},
   pages = {137--157},
@@ -4262,7 +4317,6 @@
 	relation to task-switching theories and prefrontal functions.},
   institution = {Department of Psychology, Ben-Gurion University of the Negev, Beer-Sheva,
 	Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Attention; Humans; Memory; Prefrontal Cortex, physiology; Reaction
 	Time},
   owner = {Jim},
@@ -4275,6 +4329,7 @@
   author = {Nachshon Meiran and Yoav Kessler and Esther Adi-Japha},
   title = {Control by action representation and input selection (CARIS): a theoretical
 	framework for task switching.},
+  journal = {Psychological Research},
   year = {2008},
   volume = {72},
   pages = {473--500},
@@ -4297,7 +4352,6 @@
 	to the right key press).},
   institution = {Department of Psychology, Zlotowski Center for Neuroscience, Ben-Gurion
 	University of the Negev, Beer-Sheva, Israel. nmeiran@bgu.ac.il},
-  journal = {Psychological Research},
   keywords = {Attention; Choice Behavior; Cognition; Cues; Discrimination Learning;
 	Humans; Learning; Models, Psychological; Problem Solving; Psychomotor
 	Performance; Reaction Time; Social Adjustment},
@@ -4309,6 +4363,7 @@
 @ARTICLE{Meiran2000b,
   author = {N. Meiran and J. Levine and N. Meiran and A. Henik},
   title = {Task set switching in schizophrenia.},
+  journal = {Neuropsychology},
   year = {2000},
   volume = {14},
   pages = {471--482},
@@ -4330,7 +4385,6 @@
 	present paradigm, reflect poor memory for task context information.},
   institution = {Department of Behavioral Sciences and Zlotowski Center for Neuroscience,
 	Ben Gurion University of the Negev, Beer-Sheva, Israel. nmeiran@bgumail.ac.il},
-  journal = {Neuropsychology},
   keywords = {Adult; Cues; Female; Humans; Male; Neuropsychological Tests; Photic
 	Stimulation; Psychomotor Performance, physiology; Reaction Time,
 	physiology; Schizophrenic Psychology},
@@ -4343,6 +4397,7 @@
   author = {Nachshon Meiran and Hadas Marciano},
   title = {Limitations in advance task preparation: switching the relevant stimulus
 	dimension in speeded same-different comparisons.},
+  journal = {Memory \& Cognition},
   year = {2002},
   volume = {30},
   pages = {540--550},
@@ -4363,7 +4418,6 @@
 	refocusing of attention.},
   institution = {Department of Behavioral Sciences and Zlotowski Center for Neuroscience,
 	Ben-Gurion University of the Negev, Beer-Sheva, Israel. nmeiran@bgumail.bgu.ac.il},
-  journal = {Memory \& Cognition},
   keywords = {Attention; Cues; Humans; Judgment; Random Allocation; Reaction Time},
   owner = {Jim},
   pmid = {12184555},
@@ -4374,10 +4428,10 @@
   author = {R F I Meuter and A Allport},
   title = {Bilingual language switching in naming: Asymmetrical costs of language
 	selection},
+  journal = {Journal of Memory and Language},
   year = {1999},
   volume = {40},
   pages = {25-40},
-  journal = {Journal of Memory and Language},
   owner = {Jim},
   timestamp = {2010.01.25}
 }
@@ -4387,6 +4441,7 @@
 	Ahn},
   title = {Inner speech as a retrieval aid for task goals: the effects of cue
 	type and articulatory suppression in the random task cuing paradigm.},
+  journal = {Acta Psychologica},
   year = {2004},
   volume = {115},
   pages = {123--142},
@@ -4406,7 +4461,6 @@
 	imposes nonnegligible retrieval demand.},
   institution = {Department of Psychology, University of Colorado at Boulder, 345
 	UCB, Boulder, CO 80309-0345, USA. miyake@psych.colorado.edu},
-  journal = {Acta Psychologica},
   keywords = {Analysis of Variance; Cues; Humans; Mental Recall; Psychomotor Performance;
 	Reaction Time; Verbal Behavior},
   owner = {Jim},
@@ -4418,6 +4472,7 @@
 @ARTICLE{Monsell2003,
   author = {Stephen Monsell},
   title = {Task switching.},
+  journal = {Trends in Cognitive Sciences},
   year = {2003},
   volume = {7},
   pages = {134--140},
@@ -4435,7 +4490,6 @@
 	perform a changed task, but we cannot yet separate 'controlling'
 	from 'controlled' regions.},
   institution = {School of Psychology University of Exeter, EX4 4QG, Exeter, UK},
-  journal = {Trends in Cognitive Sciences},
   owner = {Jim},
   pii = {S1364661303000287},
   pmid = {12639695},
@@ -4444,11 +4498,11 @@
 
 @INCOLLECTION{Monsell2000,
   author = {Stephen Monsell and Jon Driver},
-  editor = {Stephen Monsell and Jon Driver},
   title = {Banishing the control homunculus},
   booktitle = {Control of Cognitive Processes: Attention and Performance XVIII},
-  year = {2000},
   publisher = {Cambridge, MA: MIT Press},
+  year = {2000},
+  editor = {Stephen Monsell and Jon Driver},
   pages = {3-32},
   owner = {psp48d},
   timestamp = {2010.01.12}
@@ -4458,6 +4512,7 @@
   author = {Stephen Monsell and Guy A Mizon},
   title = {Can the task-cuing paradigm measure an endogenous task-set reconfiguration
 	process?},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2006},
   volume = {32},
   pages = {493--516},
@@ -4475,7 +4530,6 @@
 	is obtained, even in Experiment 6, modeled closely on Logan and Bundesen's.},
   institution = {School of Psychology, University of Exeter, Exeter, United Kingdom.
 	s.monsell@ex.ac.uk},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Analysis of Variance; Auditory Perception; Cues; Humans; Linguistics;
 	Mental Processes; Psychological Theory; Reaction Time; Set (Psychology);
 	Visual Perception},
@@ -4489,6 +4543,7 @@
   author = {Stephen Monsell and Petroc Sumner and Helen Waters},
   title = {Task-set reconfiguration with predictable and unpredictable task
 	switches.},
+  journal = {Memory \& Cognition},
   year = {2003},
   volume = {31},
   pages = {327--342},
@@ -4508,7 +4563,6 @@
 	length, suggesting that retrieval of the task set last associated
 	with the stimulus did not contribute to switch costs.},
   institution = {University of Cambridge, Cambridge, England. s.monsell@ex.ac.uk},
-  journal = {Memory \& Cognition},
   keywords = {Adult; Cues; Female; Humans; Male; Reaction Time; Rotation; Visual
 	Perception},
   owner = {Jim},
@@ -4520,10 +4574,10 @@
   author = {Stephen Monsell and Nick Yeung and Rayna Azuma},
   title = {Reconfiguration of task-set: Is it easier to switch to the weaker
 	task?},
+  journal = {Psychological Research},
   year = {2000},
   volume = {63},
   pages = {250-264},
-  journal = {Psychological Research},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -4531,10 +4585,10 @@
 @ARTICLE{Moritz2004,
   author = {Steffen Moritz and Mike H\"{u}bner and Rainer Kluwe},
   title = {Task switching and backward inhibition in Obsessive-Compulsive Disorder},
+  journal = {Journal of Clinical and Experimental Neuropsychology},
   year = {2004},
   volume = {26},
   pages = {677-683},
-  journal = {Journal of Clinical and Experimental Neuropsychology},
   owner = {Jim},
   timestamp = {2010.11.20}
 }
@@ -4556,31 +4610,31 @@
 @ARTICLE{Neill1997,
   author = {W T Neill},
   title = {Episodic retrieval in negative priming and repetition priming},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cogntiion},
   year = {1997},
   volume = {23},
   pages = {1291-1305},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cogntiion},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
 
 @INCOLLECTION{Newell1973,
   author = {A Newell},
-  editor = {W. G. Chase},
   title = {You cant play 20 questions with nature and win: Projective comments
 	on the papers of this symposium},
   booktitle = {Visual Information Processing},
-  year = {1973},
   publisher = {New York: Academic Press},
+  year = {1973},
+  editor = {W. G. Chase},
   owner = {Jim},
   timestamp = {2010.01.06}
 }
 
 @BOOK{Newell1990,
-  author = {A Newell},
   title = {Unified theories of cognition},
-  year = {1990},
   publisher = {Harvard University Press: Cambridge, MA.},
+  year = {1990},
+  author = {A Newell},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -4588,6 +4642,7 @@
 @ARTICLE{Nieuwenhuis2002,
   author = {Sander Nieuwenhuis and Stephen Monsell},
   title = {Residual costs in task switching: testing the failure-to-engage hypothesis.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2002},
   volume = {9},
   pages = {86--92},
@@ -4607,7 +4662,6 @@
 	to the ability to achieve endogenous preparation for a task switch
 	on every trial.},
   institution = {University of Amsterdam, The Netherlands. stn20@dds.nl},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Female; Humans; Inhibition (Psychology); Male; Psychological Theory;
 	Reaction Time; Task Performance and Analysis},
   owner = {Jim},
@@ -4620,10 +4674,10 @@
   title = {On inhibition/disinhibition in developmental psychopathology: Views
 	from cognitive and personality psychology and a working inhibition
 	taxonomy},
+  journal = {Psychological Bulletin},
   year = {2000},
   volume = {126},
   pages = {220-246},
-  journal = {Psychological Bulletin},
   owner = {Jim},
   timestamp = {2010.02.03}
 }
@@ -4631,6 +4685,7 @@
 @ARTICLE{Oberauer2003,
   author = {Klaus Oberauer},
   title = {Selective attention to elements in working memory.},
+  journal = {Experimental Psychology},
   year = {2003},
   volume = {50},
   pages = {257--269},
@@ -4651,12 +4706,24 @@
 	the object it is applied to; and that object switching is not mediated
 	by backward inhibition of the previously focused object.},
   institution = {University of Potsdam, Germany. ko@rz.uni-potsdam.de},
-  journal = {Experimental Psychology},
   keywords = {Adult; Attention; Female; Humans; Inhibition (Psychology); Male; Memory;
 	Psychology, Experimental, methods; Space Perception},
   owner = {Jim},
   pmid = {14587173},
   timestamp = {2009.04.09}
+}
+
+@ARTICLE{Oberauer2013,
+  author = {Oberauer, K. and Souza, A. S. and Druey, M. D. and Gade, M.},
+  title = {Analogous mechanisms of selection and updating in declarative and
+	procedural working memory: experiments and a computational model},
+  journal = {Cognitive Psychology},
+  year = {2013},
+  volume = {66},
+  pages = {157--211},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.05.13}
 }
 
 @ARTICLE{OpenScienceCollaboration2012,
@@ -4677,10 +4744,10 @@
   author = {R D Pascual-Marqui},
   title = {Standardized low resolution brain electromagnetic tomography (sLORETA):
 	technical details},
+  journal = {Methods \& Findings in Experimental \& Clinical Pharmacology},
   year = {2002},
   volume = {24D},
   pages = {5-12},
-  journal = {Methods \& Findings in Experimental \& Clinical Pharmacology},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -4689,10 +4756,10 @@
   author = {A M Philipp and Miriam Gade and Iring Koch},
   title = {Inhibitory processes in language switching: Evidence from switching
 	language-defined response sets},
+  journal = {European Journal of Cognitive Psychology},
   year = {2007},
   volume = {19},
   pages = {395-416},
-  journal = {European Journal of Cognitive Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -4702,6 +4769,7 @@
 	Koch},
   title = {Response selection and response execution in task switching: evidence
 	from a go-signal paradigm.},
+  journal = {Journal of Expimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {1062--1075},
@@ -4725,7 +4793,6 @@
 	in task switching.},
   institution = {Department of Psychology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Leipzig, Germany. philipp@psych.rwth-aachen.de},
-  journal = {Journal of Expimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adult; Association Learning; Attention; Choice Behavior; Cues; Discrimination
 	(Psychology); Female; Humans; Inhibition (Psychology); Male; Reaction
 	Time; Reference Values},
@@ -4739,6 +4806,7 @@
   author = {A M Philipp and Claudia Kalinich and Iring Koch and Ricarda I Schubotz},
   title = {Mixing costs and switch costs when switching stimulus dimensions
 	in serial predictions.},
+  journal = {Psychological Research},
   year = {2008},
   volume = {72},
   pages = {405--414},
@@ -4759,7 +4827,6 @@
 	trials.},
   institution = {Department of Psychology, RWTH Aachen University, J�gerstrasse
 	17-19, 52066, Aachen, Germany. philipp@psych.rwth-aachen.de},
-  journal = {Psychological Research},
   keywords = {Attention; Color Perception; Discrimination Learning; Female; Humans;
 	Inhibition (Psychology); Male; Orientation; Pattern Recognition,
 	Visual; Reaction Time; Serial Learning; Set (Psychology); Young Adult},
@@ -4772,10 +4839,10 @@
   author = {A M Philipp and I Koch},
   title = {Inhibition in language switching: What is inhibited when switching
 	between languages in naming tasks?},
+  journal = {Journal of Experimental Psychology: Learning, Memory and Cognition},
   year = {2009},
   volume = {35},
   pages = {1187-1195},
-  journal = {Journal of Experimental Psychology: Learning, Memory and Cognition},
   owner = {psp48d},
   timestamp = {2010.02.11}
 }
@@ -4783,10 +4850,10 @@
 @ARTICLE{Philipp2006,
   author = {A M Philipp and Iring Koch},
   title = {Task inhibition and task repetition in task switching},
+  journal = {European Journal of Cognitive Psychology},
   year = {2006},
   volume = {18},
   pages = {624-639},
-  journal = {European Journal of Cognitive Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -4794,10 +4861,11 @@
 @ARTICLE{Philipp2005,
   author = {A M Philipp and Iring Koch},
   title = {Switching of response modalities.},
+  journal = {Quarterly Journal of Experimental Psychology: A},
   year = {2005},
   volume = {58},
-  number = {7},
   pages = {1325--1338},
+  number = {7},
   abstract = {When participants perform a sequence of different tasks, it is assumed
 	that the engagement in one task leads to the inhibition of the previous
 	task. This inhibition persists and impairs performance when participants
@@ -4815,7 +4883,6 @@
 	are inhibited.},
   institution = {Max Planck Institute for Human Cognitive and Brain Sciences, Munich,
 	Germany. philipp@cbs.mpg.de},
-  journal = {Quarterly Journal of Experimental Psychology: A},
   keywords = {Adult; Cognition; Female; Humans; Inhibition (Psychology); Male; Reaction
 	Time},
   owner = {Jim},
@@ -4827,10 +4894,11 @@
 @ARTICLE{Poljac2009,
   author = {Edita Poljac and Iring Koch and Harold Bekkering},
   title = {Dissociating restart cost and mixing cost in task switching.},
+  journal = {Psychological Research},
   year = {2009},
   volume = {73},
-  number = {3},
   pages = {407--416},
+  number = {3},
   abstract = {Three experiments investigated the cognitive mechanisms underlying
 	the restart cost and mixing cost in task switching. To this aim,
 	the predictability of task order was varied (unpredictable in Experiment
@@ -4854,7 +4922,6 @@
 	suggest that restart cost and mixing cost are based on dissociable
 	mechanisms.},
   institution = {Radboud University Nijmegen, Nijmegen, The Netherlands, e.poljac@nici.ru.nl.},
-  journal = {Psychological Research},
   owner = {Jim},
   pmid = {18446364},
   timestamp = {2009.04.09}
@@ -4864,10 +4931,10 @@
   author = {Rhys Pritchard},
   title = {Is the top down semantic label the primary target of inhibition in
 	an ABA sequence?},
+  school = {Bangor Universtity},
   year = {2009},
   type = {PhD Thesis},
   owner = {psp48d},
-  school = {Bangor Universtity},
   timestamp = {2010.01.12}
 }
 
@@ -4876,6 +4943,7 @@
 	Yamaguchi},
   title = {Influence of display type and cue format on task-cuing effects: dissociating
 	switch cost and right-left prevalence effects.},
+  journal = {Memory \& Cognition},
   year = {2008},
   volume = {36},
   pages = {998--1012},
@@ -4908,7 +4976,6 @@
 	those producing the switch cost.},
   institution = {Department of Psychological Sciences, Purdue University, West Lafayette,
 	Indiana, USA. proctor@psych.purdue.edu},
-  journal = {Memory \& Cognition},
   keywords = {Cues; Humans; Reaction Time; Visual Fields; Visual Perception},
   owner = {Jim},
   pmid = {18630206},
@@ -4919,84 +4986,79 @@
   author = {R Ratcliff},
   title = {Group reaction time distributions and an analysis of distribution
 	statistics},
+  journal = {Psychological Bulletin},
   year = {1979},
   volume = {86},
   pages = {446-461},
-  journal = {Psychological Bulletin},
   owner = {Jim},
   timestamp = {2010.02.18}
 }
 
-
-@MANUAL{RCoreTeam2013,
-  author = {{R Core Team}},
-  title = {{R: A Language and Environment for Statistical Computing}},
-  year = {2013},
-  organization = {{R Foundation for Statistical Computing}},
-  address = {Vienna, Austria},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.07}
-}
-
-
 @MANUAL{RDevelopmentCoreTeam2012,
-  author = {{R Development Core Team}},
   title = {R: {A} language and environment for statistical computing.},
+  author = {{R Development Core Team}},
   year = {2012},
-  subtitle = {R {F}oundation for {S}tatistical {C}omputing, {V}ienna, {A}ustria.},
   isbn = {ISBN 3-900051-07-0},
-  url = {http://www.R-project.org/.},
   owner = {Home},
   quality = {1},
-  timestamp = {2013.06.21}
+  subtitle = {R {F}oundation for {S}tatistical {C}omputing, {V}ienna, {A}ustria.},
+  timestamp = {2013.06.21},
+  url = {http://www.R-project.org/.}
 }
 
 @INCOLLECTION{Reason1984,
   author = {J T Reason},
-  editor = {R Parasuraman and R Davies and J Beatty},
   title = {Lapses of attention},
   booktitle = {Varieties of attention},
-  year = {1984},
   publisher = {Orlando, FL: Academic Press},
+  year = {1984},
+  editor = {R Parasuraman and R Davies and J Beatty},
   pages = {515-549},
   owner = {Jim},
   timestamp = {2010.01.25}
 }
 
-@ARTICLE{Rickerinpress,
+@ARTICLE{Ricker2014,
   author = {T J Ricker and L R Spiegel and N Cowan},
-  title = {Time-based loss in visual short-term memory is from trace decay, not temporal distinctiveness},
-  year = {in press},
+  title = {Time-based loss in visual short-term memory is from trace decay,
+	not temporal distinctiveness},
   journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
+  year = {2014},
+  volume = {40},
+  pages = {1510--1523},
   owner = {psp48d},
   timestamp = {2010.02.12}
 }
 
-
-
-
-
-
-
 @ARTICLE{Rogers1995,
   author = {R D Rogers and Stephen Monsell},
   title = {The cost of a predictable switch between simple cognitive tasks},
+  journal = {Journal of Experimental Psychology: General},
   year = {1995},
   volume = {124},
   pages = {207-231},
-  journal = {Journal of Experimental Psychology: General},
   owner = {psp48d},
   timestamp = {2010.01.12}
+}
+
+@ARTICLE{Rouder2012,
+  author = {Rouder, J. N. and Morey, R. D. and Speckman, P. L. and Province,
+	J. M.},
+  title = {Default {B}ayes factors for {ANOVA} designs},
+  journal = {Journal of Mathematical Psychology},
+  year = {2012},
+  volume = {56},
+  pages = {356--374},
+  doi = {10.1016/j.jmp.2012.08.001}
 }
 
 @ARTICLE{Rouder2009,
   author = {J N Rouder and P L Speckman and D Sun and R D Morey and G Iverson},
   title = {Bayesian t-tests for accepting and rejecting the null hypothesis},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2009},
   volume = {16},
   pages = {225-237},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {Jim},
   timestamp = {2010.01.26}
 }
@@ -5004,6 +5066,7 @@
 @ARTICLE{Rubin2006,
   author = {Orit Rubin and Iring Koch},
   title = {Exogenous influences on task set activation in task switching.},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2006},
   volume = {59},
   pages = {1033--1046},
@@ -5029,7 +5092,6 @@
 	presented before endogenous processes of task set preparation have
 	been launched.},
   institution = {Ben-Gurion University of Negev, Beer-Sheva, Israel. orit@nite.org.il},
-  journal = {Quarterly Journal of Experimental Psychology},
   keywords = {Adult; Cognition; Color Perception; Female; Humans; Male; Reaction
 	Time; Space Perception},
   owner = {Jim},
@@ -5042,6 +5104,7 @@
   author = {Orit Rubin and Nachshon Meiran},
   title = {On the origins of the task mixing cost in the cuing task-switching
 	paradigm.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2005},
   volume = {31},
   pages = {1477--1491},
@@ -5061,7 +5124,6 @@
 	task sets during task control.},
   institution = {Department of Behavioral Sciences, Ben-Gurion University of Negev,
 	Beer-Sheva, Israel. orit@nite.org.il},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Cues; Humans; Memory; Reaction Time},
   owner = {Jim},
   pii = {2005-15992-021},
@@ -5072,10 +5134,10 @@
 @ARTICLE{Rubinstein2001,
   author = {Joshua S Rubinstein and David E Meyer and Jeffrey E Evans},
   title = {Executive control of cognitive processes in task switching},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2001},
   volume = {27},
   pages = {763-797},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5085,6 +5147,7 @@
 	Meiran and D. Yves von Cramon},
   title = {Advance preparation and stimulus-induced interference in cued task
 	switching: further insights from BOLD fMRI.},
+  journal = {Neuropsychologia},
   year = {2005},
   volume = {43},
   pages = {340--355},
@@ -5119,7 +5182,6 @@
 	stimulus.},
   institution = {Department of Cognitive Neurology, Max Planck Institute for Human
 	Cognitive and Brain Sciences, Leipzig, Germany. hruge@artsci.wustl.edu},
-  journal = {Neuropsychologia},
   keywords = {Adult; Cerebral Cortex, metabolism/physiology; Cognition; Female;
 	Humans; Magnetic Resonance Imaging; Male; Oxygen, blood; Task Performance
 	and Analysis; Time Factors},
@@ -5133,10 +5195,10 @@
   author = {Erina Saeki and Satoru Saito},
   title = {Verbal representation in task order control: An examination with
 	transition and task cues in random task switching},
+  journal = {Memory \& Cognition},
   year = {2009},
   volume = {37},
   pages = {1040-1050},
-  journal = {Memory \& Cognition},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5145,37 +5207,21 @@
   author = {Erina Saeki and Satoru Saito},
   title = {Effect of articulatory suppression on taskswitching performance:
 	Implications for models of working memory},
+  journal = {Memory},
   year = {2004},
   volume = {12},
   pages = {257-271},
-  journal = {Memory},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
-
-@ARTICLE{Scheil2014,
-  author = {J Scheil and T Kleinsorge},
-  title = {N--2 repetition costs depend on preparation in trials n--1 and n--2},
-  year = {2014},
-  volume = {40},
-  pages = {865--872},
-  journal = {Journal of Experimental Psychology: Learning, Memory, \& Cognition},
-  owner = {psp48d},
-  timestamp = {2010.02.12}
-}
-
-
-
-
-
 @ARTICLE{Schneider2007,
   author = {D W Schneider},
   title = {Task-set inhibition in chunked task sequences},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2007},
   volume = {14},
   pages = {970-976},
-  journal = {Psychonomic Bulletin \& Review},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5183,8 +5229,8 @@
 @ARTICLE{Schneiderinpress,
   author = {D W Schneider and J R Anderson},
   title = {Asymmetric switch costs as sequential difficulty effects},
-  year = {in press},
   journal = {Quarterly Journal of Experimental Psychology},
+  year = {in press},
   owner = {Jim},
   timestamp = {2010.01.24}
 }
@@ -5193,10 +5239,10 @@
   author = {D W Schneider and P Dixon},
   title = {Visuospatial cues for reinstating mental models in working memory
 	during interrupted reading},
+  journal = {Canadian Journal of Experimental Psychology},
   year = {2009},
   volume = {63},
   pages = {161-172},
-  journal = {Canadian Journal of Experimental Psychology},
   owner = {Jim},
   timestamp = {2010.02.16}
 }
@@ -5205,6 +5251,7 @@
   author = {Darryl W Schneider and Gordon D Logan},
   title = {Selecting a response in task switching: Testing a model of compound
 	cue retrieval.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2009},
   volume = {35},
   pages = {122--136},
@@ -5222,7 +5269,6 @@
 	effects and models of response selection in task switching are discussed.
 	(PsycINFO Database Record (c) 2009 APA, all rights reserved).},
   institution = {Department of Psychology, Vanderbilt University.},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   owner = {Jim},
   pii = {2008-18581-003},
   pmid = {19210085},
@@ -5232,6 +5278,7 @@
 @ARTICLE{Schneider2007a,
   author = {Darryl W Schneider and Gordon D Logan},
   title = {Retrieving information from a hierarchical plan.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {1076--1091},
@@ -5254,7 +5301,6 @@
 	behavior.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. darryl.schneider@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adaptation, Psychological; Adult; Analysis of Variance; Association
 	Learning; Attention; Discrimination Learning; Humans; Intention;
 	Mental Recall; Models, Psychological; Reaction Time; Reference Values;
@@ -5268,6 +5314,7 @@
 @ARTICLE{Schneider2007b,
   author = {Darryl W Schneider and Gordon D Logan},
   title = {Defining task-set reconfiguration: the case of reference point switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2007},
   volume = {14},
   pages = {118--125},
@@ -5288,7 +5335,6 @@
 	more clearly in other task-switching situations.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, Tennessee
 	37203, USA. darryl.schneider@vanderbilt.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Cues; Discrimination Learning; Distance Perception; Habituation,
 	Psychophysiologic; Humans; Memory, Short-Term; Orientation; Pattern
 	Recognition, Visual; Problem Solving; Psychomotor Performance; Reaction
@@ -5302,6 +5348,7 @@
   author = {Darryl W Schneider and Gordon D Logan},
   title = {Task switching versus cue switching: using transition cuing to disentangle
 	sequential effects in task-switching performance.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {370--378},
@@ -5326,7 +5373,6 @@
 	discussed.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. darryl.schneider@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Attention; Awareness; Cues; Functional Laterality; Humans; Knowledge
 	of Results (Psychology); Orientation; Pattern Recognition, Visual;
 	Problem Solving; Psychomotor Performance; Reaction Time; Reversal
@@ -5341,6 +5387,7 @@
   author = {Darryl W Schneider and Gordon D Logan},
   title = {Priming cue encoding by manipulating transition frequency in explicitly
 	cued task switching.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {145--151},
@@ -5361,7 +5408,6 @@
 	transition expectancies are discussed.},
   institution = {Department of Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. darryl.schneider@vanderbilt.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Attention; Cues; Discrimination Learning; Humans; Orientation; Pattern
 	Recognition, Visual; Probability Learning; Problem Solving; Psychomotor
 	Performance; Psychophysics; Reaction Time; Set (Psychology)},
@@ -5374,6 +5420,7 @@
   author = {Darryl W Schneider and Gordon D Logan},
   title = {Modeling task switching without switching tasks: {A} short-term priming
 	account of explicitly cued performance.},
+  journal = {Journal of Experimental Psychology: General},
   year = {2005},
   volume = {134},
   pages = {343--367},
@@ -5392,7 +5439,6 @@
 	costs--without switching tasks.},
   institution = {Departmentof Psychology, Vanderbilt University, Nashville, TN 37203,
 	USA. darryl.schneider@vanderbilt.edu},
-  journal = {Journal of Experimental Psychology: General},
   keywords = {Attention; Cues; Discrimination Learning; Humans; Internal-External
 	Control; Memory, Short-Term; Models, Theoretical; Pattern Recognition,
 	Visual; Problem Solving; Reaction Time; Retention (Psychology)},
@@ -5405,10 +5451,10 @@
 @ARTICLE{Schneider2008,
   author = {D W Schneider and Frederick Verbruggen},
   title = {Inhibition of irrelevant category-response mappings},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2008},
   volume = {61},
   pages = {1629-1640},
-  journal = {Quarterly Journal of Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5416,6 +5462,7 @@
 @ARTICLE{Schuch2006,
   author = {Stefanie Schuch and Iring Koch},
   title = {Task switching and action sequencing.},
+  journal = {Psychological Research},
   year = {2006},
   volume = {70},
   pages = {526--540},
@@ -5441,7 +5488,6 @@
 	the traditional task-switching paradigm.},
   institution = {Department of Psychology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Munich, Germany. s.schuch@bangor.ac.uk},
-  journal = {Psychological Research},
   keywords = {Adult; Association Learning; Attention; Female; Humans; Inhibition
 	(Psychology); Male; Pattern Recognition, Visual; Psychomotor Performance;
 	Reaction Time; Refractory Period, Psychological; Reversal Learning;
@@ -5455,6 +5501,7 @@
   author = {Stefanie Schuch and Iring Koch},
   title = {The role of response selection for inhibition of task sets in task
 	shifting.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2003},
   volume = {29},
   pages = {92--105},
@@ -5473,7 +5520,6 @@
 	reflect such persisting inhibition.},
   institution = {Max Planck Institute for Psychological Research, Munich, Germany.
 	schuch@psy.mpg.de},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Adult; Analysis of Variance; Cues; Female; Humans; Inhibition (Psychology);
 	Male; Models, Psychological; Reaction Time; Set (Psychology); Time
 	Factors},
@@ -5485,10 +5531,10 @@
 @ARTICLE{Sdoia2008,
   author = {Stefano Sdoia and Fabio Ferlazzo},
   title = {Stimulus-related inhibition of task set during task switching},
+  journal = {Experimental Psychology},
   year = {2008},
   volume = {55},
   pages = {322-327},
-  journal = {Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5497,6 +5543,7 @@
   author = {Marco Sinai and Philippe Goffaux and Natalie A Phillips},
   title = {Cue- versus response-locked processes in backward inhibition: evidence
 	from ERPs.},
+  journal = {Psychophysiology},
   year = {2007},
   volume = {44},
   pages = {596--609},
@@ -5515,7 +5562,6 @@
 	readiness potential), indicating that BI is a lateral inhibition
 	mechanism exerted during response preparation.},
   institution = {real, Qu�bec, Canada.},
-  journal = {Psychophysiology},
   keywords = {Adult; Association Learning; Cues; Data Interpretation, Statistical;
 	Electroencephalography; Evoked Potentials, physiology; Female; Humans;
 	Learning, physiology; Male; Photic Stimulation; Psychomotor Performance,
@@ -5526,24 +5572,14 @@
   timestamp = {2009.04.09}
 }
 
-
-@ARTICLE{Sireteanu1995,
-  author = {Ruxandra Sireteanu and Regina Rettenbach},
-  title = {Preceptial learning in visual search: Fast, enduring, but non-specific},
-  year = {1995},
-  volume = {35},
-  pages = {2037-2043},
-  journal = {Vision Research}
-}
-
 @ARTICLE{Siu2009,
   author = {K.-C Siu and L S Chou and U Mayr and P vanDonkelaar and M H Woollacott},
   title = {Attentional mechanisms contributing to balance constraints during
 	gait: The effects of balance impairments},
+  journal = {Brain Research},
   year = {2009},
   volume = {1248},
   pages = {59-67},
-  journal = {Brain Research},
   owner = {Jim},
   timestamp = {2010.01.22}
 }
@@ -5551,10 +5587,10 @@
 @ARTICLE{Sohn2003,
   author = {Myeong-Ho Sohn and John R Anderson},
   title = {Stimulus-related priming during task switching},
+  journal = {Memory \& Congnition},
   year = {2003},
   volume = {31},
   pages = {775-780},
-  journal = {Memory \& Congnition},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5563,10 +5599,10 @@
   author = {Myeong-Ho Sohn and John R Anderson},
   title = {Tak preparation and task repetition: Two-component model of task
 	switching},
+  journal = {Journal of Experimental Psychology: General},
   year = {2001},
   volume = {130},
   pages = {764-778},
-  journal = {Journal of Experimental Psychology: General},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5574,10 +5610,10 @@
 @ARTICLE{Spector1976,
   author = {A Spector and I Biederman},
   title = {Mental set and mental shift revisited},
+  journal = {American Journal of Psychology},
   year = {1976},
   volume = {89},
   pages = {669-679},
-  journal = {American Journal of Psychology},
   owner = {Jim},
   timestamp = {2010.01.28}
 }
@@ -5586,6 +5622,7 @@
   author = {Daniel H Spieler and Ulrich Mayr and Susan LaGrone},
   title = {Outsourcing cognitive control to the environment: adult age differences
 	in the use of task cues.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2006},
   volume = {13},
   pages = {787--793},
@@ -5605,7 +5642,6 @@
 	demands.},
   institution = {School of Psychology, Georgia Institute of Technology, Atlanta 30332-0170,
 	USA. spieler@gatech.edu},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Adult; Aged; Aging, psychology; Attention; Color Perception; Cues;
 	Female; Fixation, Ocular; Humans; Internal-External Control; Male;
 	Middle Aged; Orientation; Pattern Recognition, Visual; Problem Solving;
@@ -5619,48 +5655,21 @@
   author = {M Steinhauser and Ronald H�bner},
   title = {Distinguishing response conflict and task conflict in the Stroop
 	task: Evidence from ex-gaussian distribution analysis},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2009},
   volume = {35},
   pages = {1398-1412},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   owner = {Jim},
   timestamp = {2010.02.18}
 }
 
-
-@ARTICLE{Stoet2007,
-  author = {G Stoet and L H Snyder},
-  title = {Extensive practice does not eliminate human switch costs},
-  journal = {Cognitive, Affective, \& Behavioral Neuroscience},
-  year = {2007},
-  volume = {7},
-  pages = {192--197},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.11}
-}
-
-
-@ARTICLE{Strobach2012,
-  author = {T Strobach and R Liepelt and T Schubert and A Kiesel},
-  title = {Task switching: effects of practice on switch and mixing costs},
-  journal = {Psychological Research},
-  year = {2012},
-  volume = {76},
-  pages = {74--83},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.11}
-}
-
-
 @ARTICLE{Stroop1935,
   author = {J R Stroop},
   title = {Studies of interference in serial verbal reactions},
+  journal = {Journal of Experimental Psychology},
   year = {1935},
   volume = {18},
   pages = {643-662},
-  journal = {Journal of Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5668,37 +5677,22 @@
 @ARTICLE{Sudevan1987,
   author = {Padmanabhan Sudevan and David A. Taylor},
   title = {The cuing and priming of cognitive operations},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {1987},
   volume = {13},
   pages = {89-103},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
-
-
-@INPROCEEDINGS{Thomson2013,
-  author = {R Thomson and C Lebiere},
-  title = {Constraining {B}ayesian Inference with Cognitive Architectures: {A}n
-	Updated Associative Learning Mechanism in {A}{C}{T}-{R}},
-  booktitle = {Proceedings of the 35th Annual Meeting of the {C}ognitive {S}cience
-	{S}ociety ({C}og{S}ci '13), {B}erlin, {G}ermany},
-  year = {2013},
-  owner = {Home},
-  quality = {1},
-  timestamp = {2014.01.09}
-}
-
-
 
 @ARTICLE{Tipper2001,
   author = {S P Tipper},
   title = {Does negative priming reflect inhibitory mechanisms: A review and
 	integration of conflicting views},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {2001},
   volume = {54A},
   pages = {321-343},
-  journal = {Quarterly Journal of Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5706,10 +5700,10 @@
 @ARTICLE{Tipper1985,
   author = {S P Tipper},
   title = {The negative priming effect: Inhibitory priming by ignored objects},
+  journal = {Quarterly Journal of Experimental Psychology},
   year = {1985},
   volume = {37A},
   pages = {571-590},
-  journal = {Quarterly Journal of Experimental Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5717,10 +5711,10 @@
 @ARTICLE{Underwood1974,
   author = {B J Underwood},
   title = {Individual differences as a crucible in theory construction},
+  journal = {American Psychologist},
   year = {1974},
   volume = {12},
   pages = {128-134},
-  journal = {American Psychologist},
   owner = {Jim},
   timestamp = {2010.02.22}
 }
@@ -5728,10 +5722,10 @@
 @ARTICLE{Unsworth2005,
   author = {N. Unsworth and R. P. Heitz and J. C. Schrock and R. W. Engle},
   title = {An automated version of the operation span task},
+  journal = {Behavior Research Methods},
   year = {2005},
   volume = {37},
   pages = {498-505},
-  journal = {Behavior Research Methods},
   owner = {Jim},
   timestamp = {2010.01.06}
 }
@@ -5739,18 +5733,32 @@
 @ARTICLE{Vandierendonck2010,
   author = {A Vandierendonck and B Liefooghe and F Verbruggen},
   title = {Task switching: interplay of reconfiguration and interference},
+  journal = {Psychological Bulletin},
   year = {2010},
   volume = {136},
   pages = {601-626},
-  journal = {Psychological Bulletin},
   owner = {Jim},
   timestamp = {2010.11.20}
+}
+
+@ARTICLE{VanMaanen2014,
+  author = {Van Maanen, L and De Jong, R and Van Rijn, H},
+  title = {How to assess the existence of competing strategies in cognitive
+	tasks: a primer on the fixed-point property},
+  journal = {PLoS One},
+  year = {2014},
+  number = {e106113},
+  doi = {10.1371/journal.pone.0106113},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.11.02}
 }
 
 @ARTICLE{Verbruggen2005,
   author = {Frederick Verbruggen and Baptist Liefooghe and Arnaud Szmalec and
 	Andre Vandierendonck},
   title = {Inhibiting responses when switching: Does it matter?},
+  journal = {Experimental Psychology},
   year = {2005},
   volume = {52},
   pages = {125--130},
@@ -5769,7 +5777,6 @@
 	in cued task-switching are not relying upon a common mechanism.},
   institution = {Department of Experimental Psychology, Ghent University, Belgium.
 	frederick.verbruggen@ugent.be},
-  journal = {Experimental Psychology},
   keywords = {Cognition; Humans; Inhibition (Psychology); Reaction Time},
   owner = {Jim},
   pmid = {15850159},
@@ -5780,6 +5787,7 @@
   author = {Frederick Verbruggen and Baptist Liefooghe and Andre Vandierendonck},
   title = {Selective stopping in task switching: The role of response selection
 	and response execution.},
+  journal = {Experimental Psychology},
   year = {2006},
   volume = {53},
   pages = {48--57},
@@ -5797,7 +5805,6 @@
 	a switch cost.},
   institution = {Department of Experimental Psychology, Ghent University, Belgium.
 	Frederick.Verbruggen@Ugent.be},
-  journal = {Experimental Psychology},
   keywords = {Choice Behavior; Cognition; Cues; Decision Making; Female; Humans;
 	Inhibition (Psychology); Male; Visual Perception},
   owner = {Jim},
@@ -5810,6 +5817,7 @@
 	and Jelle Demanet},
   title = {Short cue presentations encourage advance task preparation: a recipe
 	to diminish the residual switch cost.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2007},
   volume = {33},
   pages = {342--356},
@@ -5831,7 +5839,6 @@
 	task preparation is not as restricted in nature as previously assumed.},
   institution = {Department of Experimental Psychology, Ghent University, Ghent, Belgium.
 	Frederick.Verbruggen@Ugent.be},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   keywords = {Adolescent; Adult; Attention; Awareness; Color Perception; Cues; Female;
 	Humans; Male; Orientation; Pattern Recognition, Visual; Perceptual
 	Masking; Psychomotor Performance; Psychophysics; Reaction Time; Set
@@ -5846,35 +5853,35 @@
   author = {K L Vilberg and M D Rugg},
   title = {Memory retrieval and the parietal cortex: A review of evidence from
 	a dual-process perspective.},
+  journal = {Neuropsychologia},
   year = {2008},
   volume = {46},
   pages = {1787-1799},
-  journal = {Neuropsychologia},
   owner = {Jim},
   timestamp = {2010.01.22}
 }
 
 @ARTICLE{Wagenmakers2009,
   author = {E-J Wagenmakers},
-  title = {Methodological and empirical developments for the {R}atcliff diffusion model of response times and accuracy},
+  title = {Methodological and empirical developments for the {R}atcliff diffusion
+	model of response times and accuracy},
+  journal = {European Journal of Cognitive Psychology},
   year = {2009},
   volume = {21},
   pages = {641-671},
-  journal = {European Journal of Cognitive Psychology},
   owner = {psa33},
   quality = {1},
   timestamp = {2013.05.01}
 }
 
-
 @ARTICLE{Wagenmakers2011,
   author = {E-J Wagenmakers and R Wetzels and D Borsboom and HLJ van der Maas},
   title = {Why psychologists must change the way they analyse their data: {T}he
 	case of psi: {C}omment on {B}em (2011)},
+  journal = {Journal of Personality \& Social Psychology},
   year = {2011},
   volume = {100},
   pages = {426-432},
-  journal = {Journal of Personality \& Social Psychology},
   owner = {psa33},
   quality = {1},
   timestamp = {2013.05.01}
@@ -5884,8 +5891,8 @@
   author = {F Waszak},
   title = {Across-task long-term priming: Interaction of task readiness and
 	automatic retrieval},
-  year = {in press},
   journal = {Quarterly Journal of Experimental Psychology},
+  year = {in press},
   owner = {Jim},
   timestamp = {2010.01.23}
 }
@@ -5894,6 +5901,7 @@
   author = {F Waszak and B Hommel and Alan Allport},
   title = {Interaction of task readiness and automatic retrieval in task switching:
 	negative priming and competitor priming.},
+  journal = {Memory \& Cognition},
   year = {2005},
   volume = {33},
   pages = {595--610},
@@ -5916,7 +5924,6 @@
 	on situations in which task competition is high.},
   institution = {Max Planck Institute for Cognitive and Brain Sciences, Munich, Germany.
 	f.waszak@gmx.net},
-  journal = {Memory \& Cognition},
   keywords = {Adult; Affect; Automatism; Female; Humans; Male; Mental Recall; Reaction
 	Time; Reading; Visual Perception},
   owner = {Jim},
@@ -5927,6 +5934,7 @@
 @ARTICLE{Waszak2004,
   author = {Florian Waszak and Bernhard Hommel and Alan Allport},
   title = {Semantic generalization of stimulus-task bindings.},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2004},
   volume = {11},
   pages = {1027--1033},
@@ -5943,7 +5951,6 @@
 	previous stimulus-task episodes.},
   institution = {Department of Psychology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Munich, Germany. waszak@psy.mpg.de},
-  journal = {Psychonomic Bulletin \& Review},
   keywords = {Adult; Generalization (Psychology); Humans; Reaction Time; Semantics},
   owner = {Jim},
   pmid = {15875971},
@@ -5954,10 +5961,10 @@
   author = {F Waszak and B Hommel and A Allport},
   title = {Task-switching and long-term priming: Role of episodic stimulus-task
 	bindings in task-shift costs},
+  journal = {Cognitive Psychology},
   year = {2003},
   volume = {46},
   pages = {361-413},
-  journal = {Cognitive Psychology},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
@@ -5966,6 +5973,7 @@
   author = {Florian Waszak and Edmund Wascher and Peter Keller and Iring Koch
 	and Gisa Aschersleben and David A Rosenbaum and Wolfgang Prinz},
   title = {Intention-based and stimulus-based mechanisms in action selection.},
+  journal = {Experimetnal Brain Research},
   year = {2005},
   volume = {162},
   pages = {346--356},
@@ -5991,7 +5999,6 @@
 	mainly stimulus-driven, the other being endogenous or mainly intention-driven.},
   institution = {Department of Psychology, Max Planck Institute for Human Cognitive
 	and Brain Sciences, Amalienstr. 33, 80799, Munich, Germany. f.waszak@gmx.net},
-  journal = {Experimetnal Brain Research},
   keywords = {Adult; Decision Making, physiology; Electroencephalography; Event-Related
 	Potentials, P300, physiology; Evoked Potentials, physiology; Female;
 	Humans; Male; Models, Neurological; Movement, physiology; Neuropsychological
@@ -6006,6 +6013,7 @@
   author = {Katja Werheid and Iring Koch and Katrin Reichert and Marcel Brass},
   title = {Impaired self-initiated task preparation during task switching in
 	Parkinson's disease.},
+  journal = {Neuropsychologia},
   year = {2007},
   volume = {45},
   pages = {273--281},
@@ -6035,7 +6043,6 @@
 	as opposed to externally triggered task preparation.},
   institution = {Department of Psychology, Humboldt-University at Berlin, Rudower
 	Chaussee 18, 12489 Berlin, Germany. katja.werheid@cms.hu-berlin.de},
-  journal = {Neuropsychologia},
   keywords = {Aged; Cognition, physiology; Cues; Data Interpretation, Statistical;
 	Female; Humans; Male; Neuropsychological Tests; Parkinson Disease,
 	psychology; Photic Stimulation; Psychomotor Performance, physiology;
@@ -6046,25 +6053,13 @@
   timestamp = {2009.04.09}
 }
 
-@ARTICLE{Whitmer2007,
-  author = {A J Whitmer and M T Banich},
-  title = {Inhibition versus switching deficits in different forms of rumination},
-  year = {2007},
-  volume = {18},
-  pages = {546-553},
-  journal = {Psychological Science},
-  owner = {Jim},
-  timestamp = {2010.11.20}
-}
-
-
 @ARTICLE{Wylie2000,
   author = {G R Wylie and Alan Allport},
   title = {Task switching and measurement of "switch costs"},
+  journal = {Psychological Research},
   year = {2000},
   volume = {63},
   pages = {212-233},
-  journal = {Psychological Research},
   owner = {Jim},
   timestamp = {2010.01.26}
 }
@@ -6073,10 +6068,10 @@
   author = {S Yantis and J Jonides},
   title = {Abrupt visual onsets and selective attention: Voluntary versus automatic
 	allocation},
+  journal = {Journal of Experimental Psychology: Human Perception \& Performance},
   year = {1990},
   volume = {16},
   pages = {121-134},
-  journal = {Journal of Experimental Psychology: Human Perception \& Performance},
   owner = {Jim},
   timestamp = {2011.01.20}
 }
@@ -6084,6 +6079,7 @@
 @ARTICLE{Yehene2007,
   author = {Einat Yehene and Nachshon Meiran},
   title = {Is there a general task switching ability?},
+  journal = {Acta Psychologica},
   year = {2007},
   volume = {126},
   pages = {169--195},
@@ -6100,7 +6096,6 @@
 	mixing cost met these criteria. However, switching cost with little
 	preparation and congruency effects were predominantly paradigm specific.},
   institution = {rsity of the Negev, Beer-Sheva 84105, Israel.},
-  journal = {Acta Psychologica},
   keywords = {Female; Form Perception; Humans; Intelligence; Male; Reaction Time;
 	Size Perception; Space Perception},
   owner = {Jim},
@@ -6113,6 +6108,7 @@
   author = {Einat Yehene and Nachshon Meiran and Nachum Soroker},
   title = {Basal ganglia play a unique role in task switching within the frontal-subcortical
 	circuits: evidence from patients with focal lesions.},
+  journal = {Journal of Cognitive Neuroscience},
   year = {2008},
   volume = {20},
   pages = {1079--1093},
@@ -6134,7 +6130,6 @@
 	selection and/or the inhibition of irrelevant information.},
   institution = {Department of Behavioral Sciences and Zlotowski Center for Neuroscience,
 	Ben-Gurion University of the Negev, Beer-Sheva, Israel, 84105. eyehene@bgu.ac.il},
-  journal = {Journal of Cognitive Neuroscience},
   keywords = {Adult; Aged; Basal Ganglia, physiology; Cerebral Cortex, injuries/physiology;
 	Cerebral Hemorrhage, pathology/psychology; Cerebral Infarction, pathology/psychology;
 	Cues; Female; Humans; Male; Middle Aged; Nerve Net, physiology; Prefrontal
@@ -6148,6 +6143,7 @@
 @ARTICLE{Yehene2005,
   author = {Einat Yehene and Nachshon Meiran and Nachum Soroker},
   title = {Task alternation cost without task alternation: measuring intentionality.},
+  journal = {Neuropsychologia},
   year = {2005},
   volume = {43},
   pages = {1858--1869},
@@ -6177,7 +6173,6 @@
 	to intentionality and task switching theory are discussed.},
   institution = {Department of Behavioral Sciences and Zlotowski Center for Neuroscience,
 	Ben-Gurion University of the Negev, Beer-Sheva 84105, Israel. eyehene@bgumail.bgu.ac.il},
-  journal = {Neuropsychologia},
   keywords = {Attention, physiology; Basal Ganglia, physiology; Brain Damage, Chronic,
 	etiology/physiopathology; Brain Ischemia, complications/diagnosis/physiopathology;
 	Choice Behavior, physiology; Cues; Discrimination (Psychology), physiology;
@@ -6195,6 +6190,7 @@
 @ARTICLE{Yeung2003,
   author = {Nick Yeung and Stephen Monsell},
   title = {The effects of recent practice on task switching.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2003},
   volume = {29},
   pages = {919--936},
@@ -6211,7 +6207,6 @@
 	task-set preparation reduces the effects of task-set inertia. ((c)
 	2003 APA, all rights reserved)},
   institution = {U Cambridge, Dept of Psychology, Cambridge, England. nyeung@princeton.edu},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Adolescent; Adult; Attention; Cues; Female; Humans; Male; Mathematics;
 	Mental Processes; Pattern Recognition, Visual; Practice (Psychology);
 	Psychomotor Performance, physiology; Reaction Time; Set (Psychology);
@@ -6226,6 +6221,7 @@
   author = {Nick Yeung and Stephen Monsell},
   title = {Switching between tasks of unequal familiarity: the role of stimulus-attribute
 	and response-set selection.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   year = {2003},
   volume = {29},
   pages = {455--469},
@@ -6241,7 +6237,6 @@
 	The results are interpreted in terms of a model of the interactions
 	between control input, task strength, and task priming.},
   institution = {Department of Psychology, University of Cambridge, England. nyeung@princeton.edu},
-  journal = {Journal of Experimental Psychology: Human Perception and Performance},
   keywords = {Adolescent; Adult; Attention, physiology; Choice Behavior, physiology;
 	Color Perception, physiology; Cues; Female; Humans; Inhibition (Psychology);
 	Male; Models, Psychological; Practice (Psychology); Problem Solving,
@@ -6256,48 +6251,47 @@
 @ARTICLE{Zacks2008,
   author = {Jeffrey M. Zacks},
   title = {Neuroimaging Studies of Mental Rotation: A Meta-analysis and Review},
+  journal = {Journal of Cognitive Neuroscience},
   year = {2008},
   volume = {20},
   pages = {1-19},
-  journal = {Journal of Cognitive Neuroscience},
   owner = {Jim},
   timestamp = {2010.01.22}
 }
 
 @BOOK{Gorfein2007a,
   title = {Inhibition in cognition},
+  publisher = {Washington D.C.: American Psychological Association},
   year = {2007},
   editor = {D S Gorfein and C M MacLeod},
-  publisher = {Washington D.C.: American Psychological Association},
   owner = {Jim},
   timestamp = {2010.02.03}
 }
 
+@BOOK{Grange2014a,
+  title = {Task Switching and Cognitive Control},
+  publisher = {New York, NY: Oxford University Press},
+  year = {2014},
+  editor = {J A Grange and G Houghton},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.05.12}
+}
+
 @BOOK{Monsell2000b,
   title = {Control of Cognitive Processes: Attention and Performance XVIII},
+  publisher = {Cambridge, MA: MIT Press},
   year = {2000},
   editor = {Stephen Monsell and Jon Driver},
-  publisher = {Cambridge, MA: MIT Press},
   owner = {psp48d},
   timestamp = {2010.01.12}
 }
 
-@ARTICLE{,
-  owner = {Home},
-  quality = {1},
-  timestamp = {2013.12.27}
-}
+@comment{jabref-meta: selector_keywords:}
 
-@ARTICLE{,
-  owner = {Home},
-  quality = {1},
-  timestamp = {2013.04.22}
-}
+@comment{jabref-meta: selector_journal:}
 
 @comment{jabref-meta: selector_publisher:}
 
 @comment{jabref-meta: selector_author:}
 
-@comment{jabref-meta: selector_journal:}
-
-@comment{jabref-meta: selector_keywords:}
