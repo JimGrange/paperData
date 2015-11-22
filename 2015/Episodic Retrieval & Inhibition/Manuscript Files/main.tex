@@ -44,6 +44,19 @@
 \section{Introduction}
 
 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width = 0.5 \textwidth]{Images/mayrExperiment.pdf}
+\caption{Schematic overview of Mayr's (2002) experimental procedure. See text for details.}
+\label{fig:mayrExperiment}
+\end{center}
+\end{figure}
+
+
+\section{Changes from Mayr's (2002) Experiment}
+List the main changes we made in this experiment compared to that of \cite{Mayr2002}.
+
 %----------------------
 \section{Method}
 
@@ -52,16 +65,20 @@ All participants were recruited via the participant panel run by the School of P
 
 Our sample size was determined via optional stopping. We used Sequential Bayes Factors \citep{Schoenbrodtinpress} to determine our stopping rule for participant recruitment. We were interested in establishing the presence or absence of an interaction between task sequence (ABA vs. CBA) and response repetition (repetition vs. switch). For the purposes of our stopping rule, this can be expressed as a default within-subjects Bayesian t-test \citep{Rouder2009} comparing n--2 repetition costs for response repetitions and response switches. The Bayes Factor (denoted $BF_{10}$) quantifies the relative evidence provided by the data in favour of an alternative hypothesis (i.e., n--2 repetition costs are different) over a null hypothesis (i.e., n--2 repetition costs are equivalent). We conducted a Bayesian t-test on the data collected until the criteria for our a priori stopping rule were met. Specifically, our stopping rule required at least 20 participants; we continued data collection until $BF_{10}$ > 6 (constituting support for the alternative hypothesis) or $BF_{10}$ < 1/6 (constituting support for the null). \cite{Schoenbrodtinpress} demonstrated that a stopping rule of $BF_{10}$ > 6 (or $BF_{10}$ < 1/6) provided the best balance between type 1 and type 2 error, and was their recommended value for studies utilising Sequential Bayes Factors. 
 
-\subsection{Stimuli \& Apparatus}
+\subsection{Apparatus \& Stimuli}
+Stimuli were presented on an xin. monitor connected to a PC running E-Prime v. 2.0 software. The stimulus display consisted of an 8cm by 8cm square frame. A black circle (diameter = 1cm) served as the trial stimulus. Possible cues were the words ``horizontal'', ``vertical'', or ``diagonal'', and were presented in black font (enter font details here) directly above the stimulus frame. Responses were collected via a 1-ms precise USB keyboard.
 
 \subsection{Procedure}
+On each trial a cue was presented above the frame for xxms. After this time, the circle stimulus appeared in one of the four corners of the frame. The cue remained on the screen during stimulus presentation. The task required participants to mentally make a spatial transformation of the stimulus' location according to the rule dictated by the task cue, and to make a spatially-congruent response to this translated location. For example, if the stimulus was in the top-right corner, the participant would need to make a top-left response if the task was ``horizontal'', a bottom-right response if the task was ``vertical'', and a bottom-left response if the task was ``diagonal''. Responses were made on the numerical part of the keyboard, using the ``4'', ``5'', ``1'', and ``2'' keys for top-left, top-right, bottom-left, and bottom-right responses respectively. Participants were asked to respond as quickly and as accurately as possible. Once a response was registered, the frame was cleared for a response--cue interval of xxms, after which time a new cue appeared for the next trial. The cue for the next trial was chosen randomly with the constraint that task repetitions could not occur (cf., Mayr, 2002); the stimulus location was chosen randomly with no constraints on each trial. If participants made an error, the word ``Error!'' appeared in red for xxms above the stimulus frame (in the cue's position).
+
+Participants were presented with xx trials as practice (which could be repeated upon request). The main experiment presented x blocks of x trials. 
 
 \subsection{Design}
+The experiment manipulated two factors in a fully-related design: \emph{Task Sequence} (n--2 task repetition [ABA] vs. n--2 task switch [CBA]) and \emph{Response Repetition} (n--2 response repetition vs. n-- response switch). The dependent variables were response time (RT) in milliseconds (ms) and percent accuracy (\%).
 
 
 %----------------------
 \section{Results}
-
 
 \subsection{Data trimming}
 Participants who failed to maintain session-wise accuracy above 90\% were immediately discarded from analysis. For response time analysis, the first two trials from each block were removed, as were error trials and the two trials following an error. Response times were trimmed by removing all RTs faster than 150ms, as well as any RTs slower than 2.5 standard deviations above the mean for each participant for each cell of the experimental design. 
