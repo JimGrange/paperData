@@ -1,5 +1,5 @@
 %%%--------------------------------------------------------------------------------------------
-\documentclass[a4paper, jou, natbib]{apa6}
+\documentclass[a4paper, doc, natbib]{apa6}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{mathtools}
@@ -47,7 +47,7 @@
 
 \begin{figure}
 \begin{center}
-\includegraphics[width = 0.5 \textwidth]{Images/mayrExperiment.pdf}
+\includegraphics[width = \textwidth]{Images/mayrExperiment.pdf}
 \caption{Schematic overview of Mayr's (2002) experimental procedure. See text for details.}
 \label{fig:mayrExperiment}
 \end{center}
@@ -102,14 +102,14 @@ Response Switch     & 1050 (29) & 95.02 (0.35)  &  & 964 (28) & 95.81 (0.34) \\ 
 \label{tab:behaviouralData}
 \end{table*}
 
-Response times were analysed via a two factor repeated measures analysis of variance (ANOVA) with the factors as described in \emph{Design}. There was a significant main effect of \emph{Sequence}, with slower RTs to ABA sequences (1,025ms) than to CBA sequences (958ms), $F$(1, 75) = 94.14, $p$<.001, $\eta_g^2$ = .018.  There was also a significant main effect of \emph{Response Sequence}, with faster RTs to response repetitions (976ms) than to response switches (1,007ms), $F$(1, 75) = 18.21, $p$<.001, $\eta_g^2$ = .004.  Critically, there was a significant interaction of both factors, $F$(1, 75) = 9.60, $p$<.01, $\eta_g^2$ = .001. The n--2 repetition cost was 48ms for response repetitions [t(75) = 4.2, $p$<.001] and 86ms for response switches [t(75) = 13.0, $p$<.001].
+Response times were analysed via a two factor repeated measures analysis of variance (ANOVA) with the factors as described in \emph{Design}. There was a significant main effect of \emph{Sequence}, with slower RTs to ABA sequences (1,025ms) than to CBA sequences (958ms), $F$(1, 75) = 94.14, $p$<.001, $\eta_g^2$ = .018. The Bayes factor for this main effect was $BF_{10}$ = 1e+12, which provides substantial support for the presence of n--2 repetition costs. There was also a significant main effect of \emph{Response Sequence}, with faster RTs to response repetitions (976ms) than to response switches (1,007ms), $F$(1, 75) = 18.21, $p$<.001, $\eta_g^2$ = .004. The Bayes factor for this main effect was $BF_{10}$ = 338.77, which again provides substantial support for the alternative hypothesis. Critically, there was a significant interaction of both factors, $F$(1, 75) = 9.60, $p$<.01, $\eta_g^2$ = .001. The n--2 repetition cost was 48ms for response repetitions [t(75) = 4.2, $p$<.001] and 86ms for response switches [t(75) = 13.0, $p$<.001]. We discuss the Bayes factor for this interaction below.
 
 \subsection{Sequential Bayes Factors}
 The progression of the Sequential Bayes Factor is shown in Figure \ref{fig:bayesFactor}. We stopped data collection after 76 participants, as at this point the criteria for our stopping rule had been reached. 
 
 \begin{figure}
 \begin{center}
-\includegraphics[width = 0.5\textwidth]{Images/bayesFactor.pdf}
+\includegraphics[width = \textwidth]{Images/bayesFactor.pdf}
 \caption{Progression of the Sequential Bayes Factor [expressed as log($BF_{10}$)] as sample size increased. The criteria for a priori stopping rules are shown as dotted horizontal lines.}
 \label{fig:bayesFactor}
 \end{center}
@@ -132,7 +132,7 @@ We wanted to assess how robust our stopping rule was to this apparent early evid
 
 \begin{figure}
 \begin{center}
-\includegraphics[width = 0.5 \textwidth]{Images/recruitmentOrder.pdf}
+\includegraphics[width = \textwidth]{Images/recruitmentOrder.pdf}
 \caption{Simulated progression of the Sequential Bayes Factors for a random set of 50 different recruitment orders for the current data set. See text for details.}
 \label{fig:recruitmentOrder}
 \end{center}
