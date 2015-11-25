@@ -26,6 +26,19 @@
   timestamp = {2010.01.12}
 }
 
+@ARTICLE{Altmann2011,
+  author = {E M Altmann},
+  title = {Testing probability matching and episodic retrieval accounts of response
+	repetition effects in task switching.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, \& Cognition},
+  year = {2011},
+  volume = {37},
+  pages = {935--951},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.11.25}
+}
+
 @ARTICLE{Altmann2009,
   author = {E M Altmann},
   title = {Evidence for temporal decay in short-term episodic memory},
@@ -5471,6 +5484,18 @@
   timestamp = {2010.01.12}
 }
 
+@ARTICLE{Schoenbrodtinpress,
+  author = {Schoenbrodt, F. D. and Wagenmakers, E.-J. and Zehetleitner, M. and
+	Perugini, M.},
+  title = {Sequential hypothesis testing with Bayes factors: Efficiently testing
+	mean differences},
+  journal = {Psychological Methods},
+  year = {in press},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.11.22}
+}
+
 @ARTICLE{Schuch2006,
   author = {Stefanie Schuch and Iring Koch},
   title = {Task switching and action sequencing.},
@@ -5884,6 +5909,18 @@
   owner = {psa33},
   quality = {1},
   timestamp = {2013.05.01}
+}
+
+@ARTICLE{Wagenmakers2007,
+  author = {Wagenmakers, E.-J.},
+  title = {A practical solution to the pervasive problems of \emph{p} values.},
+  journal = {Psychonomic Bulletin \& Review},
+  year = {2007},
+  volume = {14},
+  pages = {779--804},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2015.11.25}
 }
 
 @ARTICLE{Wagenmakers2011,
