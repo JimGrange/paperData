@@ -68,15 +68,15 @@ data <- subset(data, data$accTrim == 1)
 accuracy <- data %>%
   group_by(subject, stimRep, sequence) %>%
   summarise(acc = (sum(accuracy) / length(accuracy)))
-
-# now remove all error trials, so we are ready for RT analysis
-data <- subset(data, data$accuracy == 1)
 #------------------------------------------------------------------------------
 
 
 
 #------------------------------------------------------------------------------
 ### response time analysis
+
+# remove all error trials, so we are ready for RT analysis
+data <- subset(data, data$accuracy == 1)
 
 # trim the RTs with fixed standard deviation upper limit
 rtData <- getRTs(data = data, minRT = 150, sd = 2.5)
@@ -169,10 +169,24 @@ aovRT <- ezANOVA(
 #------------------------------------------------------------------------------
 
 
+#------------------------------------------------------------------------------
+### Bayesian t-test with Kruschke's t-test
+bayesK <- BESTmcmc(y1 = biDiff)
+
+# plot the mean and effect size estimates
+pdf("bayesParameter.pdf", width = 8, height = 5)
+par(mfrow = c(1, 2))
+plot(bayesK, which = c("mean"))
+plot(bayesK, which = c("effect"))
+dev.off()
+
+#------------------------------------------------------------------------------
+
+
 
 
 #------------------------------------------------------------------------------
-### do somple plotting
+### plot mean RTs (not in paper)
 pdf("meanRT.pdf", width = 8, height = 8)
 plot <- ggplot(rtSummary, (aes(x = sequence, y = meanRT, group = stimRep, 
                                colour = stimRep)))

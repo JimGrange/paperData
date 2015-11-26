@@ -4751,18 +4751,16 @@
   timestamp = {2015.05.13}
 }
 
-@ARTICLE{OpenScienceCollaboration2012,
+@ARTICLE{OpenScienceCollaboration2015,
   author = {{Open Science Collaboration}},
-  title = {An open, large-scale, collaborative effort to estimate the reproducibility
-	of psychological science},
-  journal = {Perspectives on Psychological Science},
-  year = {2012},
-  volume = {7},
-  pages = {657-670},
-  doi = {10.1177/1745691612462588},
+  title = {Estimating the reproducibility of psychological science.},
+  journal = {Science},
+  year = {2015},
+  volume = {349},
+  pages = {943},
   owner = {Home},
   quality = {1},
-  timestamp = {2013.04.28}
+  timestamp = {2015.11.25}
 }
 
 @ARTICLE{Pascual-Marqui2002,
@@ -6334,6 +6332,19 @@
   editor = {Stephen Monsell and Jon Driver},
   owner = {psp48d},
   timestamp = {2010.01.12}
+}
+
+@ARTICLE{OpenScienceCollaboration2012,
+  title = {An open, large-scale, collaborative effort to estimate the reproducibility
+	of psychological science},
+  journal = {Perspectives on Psychological Science},
+  year = {2012},
+  volume = {7},
+  pages = {657-670},
+  doi = {10.1177/1745691612462588},
+  owner = {Home},
+  quality = {1},
+  timestamp = {2013.04.28}
 }
 
 @comment{jabref-meta: selector_keywords:}
