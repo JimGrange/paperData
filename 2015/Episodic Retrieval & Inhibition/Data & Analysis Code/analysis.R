@@ -117,6 +117,35 @@ text(0, log(1/3) - 0.4, labels = "Evidence for Null",
      cex = 1.5, col = "black", pos = 4)
 dev.off()
 
+#---
+## robustness check based on prior
+
+# what is the t-value for the data?
+tVal <- as.numeric(t.test(biRT$rep, biRT$sw, paired = TRUE)[['statistic']])
+
+# what are the priors to explore?
+priors <- seq(from = 0.01, to = 1.5, length.out = 1000)
+
+# get the Bayes factor for each prior value
+robust <- sapply(priors, function(x) 
+  exp(ttest.tstat(t = tVal, n1 = nrow(biRT), rscale = x)[['bf']]))
+
+# plot it
+pdf("robustPrior.pdf", width = 8, height = 5)
+plot(priors, robust, type = "l", lwd = 2, col = "gray48",
+     ylim = c(0, max(robust)), xaxt = "n", xlab = "Caucy Prior Width (r)", 
+              ylab = "Bayes Factor (10)")
+abline(h = 0, lwd = 1)
+abline(h = 6, col = "black", lty = 2, lwd = 2)
+axis(1, at = seq(0, 1.5, 0.25))
+points(0.707, extractBF(bfDiff, onlybf = TRUE), col = "black", 
+       cex = 1, pch = 21, bg = "black")
+legend(x = 1, y = 13, legend = c("Default Prior", "Stopping Rule"),
+       pch = c(21, NA), lty = c(NA, 2), lwd = c(NA, 2), pt.cex = c(1, NA),
+       col = c("black", "black"), pt.bg = "black", bty = "n")
+dev.off()
+
+
 
 #---------
 ### ANOVA analsyis
