@@ -133,7 +133,7 @@ robust <- sapply(priors, function(x)
 # plot it
 pdf("robustPrior.pdf", width = 8, height = 5)
 plot(priors, robust, type = "l", lwd = 2, col = "gray48",
-     ylim = c(0, max(robust)), xaxt = "n", xlab = "Caucy Prior Width (r)", 
+     ylim = c(0, max(robust)), xaxt = "n", xlab = "Cauchy Prior Width (r)", 
               ylab = "Bayes Factor (10)")
 abline(h = 0, lwd = 1)
 abline(h = 6, col = "black", lty = 2, lwd = 2)
