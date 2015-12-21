@@ -199,3 +199,71 @@ simLBA_Mixture <- function(n, bs, a = 1, drift, s, ter, p){
   
 } # end of function
 #------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+### generate data from the LBA (for an example)
+simLBA <- function(n, b, a = 1, drift, s, ter){
+  
+  # initialise a matrix to store the data
+  data <- matrix(0, nrow = n, ncol = 2)
+  
+  # loop over every trial and generate an RT and accuracy
+  for(i in 1:n){
+    
+    m <<- i
+    
+
+    # get the drift rate 
+    v <- drift
+    
+    # get b 
+    b <- b
+    
+    # accumulator for correct response
+    a1 <- (b - runif(1, min = 0, max = a)) / rnorm(1, mean = v, sd = s) 
+    # accumulator for error response
+    a2 <- (b - runif(1, min = 0, max = a)) / rnorm(1, mean = 1 - v, sd = s)
+    
+    # if both accumulators are negative, the following code re-generates
+    # finishing times until one is positive
+    while(max(c(a1, a2)) < 0){
+      # accumulator for correct response
+      a1 <- (b - runif(1, min = 0, max = a)) / rnorm(1, mean = v, sd = s) 
+      # accumulator for error response
+      a2 <- (b - runif(1, min = 0, max = a)) / rnorm(1, mean = (1 - v), sd = s)
+    }
+    
+    # if the losing accumulator is still negative, set it to large 
+    # value so it won't be selected
+    if(a1 < 0){
+      a1 <- 1e10
+    }
+    if(a2 < 0){
+      a2 <- 1e10
+    }
+    
+    # which accumulator is the winner?
+    response <- which.min(c(a1, a2))
+    
+    # add ter to the winning accumulator's finishing time, and store it
+    data[i, 1] <- round(min(c(a1, a2)), 3) + ter
+    
+    # add the accuracy
+    if(response == 1){
+      data[i, 2] <- 1
+    } else {
+      data[i, 2] <- 0
+    }
+    
+  } # end of trial loops
+  
+  colnames(data) <- c("rt", "accuracy")
+  data <- data.frame(data)
+  
+  data <- mutate(data, subject = 1)
+  
+  return(data)
+  
+} # end of function
+#------------------------------------------------------------------------------
