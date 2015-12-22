@@ -2,7 +2,8 @@
 # load packages & source files
 
 rm(list = ls())
-setwd("~/Git/paperData/2015/Temporal Distinctiveness & Mixture Distributions/Grange (under review) re-analysis")
+setwd("~/Git/paperData/2015/Temporal Distinctiveness & Mixture Distributions/Revision 1/Grange (under review) re-analysis")
+
 source("functions.R")
 
 # package for changing data from wide format to long format
@@ -149,7 +150,7 @@ write.csv(finalRTs, "finalRTs.csv")
 rtsLong <- doLong(finalRTs)
 
 # just select the "memory" data
-rtsLong <- subset(rtsLong$task == "memory")
+rtsLong <- subset(rtsLong, rtsLong$task == "memory")
 
 # disable scientific notation
 options(scipen = 999)
@@ -164,6 +165,20 @@ aov.rt <- ezANOVA(
   , between = NULL
   , detailed = F
 )
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+## is it OK to collapse 50-50 and 1000-1000 for RCI-same trials?
+fifty <- subset(rtsLong, rtsLong$sequence == "repeat" & 
+                rtsLong$rcichange == "same" & rtsLong$rci == 50)
+fifty <- fifty$rt
+
+thousand <- subset(rtsLong, rtsLong$sequence == "repeat" & 
+                   rtsLong$rcichange == "same" & rtsLong$rci == 1000)
+thousand <- thousand$rt
+
+diff = thousand - fifty
+ttestBF(x = diff)
 #------------------------------------------------------------------------------
 
 

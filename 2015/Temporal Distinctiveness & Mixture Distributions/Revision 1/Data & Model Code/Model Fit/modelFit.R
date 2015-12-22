@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
 rm(list = ls())
-setwd("~/Git/paperData/2015/Temporal Distinctiveness & Mixture Distributions/Data & Model Code/Model Fit")
+setwd("~/Git/paperData/2015/Temporal Distinctiveness & Mixture Distributions/Revision 1/Data & Model Code/Model Fit")
 
 # load required libraries & functions
 library(dplyr)
@@ -143,6 +143,15 @@ slowModelCorrectRT <- slowSim$q$correct
 slowModelCorrectCDF <- quantiles * slowSim$p
 slowModelErrorRT <- slowSim$q$error
 slowModelErrorCDF <- quantiles * (1 - slowSim$p)
+
+# correlate human & model performance
+humanCorrect <- c(fastHumanCorrectRT, intHumanCorrectRT, slowHumanCorrectRT)
+modelCorrect <- c(fastModelCorrectRT, intModelCorrectRT, slowModelCorrectRT)
+cor(humanCorrect, modelCorrect) ^ 2
+
+humanError <- c(fastHumanErrorRT, intHumanErrorRT, slowHumanErrorRT)
+modelError <- c(fastModelErrorRT, intModelErrorRT, slowModelErrorRT)
+cor(humanError, modelError) ^ 2
 
 # get min and max RT
 minRT <- min(slowHumanCorrectRT, slowHumanErrorRT,
