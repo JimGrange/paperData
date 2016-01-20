@@ -139,10 +139,10 @@ abline(h = 0, lwd = 1)
 abline(h = 6, col = "black", lty = 2, lwd = 2)
 axis(1, at = seq(0, 1.5, 0.25))
 points(0.707, extractBF(bfDiff, onlybf = TRUE), col = "black", 
-       cex = 1, pch = 21, bg = "black")
+       cex = 1.2, pch = 21, bg = "skyblue")
 legend(x = 1, y = 13, legend = c("Default Prior", "Stopping Rule"),
        pch = c(21, NA), lty = c(NA, 2), lwd = c(NA, 2), pt.cex = c(1, NA),
-       col = c("black", "black"), pt.bg = "black", bty = "n")
+       col = c("black", "black"), pt.bg = "skyblue", bty = "n")
 dev.off()
 
 
