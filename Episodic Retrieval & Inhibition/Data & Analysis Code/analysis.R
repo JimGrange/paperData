@@ -7,7 +7,7 @@
 rm(list = ls())
 
 # set working directory
-setwd("~/Git/paperData/2015/Episodic Retrieval & Inhibition/Data & Analysis Code")
+setwd("~/Git/paperData/Episodic Retrieval & Inhibition/Data & Analysis Code")
 
 # load necessary functions file & load necessary packages
 source("functions.R")
