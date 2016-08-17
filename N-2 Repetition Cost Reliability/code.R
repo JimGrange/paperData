@@ -1,5 +1,5 @@
 rm(list = ls()) 
-setwd("F:/Work/Research/My Papers/In Preparation/Kowalczyk & Grange (reliability)/Data & Code")
+setwd("~/Git/paperData/N-2 Repetition Cost Reliability")
 
 source("functions.R")
 
@@ -165,7 +165,6 @@ paradigm <- rtData %>%
                                                       sqrt(nparticipants), 0))
 
 ## t-tests of each paradigm's n-2 repetition cost
-
 targetABA <- subset(rt, rt$paradigm == "target" & rt$condition == "ABA")
 targetCBA <- subset(rt, rt$paradigm == "target" & rt$condition == "CBA")
 targetTtest <- t.test(targetABA$meanRT, targetCBA$meanRT, paired = TRUE)
@@ -311,23 +310,18 @@ rtCor <- rtData %>%
   summarise(meanRT = mean(rt))
 
 
-
-
 wideRtCor <- spread(rtCor, paradigm, meanRT)
 wideRtCor <- merge(wideRtCor, indData, by = "participant")
 
 indRtCor <- rcorr(as.matrix(wideRtCor))
 
 # normalised Ind Diff scores and RTs correlations
-
 corData$rumination <- scale(corData$rumination)
 corData$processing <- scale(corData$processing)
 nIndCor <- rcorr(as.matrix(corData))
 
 #------------------------------------------------------------------------------
 # n-2 repetition cost and Ind Diff correlations
-
-
 
 indCor <- rcorr(as.matrix(corData))
 
@@ -336,8 +330,6 @@ indCor <- rcorr(as.matrix(corData))
 corData$rumination <- scale(corData$rumination)
 corData$processing <- scale(corData$processing)
 nIndCor <- rcorr(as.matrix(corData))
-
-
 #------------------------------------------------------------------------------
 
 
@@ -354,16 +346,17 @@ numericReg <- lm(numeric ~ rumination + processing, data = corData)
 #------------------------------------------------------------------------------
 ### do the reliability checks
 
-# run the reliability function
+# run the reliability function for response times
 set.seed(200)
-correlations <- splitHalf(rtData, splitType = "random", nSplits = 500)
-colnames(correlations) <- c("Target Detection", "Visual Judgment", "Numeric Judgment")
+correlations_rt <- splitHalf(rtData, splitType = "random", nSplits = 500)
+colnames(correlations_rt) <- c("Target Detection", "Visual Judgment", 
+                               "Numeric Judgment")
 
 
 # violin plot of the reliability bootstrap
 library(vioplot)
-pdf("violin Reliability.pdf", width = 8, height = 8)
-vioplot(correlations[, 1], correlations[, 2], correlations[, 3], 
+pdf("violin Reliability_rt.pdf", width = 8, height = 8)
+vioplot(correlations_rt[, 1], correlations_rt[, 2], correlations_rt[, 3], 
         col = "skyblue", names = c("Target Detection", "Visual Judgment", 
                                    "Numeric Judgment"), lwd = 1.5, 
         ylim = c(-0.2, 1))
@@ -371,3 +364,20 @@ title(ylab = "Correlation (r)", xlab = "Paradigm")
 abline(h = 0.5385, lwd = 2, lty = 2)
 dev.off()
 
+
+# run the reliability function for accuracy
+set.seed(200)
+correlations_acc <- splitHalf_acc(allData, splitType = "random", nSplits = 500)
+colnames(correlations_acc) <- c("Target Detection", "Visual Judgment", 
+                                "Numeric Judgment")
+
+# violin plot of the reliability bootstrap
+library(vioplot)
+pdf("violin Reliability_accuracy.pdf", width = 8, height = 8)
+vioplot(correlations_acc[, 1], correlations_acc[, 2], correlations_acc[, 3], 
+        col = "skyblue", names = c("Target Detection", "Visual Judgment", 
+                                   "Numeric Judgment"), lwd = 1.5, 
+        ylim = c(-0.2, 1))
+title(ylab = "Correlation (r)", xlab = "Paradigm")
+abline(h = 0.5385, lwd = 2, lty = 2)
+dev.off()
