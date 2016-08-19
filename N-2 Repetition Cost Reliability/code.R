@@ -1,5 +1,5 @@
 rm(list = ls()) 
-setwd("~/Git/paperData/N-2 Repetition Cost Reliability")
+setwd("C:/Users/Home/Dropbox/Reliability Manuscript Revision/Exploratory analysis codes/Main Code")
 
 source("functions.R")
 
@@ -9,6 +9,7 @@ library(ggplot2)
 library(moments)
 library(tidyr)
 library(Hmisc)
+library(ppcor)
 
 # make sure the most recent version of trimr is installed
 #devtools::install_github("JimGrange/trimr")
@@ -237,9 +238,9 @@ numericTtest <- t.test(numericABA$rawAcc, numericCBA$rawAcc, paired = TRUE)
 #------------------------------------------------------------------------------
 ### look at individual differences in the n-2 repetition cost
 
+
+#---- Response Time
 # get a data frame with n-2 repetition cost as the DV. 
-# SURELY there is a more elegant way of doing this...
-# ( Agi: see below how I do it, from line 271)
 wideRt <- spread(rt, condition, meanRT)
 
 n2Cost <- wideRt %>%
@@ -248,13 +249,16 @@ n2Cost <- wideRt %>%
 
 n2Cost$n2Cost <- round(n2Cost$n2Cost, 0)
 
-#load individual differences data
+# load individual differences data
 indData <- read.csv("ind_data.csv", stringsAsFactors = FALSE)
 wideN2Cost <- spread(n2Cost, paradigm, n2Cost)
 corData <- merge(wideN2Cost, indData, by = "participant")
 
+# impute the missing data point for subject 68 (in position 51)
+corData$processing[51] <- mean(corData$processing, na.rm = TRUE)
+
 # draw overlapping density functions of n-2 repetition costs
-pdf("biDistributions.pdf", width = 8, height = 8)
+pdf("biDistributions_rt.pdf", width = 8, height = 8)
 ggplot(n2Cost, aes(x = n2Cost, colour = paradigm, linetype = paradigm)) + 
   geom_line(stat = "density", size = 1.3) + 
   scale_linetype_manual(values = c("solid", "dashed", "dotdash")) + 
@@ -276,66 +280,97 @@ distributions <- n2Cost %>%
             normality = shapiro.test(n2Cost)$p.value, 
             mean = mean(n2Cost))
 
+#---- Accuracy
+
+# re-calculate mean accuracy per participant/ condition/ paradigm
+trimmedAcc <- allData %>%
+  group_by(paradigm, condition, participant) %>%
+  summarise(rawAcc = (sum(accuracy) / length(accuracy)) * 100)
+
+# change the data frame format to wide
+wideTrimmedAcc <- spread(trimmedAcc, condition, rawAcc)
+
+# calculate n-2 repetition cost for accuracy
+AccN2Cost <- wideTrimmedAcc %>%
+  group_by(paradigm, participant) %>%
+  summarise(AccN2Cost = ABA - CBA)
+
+# round to 2 decimal places
+AccN2Cost$AccN2Cost <- round(AccN2Cost$AccN2Cost, 2)
+
+# draw overlapping density functions of n-2 repetition costs
+pdf("biDistributions_acc.pdf", width = 8, height = 8)
+ggplot(AccN2Cost, aes(x = AccN2Cost, colour = paradigm, linetype = paradigm)) + 
+  geom_line(stat = "density", size = 1.3) + 
+  scale_linetype_manual(values = c("solid", "dashed", "dotdash")) + 
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14), 
+        panel.background = element_rect(fill = "grey86")) +
+  scale_x_continuous(name = "N-2 Repetition Cost (Accuracy)") + 
+  scale_y_continuous(name = "Density") 
+dev.off()
 #------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------
 ### correlations
 
-# accuracy
+#--- Response time
 
-accAve <- allData %>%
-  group_by(paradigm, participant) %>%
-  summarise(rawAcc = (sum(accuracy) / length(accuracy)) * 100)
-
-wideAcc <- spread(accAve, paradigm, rawAcc)
-wideAcc <- merge(wideAcc, indData, by = "participant")
-
-# obtain mean average and standard deviations for RRS and processing speed
-meanRRS <- mean(wideAcc$rumination)
-sdRRS <- sd(wideAcc$rumination)
-
-meanProc <- mean(wideAcc$processing, na.rm = TRUE)
-sdProc <- sd(wideAcc$processing, na.rm = TRUE)
-
-accCor <- rcorr(as.matrix(wideAcc))
-
-# normalised Ind Diff scores and accuracy correlations
-wideAcc$rumination <- scale(wideAcc$rumination)
-wideAcc$processing <- scale(wideAcc$processing)
-nAccCor <- rcorr(as.matrix(wideAcc))
-
-# RTs and Ind Diff scores correlations
+# Overall (mean) response times
 rtCor <- rtData %>% 
   group_by(paradigm, participant) %>%
   summarise(meanRT = mean(rt))
-
 
 wideRtCor <- spread(rtCor, paradigm, meanRT)
 wideRtCor <- merge(wideRtCor, indData, by = "participant")
 
 indRtCor <- rcorr(as.matrix(wideRtCor))
 
-# normalised Ind Diff scores and RTs correlations
-corData$rumination <- scale(corData$rumination)
-corData$processing <- scale(corData$processing)
-nIndCor <- rcorr(as.matrix(corData))
-
-#------------------------------------------------------------------------------
 # n-2 repetition cost and Ind Diff correlations
-
 indCor <- rcorr(as.matrix(corData))
 
-# normalised Ind Diff scores and n-2 rep cost correlations
+# partial correlations, controlling for processing speed (as requested
+# by reviewer)
+partial_target_visual <- pcor.test(corData$target, corData$visual, 
+                                   corData$processing)
+partial_target_numeric <- pcor.test(corData$target, corData$numeric, 
+                                    corData$processing)
+partial_visual_numeric <- pcor.test(corData$visual, corData$numeric, 
+                                    corData$processing)
 
+
+#--- Accuracy
+
+# Overall (mean) accuracy
+accAve <- allData %>%
+  group_by(paradigm, participant) %>%
+  summarise(rawAcc = (sum(accuracy) / length(accuracy)) * 100)
+
+wideAcc <- spread(accAve, paradigm, rawAcc)
+wideAcc <- merge(wideAcc, indData, by = "participant")
+accCor <- rcorr(as.matrix(wideAcc))
+
+# change data frame format to wide
+wideAccN2Cost <- spread(AccN2Cost, paradigm, AccN2Cost)
+wideAccN2Cor <- merge(wideAccN2Cost, indData, by = "participant")
+
+# impute the missing data point for subject 68 (in position 51)
+wideAccN2Cor$processing[51] <- mean(wideAccN2Cor$processing, na.rm = TRUE)
+
+# calulate correlations
+indAccN2Cor <- rcorr(as.matrix(wideAccN2Cor))
+round(indAccN2Cor$r, 2)
+round(indAccN2Cor$P, 3)
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+# multiple regressions (just for RT)
+
+# normalise Ind Diff scores for regression
 corData$rumination <- scale(corData$rumination)
 corData$processing <- scale(corData$processing)
 nIndCor <- rcorr(as.matrix(corData))
-#------------------------------------------------------------------------------
-
-
-
-#------------------------------------------------------------------------------
-# multiple regressions
 visualReg <- lm(visual ~ rumination + processing, data = corData)
 targetReg <- lm(target ~ rumination + processing, data = corData)
 numericReg <- lm(numeric ~ rumination + processing, data = corData)
