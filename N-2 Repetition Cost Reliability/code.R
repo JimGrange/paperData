@@ -72,6 +72,23 @@ for(i in 1:nrow(numeric)){
 }
 #------------------------------------------------------------------------------
 
+#------------------------------------------------------------------------------
+### removing the first block of each paradigm to conduct analysis for practice 
+### effect
+
+# to be calculated before individual paradigms data are combined 
+# (before the null trials are removed)
+
+# target23 <- subset(target, participant < 24)
+# target23 <- subset(target23, trial > 102)
+
+# target24 <- subset(target, participant > 23)
+# target24 <- subset(target24, trial > 120)
+
+# target <- rbind(target23, target24)
+# visual <- subset(visual, trial > 120)
+# numeric <- subset(numeric, trial > 120)
+#------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------
 ### data collation & participant removal checks
@@ -93,6 +110,30 @@ accRemoval <- accuracyRemoval(allData, accCriterion)
 participantsRemoved <- sort(unique(c(incompleteRemoval, accRemoval)))
 
 allData <- allData[!allData$participant %in% participantsRemoved, ]
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+### overall and per-paradigm proportion of trials removed due to accuracy and 
+### RTs trimming
+
+# Part 1 
+# 2nd part starts at line 224 (after the trimming is finished)
+
+# take allData, before accuracy trimming (before removing 2 trials after an error),
+# and assign the trials length to a vector allTrials 
+allTrials <- length(allData$trial)
+
+# additionally subset paradigms from the same allData or calculation of 
+# percentage of trials removed per paradigm
+allTarget <- subset(allData, paradigm == "target")
+allTarget <- length(allTarget$trial)
+
+allVisual <- subset(allData, paradigm == "visual")
+allVisual <- length(allVisual$trial)
+
+allNumeric <- subset(allData, paradigm == "numeric")
+allNumeric <- length(allNumeric$trial)
 #------------------------------------------------------------------------------
 
 
@@ -181,6 +222,46 @@ numericTtest <- t.test(numericABA$meanRT, numericCBA$meanRT, paired = TRUE)
 
 
 #------------------------------------------------------------------------------
+### Part 2 of calculating proportion of trials removed
+
+# after trimming RTs, assign the length of trimmed data frame to trimmedTrials
+trimmedTrials <- length(rtData$trial)
+
+# calculate the overall number of removed trials
+removedTrials <- allTrials - trimmedTrials
+
+# subset paradigms from trimmed rtData for calculation of 
+# percentage of trials removed per paradigm
+# and calculate number of trials removed
+trimTarget <- subset(rtData, paradigm == "target")
+trimTarget <- length(trimTarget$trial)
+removedTarget <- allTarget - trimTarget
+
+trimVisual <- subset(rtData, paradigm =="visual")
+trimVisual <- length(trimVisual$trial)
+removedVisual <- allVisual - trimVisual
+
+trimNumeric <- subset(rtData, paradigm == "numeric")
+trimNumeric <- length(trimNumeric$trial)
+removedNumeric <- allNumeric - trimNumeric
+
+# calculate the overall percentage of removed trials
+proportionRemoved <- (100*removedTrials)/allTrials
+round(proportionRemoved, 1)
+
+# calculate the percetage of trials removed per paradigm
+propRemTarget <- (100*removedTarget)/allTarget
+round(propRemTarget,1)
+
+propRemVisual <- (100*removedVisual)/ allVisual
+round(propRemVisual,1)
+
+propRemNumeric <- (100*removedNumeric)/ allNumeric
+round(propRemNumeric,1)
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
 # change paradigm & condition to factor so we can do ANOVA on it
 accuracy$paradigm <- as.factor(accuracy$paradigm)
 accuracy$condition <- as.factor(accuracy$condition)
@@ -238,7 +319,6 @@ numericTtest <- t.test(numericABA$rawAcc, numericCBA$rawAcc, paired = TRUE)
 #------------------------------------------------------------------------------
 ### look at individual differences in the n-2 repetition cost
 
-
 #---- Response Time
 # get a data frame with n-2 repetition cost as the DV. 
 wideRt <- spread(rt, condition, meanRT)
@@ -270,7 +350,7 @@ ggplot(n2Cost, aes(x = n2Cost, colour = paradigm, linetype = paradigm)) +
 dev.off()
 
 # get summary of distributions for each paradigm
-distributions <- n2Cost %>%
+RtDistributions <- n2Cost %>%
   group_by(paradigm) %>%
   summarise(min = min(n2Cost), 
             max = max(n2Cost), 
@@ -309,7 +389,123 @@ ggplot(AccN2Cost, aes(x = AccN2Cost, colour = paradigm, linetype = paradigm)) +
   scale_x_continuous(name = "N-2 Repetition Cost (Accuracy)") + 
   scale_y_continuous(name = "Density") 
 dev.off()
+
+
+# get summary of n-2 repetition costs for accuracy distributions for each paradigm
+AccDistributions <- AccN2Cost %>%
+  group_by(paradigm) %>%
+  summarise(min = min(AccN2Cost), 
+            max = max(AccN2Cost), 
+            sd = sd(AccN2Cost), 
+            skew = skewness(AccN2Cost), 
+            kurtosis = kurtosis(AccN2Cost), 
+            normality = shapiro.test(AccN2Cost)$p.value, 
+            mean = mean(AccN2Cost))
+
 #------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+### Sequencing effect analysis
+
+# load a .csv file with data of the possible order of paradigms
+order <- read.csv("paradigms_order.csv", stringsAsFactors = FALSE)
+
+# change names of columns
+colnames(order) <- c("participant", "sixOrders", "threeOrders")
+
+# remove column with data of order of experiment components 
+# which include processing speed and RRS order
+order <- order[,-2]
+
+# combine the data frame for n-2 repetition cost, the n2Cost and order.csv
+orderData <- merge(n2Cost, order, by = "participant")
+
+orderData$threeOrders <- as.numeric(orderData$threeOrders)
+
+# subset orderData based on order 1, 2, and 3
+# then assign 1,2,3 depending on which paradigm was conducted first
+
+# order1: target 1st, visual 2nd, numeric 3rd
+order1 <- subset(orderData, orderData$threeOrders == 1)
+
+# target is already coded as 1st
+# code visual as 2nd
+for (i in 1:nrow(order1)){
+  if (order1$paradigm[i] == "visual"){
+    order1$threeOrders[i] = 2}
+}
+
+# code numeric as 3rd
+for (i in 1:nrow(order1)){
+  if(order1$paradigm[i] == "numeric"){
+    order1$threeOrders[i] = 3
+  }
+}
+
+# order2: visual 1st, numeric 2nd, target 3rd
+# subset order2 from orderData
+order2 <- subset(orderData, orderData$threeOrders == 2)
+
+# code visual as 1st
+for (i in 1:nrow(order2)){
+  if(order2$paradigm[i] == "visual"){
+    order2$threeOrders[i] = 1
+  }
+}
+
+# numeric is already coded as 2nd
+
+# code target as 3rd
+for (i in 1:nrow(order2)){
+  if(order2$paradigm[i] == "target"){
+    order2$threeOrders[i] = 3
+  }
+}
+
+# order3: numeric 1st, target 2nd, visual 3rd
+# subset order3 from orderData
+order3 <- subset(orderData, orderData$threeOrders == 3)
+
+# code numeric as 1st
+for (i in 1:nrow(order3)){
+  if(order3$paradigm[i] == "numeric"){
+    order3$threeOrders[i] = 1
+  }
+}
+
+# code target as 2nd
+for (i in 1:nrow(order3)){
+  if(order3$paradigm[i] == "target"){
+    order3$threeOrders[i] = 2
+  }
+}
+
+# visual is already coded as 3rd
+
+# combine the order1, order2, and order3, wich have correctly coded order
+n2CostOrder <- rbind(order1, order2, order3)
+
+# anova
+n2CostOrder$paradigm <- as.factor(n2CostOrder$paradigm)
+n2CostOrder$threeOrders <- as.factor(n2CostOrder$threeOrders)
+
+# ANOVA for n2cost as DV and threeOrders as IV
+orderANOVA <- ezANOVA(
+  data = data.frame(n2CostOrder), 
+  dv = .(n2Cost), 
+  wid = .(participant), 
+  within = .(threeOrders), 
+  between = NULL, 
+  detailed = FALSE
+)
+
+meanN2CostOrder <- n2CostOrder %>%
+  group_by(threeOrders) %>%
+  summarise(meanN2Cost= round(mean(n2Cost), 0), 
+            se = round(sd(n2Cost) / sqrt(nparticipants), 0))
+#------------------------------------------------------------------------------
+
 
 #------------------------------------------------------------------------------
 ### correlations
@@ -416,3 +612,4 @@ vioplot(correlations_acc[, 1], correlations_acc[, 2], correlations_acc[, 3],
 title(ylab = "Correlation (r)", xlab = "Paradigm")
 abline(h = 0.5385, lwd = 2, lty = 2)
 dev.off()
+#------------------------------------------------------------------------------
