@@ -118,7 +118,7 @@ allData <- allData[!allData$participant %in% participantsRemoved, ]
 ### RTs trimming
 
 # Part 1 
-# 2nd part starts at line 224 (after the trimming is finished)
+# 2nd part starts at line 150 and 3rd part 261 (after the trimming is finished)
 
 # take allData, before accuracy trimming (before removing 2 trials after an error),
 # and assign the trials length to a vector allTrials 
@@ -146,6 +146,42 @@ for(i in 3:nrow(allData)){
 allData <- subset(allData, allData$accTrim == 1)
 #------------------------------------------------------------------------------
 
+#------------------------------------------------------------------------------
+# proportion of errors removed
+# assign the length of trimmed data frame to trimmedTrials
+errorTrials <- length(allData$trial)
+
+# calculate the overall number of removed trials
+rmErrorTrials <- allTrials - errorTrials
+
+# subset paradigms from allData (after error removal) for calculation of 
+# percentage of trials removed per paradigm
+# and calculate number of trials removed
+errorTarget <- subset(allData, paradigm == "target")
+errorTarget <- length(errorTarget$trial)
+rmErrorTarget <- allTarget - errorTarget
+
+errorVisual <- subset(allData, paradigm =="visual")
+errorVisual <- length(errorVisual$trial)
+rmErrorVisual <- allVisual - errorVisual
+
+errorNumeric <- subset(allData, paradigm == "numeric")
+errorNumeric <- length(errorNumeric$trial)
+rmErrorNumeric <- allNumeric - errorNumeric
+
+# calculate the overall percentage of removed trials
+propErrRemoved <- (100*rmErrorTrials)/allTrials
+round(proportionRemoved, 1)
+
+# calculate the percetage of trials removed per paradigm
+propErrTarget <- (100*rmErrorTarget)/allTarget
+round(propErrTarget,1)
+
+propErrVisual <- (100*rmErrorVisual)/ allVisual
+round(propErrVisual,1)
+
+propErrNumeric <- (100*rmErrorNumeric)/ allNumeric
+round(propErrNumeric,1)
 
 #------------------------------------------------------------------------------
 ### main accuracy analysis
@@ -222,7 +258,7 @@ numericTtest <- t.test(numericABA$meanRT, numericCBA$meanRT, paired = TRUE)
 
 
 #------------------------------------------------------------------------------
-### Part 2 of calculating proportion of trials removed
+### Part 3 of calculating proportion of trials removed
 
 # after trimming RTs, assign the length of trimmed data frame to trimmedTrials
 trimmedTrials <- length(rtData$trial)
