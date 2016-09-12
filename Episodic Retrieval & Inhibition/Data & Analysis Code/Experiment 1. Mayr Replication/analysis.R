@@ -1,4 +1,4 @@
-### Analysis script for Mayr replication
+### Analysis script for Agi's experiment (Mayr replication)
 
 #------------------------------------------------------------------------------
 ### General set-up
@@ -7,7 +7,7 @@
 rm(list = ls())
 
 # set working directory
-setwd("~/Git/paperData/Episodic Retrieval & Inhibition/Data & Analysis Code")
+setwd("~/Git/lab-book/Agi's PhD/Mayr Replication")
 
 # load necessary functions file & load necessary packages
 source("functions.R")
@@ -68,15 +68,15 @@ data <- subset(data, data$accTrim == 1)
 accuracy <- data %>%
   group_by(subject, stimRep, sequence) %>%
   summarise(acc = (sum(accuracy) / length(accuracy)))
+
+# now remove all error trials, so we are ready for RT analysis
+data <- subset(data, data$accuracy == 1)
 #------------------------------------------------------------------------------
 
 
 
 #------------------------------------------------------------------------------
 ### response time analysis
-
-# remove all error trials, so we are ready for RT analysis
-data <- subset(data, data$accuracy == 1)
 
 # trim the RTs with fixed standard deviation upper limit
 rtData <- getRTs(data = data, minRT = 150, sd = 2.5)
@@ -90,6 +90,11 @@ biRT <- rtData %>%
 # get the difference score
 biDiff <- biRT$rep - biRT$sw
 
+# get the n--2 repetition cost for response repetitions and export it
+# this is used in the mini-meta-analysis in the paper
+biRep <- biRT$rep
+write.table(biRep, file = "experiment_1_respRep.csv", row.names = FALSE, 
+            col.names = FALSE)
 
 #---------
 # Bayes Factor Analysis
@@ -106,45 +111,26 @@ bfProg[1, 2] <- 0
 pdf("bayesFactor.pdf", width = 8, height = 5)
 plot(bfProg[, 1], bfProg[, 2], type = "b", xlab = "Sample Size", 
      ylab = "(Log) Bayes Factor (10)", ylim = c(-2.5, 2.5), pch = 19, 
-     col = "gray48", lwd = 2)
+     col = "skyblue", lwd = 2)
 
-abline(h = 0, lwd = 1)
-abline(h = log(6), col = "black", lty = 2, lwd = 2)
-abline(h = log(1/6), col = "black", lty = 2, lwd = 2)
+abline(h = 0, lwd = 2)
+abline(h = log(6), col = "red", lty = 2, lwd = 2)
+abline(h = log(1/6), col = "red", lty = 2, lwd = 2)
 text(0, log(3) + 0.4, labels = "Evidence for Alternative", 
-     cex = 1.5, col = "black", pos = 4)
+     cex = 1.5, col = "red", pos = 4)
 text(0, log(1/3) - 0.4, labels = "Evidence for Null", 
-     cex = 1.5, col = "black", pos = 4)
+     cex = 1.5, col = "red", pos = 4)
 dev.off()
 
-#---
-## robustness check based on prior
-
-# what is the t-value for the data?
-tVal <- as.numeric(t.test(biRT$rep, biRT$sw, paired = TRUE)[['statistic']])
-
-# what are the priors to explore?
-priors <- seq(from = 0.01, to = 1.5, length.out = 1000)
-
-# get the Bayes factor for each prior value
-robust <- sapply(priors, function(x) 
-  exp(ttest.tstat(t = tVal, n1 = nrow(biRT), rscale = x)[['bf']]))
-
-# plot it
-pdf("robustPrior.pdf", width = 8, height = 5)
-plot(priors, robust, type = "l", lwd = 2, col = "gray48",
-     ylim = c(0, max(robust)), xaxt = "n", xlab = "Cauchy Prior Width (r)", 
-              ylab = "Bayes Factor (10)")
-abline(h = 0, lwd = 1)
-abline(h = 6, col = "black", lty = 2, lwd = 2)
-axis(1, at = seq(0, 1.5, 0.25))
-points(0.707, extractBF(bfDiff, onlybf = TRUE), col = "black", 
-       cex = 1.2, pch = 21, bg = "skyblue")
-legend(x = 1, y = 13, legend = c("Default Prior", "Stopping Rule"),
-       pch = c(21, NA), lty = c(NA, 2), lwd = c(NA, 2), pt.cex = c(1, NA),
-       col = c("black", "black"), pt.bg = "skyblue", bty = "n")
-dev.off()
-
+#---------
+# # BEST analysis
+# bestDiff <- BESTmcmc(biDiff)
+# bestSummary <- summary(bestDiff)
+# 
+# # plot the analysis
+# pdf("BESTsummary.pdf", width = 8, height = 6)
+# plotAll(bestDiff, ROPEeff = c(-0.2, 0.2))
+# dev.off()
 
 
 #---------
@@ -168,8 +154,7 @@ aovACC <- ezANOVA(
 options(digits = 4)
 accuracy %>%
   group_by(stimRep, sequence) %>%
-  summarise(accMean = mean(acc), 
-            se = (sd(acc)) / sqrt(length(biDiff)))
+  summarise(accMean = mean(acc))
 
 #--- response time
 # transfer to long format for analysis & later plotting, & change necessary
@@ -195,35 +180,46 @@ aovRT <- ezANOVA(
   , between = NULL
   , detailed = FALSE)
 
-#------------------------------------------------------------------------------
 
-
-#------------------------------------------------------------------------------
-### Bayesian t-test with Kruschke's t-test
-bayesK <- BESTmcmc(y1 = biDiff)
-
-# plot the mean and effect size estimates
-pdf("bayesParameter.pdf", width = 8, height = 5)
-par(mfrow = c(1, 2))
-plot(bayesK, which = c("mean"))
-plot(bayesK, which = c("effect"))
-dev.off()
-
+# do the ANOVA the standard way
+summary(aov(rt ~ sequence * stimRep + Error(subject / (sequence * stimRep)), 
+                                            data = finalRT))
 #------------------------------------------------------------------------------
 
 
 
 
 #------------------------------------------------------------------------------
-### plot mean RTs (not in paper)
+### do somple plotting
+
+plotRTs <- rtSummary
+
+
+levels(plotRTs$stimRep)[levels(plotRTs$stimRep) == "repetition"] <- "Repetition"
+levels(plotRTs$stimRep)[levels(plotRTs$stimRep) == "switch"] <- "Switch"
+levels(plotRTs$sequence)[levels(plotRTs$sequence) == "aba"] <- "ABA"
+levels(plotRTs$sequence)[levels(plotRTs$sequence) == "cba"] <- "CBA"
+
+                       
+
+pd <- position_dodge(0.08)
+theme_set(theme_gray(base_size = 18))
+
 pdf("meanRT.pdf", width = 8, height = 8)
-plot <- ggplot(rtSummary, (aes(x = sequence, y = meanRT, group = stimRep, 
+plot <- ggplot(plotRTs, (aes(x = sequence, y = meanRT, group = stimRep, 
                                colour = stimRep)))
-plot <- plot + geom_errorbar(aes(ymin = meanRT, ymax = meanRT + se), 
-                             width = 0.05, size = 0.5)
-plot <- plot + geom_line(aes(linetype = stimRep))
-plot <- plot + geom_point(aes(shape = stimRep), size = 2.3)
-plot
+plot <- plot + geom_errorbar(aes(ymin = meanRT - se, ymax = meanRT + se), 
+                             width = 0.05, size = 0.5, position = pd)
+plot <- plot + geom_line(aes(linetype = stimRep), position = pd)
+plot <- plot + geom_point(aes(shape = stimRep), size = 3.3, position = pd)
+plot <- plot + scale_shape_discrete(name = "Response") + 
+          scale_linetype_discrete(name = "Response") +
+          scale_colour_discrete(name = "Response")
+plot <- plot + labs(x = "Task Sequence", y = "Mean Response Time (ms)")
+plot + theme(panel.background = element_rect(fill = "grey86")) + 
+  annotate("text", x = 1.5, y = 1030, label = "86ms", size = 5) + 
+  annotate("text", x = 1.5, y = 950, label = "48ms", size = 5)
+
 dev.off()
 
 
@@ -231,56 +227,51 @@ dev.off()
 
 
 
-#------------------------------------------------------------------------------
-### simulation showing recruitment order does not change stopping rule
+#---------
+### additional Bayesian analysis
 
-# set random seed so user can re-produce plot
-set.seed(42)
+# get the progression of the HDI as sample size increases
+# (this takes quite some time!)
+hdiProgression <- plotHDI(biDiff)
+hdiMax <- max(hdiProgression[, 2:3])
+hdiMin <- min(hdiProgression[, 2:3])
 
-# how many "experiments" to simulate?
-nSims = 50
 
-# get a matrix to store all of the "experiments" in
-orderAnalysis <- matrix(0, nrow = length(biDiff), ncol = nSims)
 
-# fill the matrix with random recruitment orders
-for(i in 1:nSims){
+
+pdf("hdiProgression.pdf", width = 12, height = 6)
+par(mfrow = c(1, 2))
+
+# plot the progression of the HDI as sample increases
+for(i in 2:nrow(hdiProgression)){
   
-  # simulate new ordering
-  orderData <- base::sample(biDiff, size = length(biDiff), 
-                            replace = FALSE)
-  bf <- plotBF(orderData, scale = 0.707)
-  orderAnalysis[, i] <- log(bf[, 2])
-  orderAnalysis[1, i] <- 0
+  if(i == 2){
+    plot(hdiProgression[, 1], hdiProgression[, 2], ylim = c(hdiMin, hdiMax),
+         type = "n", xlab = "Sample Size", ylab = "Effect Size (d)")
+    
+    # add the ROPE
+    abline(h = 0.2, lty = 2, col = "red", lwd = 2)
+    abline(h = -0.2, lty = 2, col = "red", lwd = 2)
+  }
+  
+  segments(x0 = i, y0 = median(as.numeric(hdiProgression[i, 2:3])), 
+           x1 = i, y1 = c(hdiProgression[i, 2], hdiProgression[i, 3]), 
+           lwd = 3, col = "skyblue")
+  
 }
 
-# plot the progression of the Bayes Factor of the interaction as more 
-# subjects are added
+# plot the progression of the HDI width (i.e., precision)
+hdiProgression <- data.frame(hdiProgression)
+hdiProgression <- mutate(hdiProgression, precision = hdiHigh - hdiLow)
 
-pdf("recruitmentOrder.pdf", width = 8, height = 5)
+plot(hdiProgression[2:nrow(hdiProgression), 1],  
+     hdiProgression[2:nrow(hdiProgression), 4], 
+     ylim = c(0, max(hdiProgression$precision)), type = "l", 
+     xlab = "Sample Size", ylab = "Precision (0.8 * HDI Width)", 
+     lwd = 3, col = "skyblue")
 
-# plot the first "experiment"
-plot(seq(1:length(biDiff)), orderAnalysis[, 1], type = "l", 
-     xlab = "Sample Size", ylab = "(Log) Bayes Factor (10)", 
-     ylim = c(-2.5, 2.5), pch = 19, col = "gray", lwd = 2)
-
-# now do the rest
-for(i in 2:nSims){
-  lines(seq(1:length(biDiff)), orderAnalysis[, i], type = "l", col = "gray", 
-        lwd = 2)
-}
-
-# add the plot details
-abline(h = 0, lwd = 1)
-abline(h = log(6), col = "black", lty = 2, lwd = 2)
-abline(h = log(1/6), col = "black", lty = 2, lwd = 2)
-text(0, log(3) + 0.4, labels = "Evidence for Alternative", 
-     cex = 1.5, col = "black", pos = 4)
-text(0, log(1/3) - 0.4, labels = "Evidence for Null", 
-     cex = 1.5, col = "black", pos = 4)
+# add the stopping-point at 0.8 * ROPE width
+abline(h = 0.8 * 0.4, lty = 2, col = "red", lwd = 2)
 
 dev.off()
-
-#------------------------------------------------------------------------------
-
 
