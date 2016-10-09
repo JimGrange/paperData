@@ -1,5 +1,5 @@
 rm(list = ls()) 
-setwd("C:/Users/Home/Dropbox/Reliability Manuscript Revision/Exploratory analysis codes/Main Code")
+setwd("~/Git/paperData/N-2 Repetition Cost Reliability")
 
 source("functions.R")
 
@@ -378,11 +378,27 @@ pdf("biDistributions_rt.pdf", width = 8, height = 8)
 ggplot(n2Cost, aes(x = n2Cost, colour = paradigm, linetype = paradigm)) + 
   geom_line(stat = "density", size = 1.3) + 
   scale_linetype_manual(values = c("solid", "dashed", "dotdash")) + 
-  theme(axis.text = element_text(size = 12), 
-        axis.title = element_text(size = 14), 
+  theme(axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 16), 
         panel.background = element_rect(fill = "grey86")) +
   scale_x_continuous(name = "N-2 Repetition Cost (ms)") + 
-  scale_y_continuous(name = "Density") 
+  scale_y_continuous(name = "Density") +
+  theme(legend.text=element_text(size = 14), 
+        legend.title=element_text(size = 16))
+dev.off()
+
+# same plot, but save as PNG
+png("biDistributions_rt.png", width = 8, height = 8, units = "in", res = 500)
+ggplot(n2Cost, aes(x = n2Cost, colour = paradigm, linetype = paradigm)) + 
+  geom_line(stat = "density", size = 1.3) + 
+  scale_linetype_manual(values = c("solid", "dashed", "dotdash")) + 
+  theme(axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 16), 
+        panel.background = element_rect(fill = "grey86")) +
+  scale_x_continuous(name = "N-2 Repetition Cost (ms)") + 
+  scale_y_continuous(name = "Density") +
+  theme(legend.text=element_text(size = 14), 
+        legend.title=element_text(size = 16))
 dev.off()
 
 # get summary of distributions for each paradigm
@@ -419,13 +435,28 @@ pdf("biDistributions_acc.pdf", width = 8, height = 8)
 ggplot(AccN2Cost, aes(x = AccN2Cost, colour = paradigm, linetype = paradigm)) + 
   geom_line(stat = "density", size = 1.3) + 
   scale_linetype_manual(values = c("solid", "dashed", "dotdash")) + 
-  theme(axis.text = element_text(size = 12), 
-        axis.title = element_text(size = 14), 
+  theme(axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 16), 
         panel.background = element_rect(fill = "grey86")) +
   scale_x_continuous(name = "N-2 Repetition Cost (Accuracy)") + 
-  scale_y_continuous(name = "Density") 
+  scale_y_continuous(name = "Density") +
+  theme(legend.text=element_text(size = 14), 
+        legend.title=element_text(size = 16))
 dev.off()
 
+# sampe plot, in PNG
+png("biDistributions_acc.png", width = 8, height = 8, unit = "in", res = 500)
+ggplot(AccN2Cost, aes(x = AccN2Cost, colour = paradigm, linetype = paradigm)) + 
+  geom_line(stat = "density", size = 1.3) + 
+  scale_linetype_manual(values = c("solid", "dashed", "dotdash")) + 
+  theme(axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 16), 
+        panel.background = element_rect(fill = "grey86")) +
+  scale_x_continuous(name = "N-2 Repetition Cost (Accuracy)") + 
+  scale_y_continuous(name = "Density") +
+  theme(legend.text=element_text(size = 14), 
+        legend.title=element_text(size = 16))
+dev.off()
 
 # get summary of n-2 repetition costs for accuracy distributions for each paradigm
 AccDistributions <- AccN2Cost %>%
@@ -631,6 +662,17 @@ title(ylab = "Correlation (r)", xlab = "Paradigm")
 abline(h = 0.5385, lwd = 2, lty = 2)
 dev.off()
 
+# PNG
+png("violin Reliability_rt.png", width = 8, height = 8, units = "in", 
+    res = 500)
+vioplot(correlations_rt[, 1], correlations_rt[, 2], correlations_rt[, 3], 
+        col = "skyblue", names = c("Target Detection", "Visual Judgment", 
+                                   "Numeric Judgment"), lwd = 1.5, 
+        ylim = c(-0.2, 1))
+title(ylab = "Correlation (r)", xlab = "Paradigm")
+abline(h = 0.5385, lwd = 2, lty = 2)
+dev.off()
+
 
 # run the reliability function for accuracy
 set.seed(200)
@@ -641,6 +683,17 @@ colnames(correlations_acc) <- c("Target Detection", "Visual Judgment",
 # violin plot of the reliability bootstrap
 library(vioplot)
 pdf("violin Reliability_accuracy.pdf", width = 8, height = 8)
+vioplot(correlations_acc[, 1], correlations_acc[, 2], correlations_acc[, 3], 
+        col = "skyblue", names = c("Target Detection", "Visual Judgment", 
+                                   "Numeric Judgment"), lwd = 1.5, 
+        ylim = c(-0.2, 1))
+title(ylab = "Correlation (r)", xlab = "Paradigm")
+abline(h = 0.5385, lwd = 2, lty = 2)
+dev.off()
+
+# PNG
+png("violin Reliability_accuracy.png", width = 8, height = 8, units = "in", 
+    res = 500)
 vioplot(correlations_acc[, 1], correlations_acc[, 2], correlations_acc[, 3], 
         col = "skyblue", names = c("Target Detection", "Visual Judgment", 
                                    "Numeric Judgment"), lwd = 1.5, 
