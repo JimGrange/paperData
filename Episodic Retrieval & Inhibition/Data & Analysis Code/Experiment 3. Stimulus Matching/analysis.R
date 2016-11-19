@@ -7,7 +7,7 @@
 rm(list = ls())
 
 # set working directory
-setwd("~/Git/lab-book/Agi's PhD/Episodic Retrieval/3. Stimulus Matching")
+setwd("~/Git/paperData/Episodic Retrieval & Inhibition/Data & Analysis Code/Experiment 3. Stimulus Matching")
 
 # load necessary functions file & load necessary packages
 source("functions.R")
@@ -337,3 +337,5 @@ library(gridExtra)
 pdf("all_rts_Experiment3.pdf", width = 8, height = 8)
 grid.arrange(plot_1, p)
 dev.off()
+#------------------------------------------------------------------------------
+
