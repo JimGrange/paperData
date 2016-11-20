@@ -7,7 +7,7 @@
 rm(list = ls())
 
 # set working directory
-setwd("~/Git/lab-book/Agi's PhD/Episodic Retrieval/2. Cue Transparency/Analysis")
+setwd("~/Git/paperData/Episodic Retrieval & Inhibition/Data & Analysis Code/Experiment 2. Cue Transparency/Analysis")
 
 # load necessary functions file & load necessary packages
 source("functions.R")
@@ -329,6 +329,9 @@ newData$condition <- factor(newData$condition)
 newData$respRep <- factor(newData$respRep)
 newData$rt <- as.numeric(newData$rt)
 
+
+## Bayes factor
+set.seed(65)
 bf <- anovaBF(rt ~ condition * respRep + subject, data = newData,
               whichRandom = "subject")
 bf <- recompute(bf, iterations = 100000)

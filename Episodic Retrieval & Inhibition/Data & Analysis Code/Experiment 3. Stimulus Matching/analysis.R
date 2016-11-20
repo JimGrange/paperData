@@ -305,10 +305,16 @@ newData$condition <- factor(newData$condition)
 newData$respRep <- factor(newData$respRep)
 newData$rt <- as.numeric(newData$rt)
 
+
+## calculate the Bayes factor
+
+# first, set the random seed so the BF is reproducible
+set.seed(65)
 bf <- anovaBF(rt ~ condition * respRep + subject, data = newData,
               whichRandom = "subject")
 bf <- recompute(bf, iterations = 100000)
 bf
+bf[2] / bf[4]
 
 plotData2 <- newData %>%
   group_by(condition, respRep) %>%
